@@ -53,7 +53,7 @@
     "question_pages": [10],
     "solution_pages": [29, 30],
     "question": "Mr. Brown always bets a dollar on the number 13 at roulette against the advice of Kind Friend. To help cure Mr. Brown of playing roulette, Kind Friend always bets Brown $20 at even money that Brown will be behind at the end of 36 plays. How is the cure working?\n\n(Most American roulette wheels have 38 equally likely numbers. If the player's number comes up, he is paid 35 times his stake and gets his original stake back; otherwise he loses his stake.)",
-    "answer": "Against the casino: Brown's single-turn expectation is 35(1/38) - 1(37/38) = -2/38 dollars. Over 36 turns: -2(36)/38 ≈ -$1.89.\n\nAgainst Kind Friend: Brown needs to win at least once in 36 plays to avoid being behind overall (winning once nets him +35 - 35×$1 = 0 from roulette, but he only needs to be ahead, not even). More precisely:\n  P(Brown loses all 36) = (37/38)^36 ≈ 0.383\n  P(Brown wins at least once) ≈ 0.617\n\nExpectation from the side bet with Kind Friend:\n  +20(0.617) - 20(0.383) ≈ +$4.68\n\nNet per 36 trials: +4.68 - 1.89 = +$2.79.\n\nThe cure is not working — Brown is making money. Kind Friend will be cured first. (Of course, if Brown loses all 36, he is out $56, which may jolt him a bit.)"
+    "answer": "Against the casino: Brown's single-turn expectation is 35(1/38) - 1(37/38) = -2/38 dollars. Over 36 turns: -2(36)/38 ≈ -$1.89.\n\nAgainst Kind Friend: Brown needs to win at least once in 36 plays to avoid being behind overall (winning once nets him +35 - 35 = $0 from roulette, i.e. exactly even, which counts as not behind). More precisely:\n  P(Brown loses all 36) = (37/38)^36 ≈ 0.383\n  P(Brown wins at least once) ≈ 0.617\n\nExpectation from the side bet with Kind Friend:\n  +20(0.617) - 20(0.383) ≈ +$4.68\n\nNet per 36 trials: +4.68 - 1.89 = +$2.79.\n\nThe cure is not working — Brown is making money. Kind Friend will be cured first. (Of course, if Brown loses all 36, he is out $56, which may jolt him a bit.)"
   },
   {
     "number": 8,
@@ -104,7 +104,7 @@
     "question_pages": [12],
     "solution_pages": [36, 37],
     "question": "Three prisoners, A, B, and C, with apparently equally good records have applied for parole. The parole board has decided to release two of the three, and the prisoners know this but not which two. A warder friend of prisoner A knows who are to be released. Prisoner A realizes that it would be unethical to ask the warder if he, A, is to be released, but thinks of asking for the name of one prisoner other than himself who is to be released. He thinks that before he asks, his chances of release are 2/3. He thinks that if the warder says \"B will be released,\" his own chances have now gone down to 1/2, because either A and B or B and C are to be released. And so A decides not to reduce his chances by asking. However, A is mistaken in his calculations. Explain.",
-    "answer": "A's error is that he has not correctly listed the possible events — he does not have the right sample space for his experiment.\n\nThe four equally probable outcomes of A's experiment (asking the warder for a name other than himself):\n  1. A and B released, warder says B:  probability 1/3\n  2. A and C released, warder says C:  probability 1/3\n  3. B and C released, warder says B:  probability 1/6\n  4. B and C released, warder says C:  probability 1/6\n\n(In outcomes 1 and 2 the warder must name the other released prisoner. In outcomes 3 and 4 he chooses between B and C with equal probability.)\n\nIf the warder says \"B will be released\":\n  P(A released | warder says B) = P(outcome 1) / P(warder says B)\n    = (1/3) / (1/3 + 1/6) = (1/3) / (1/2) = 2/3.\n\nA's probability of release is still 2/3, unchanged. He gains no information about his own fate — he only learns something about C. Mathematics confirms common sense after all."
+    "answer": "A's error is that he has not correctly listed the possible events — he does not have the right sample space for his experiment.\n\nThe four outcomes of A's experiment (asking the warder for a name other than himself), with their probabilities:\n  1. A and B released, warder says B:  probability 1/3\n  2. A and C released, warder says C:  probability 1/3\n  3. B and C released, warder says B:  probability 1/6\n  4. B and C released, warder says C:  probability 1/6\n\n(In outcomes 1 and 2 the warder must name the other released prisoner. In outcomes 3 and 4 he chooses between B and C with equal probability.)\n\nIf the warder says \"B will be released\":\n  P(A released | warder says B) = P(outcome 1) / P(warder says B)\n    = (1/3) / (1/3 + 1/6) = (1/3) / (1/2) = 2/3.\n\nA's probability of release is still 2/3, unchanged. He gains no information about his own fate — he only learns something about C. Mathematics confirms common sense after all."
   },
   {
     "number": 14,
@@ -121,5 +121,85 @@
     "solution_pages": [37, 38],
     "question": "Eight eligible bachelors and seven beautiful models happen randomly to have purchased single seats in the same 15-seat row of a theater. On the average, how many pairs of adjacent seats are ticketed for marriageable couples?",
     "answer": "A \"marriageable couple\" occupies adjacent seats consisting of one bachelor (B) and one model (M), i.e. a BM or MB pair.\n\nFor any specific adjacent pair of seats, the probability that one holds a bachelor and the other a model is:\n  P(BM) + P(MB) = (8/15)(7/14) + (7/15)(8/14) = 56/210 + 56/210 = 8/15\n\nSince the expected value of a sum equals the sum of expected values, and there are 14 adjacent pairs in a 15-seat row:\n  Expected marriageable pairs = 14 × 8/15 = 112/15 = 7 and 7/15 ≈ 7.47.\n\nMore generally, with b bachelors and m models randomly arranged in a line, the expected number of unlike adjacent pairs is:\n  (m + b - 1) × 2mb / ((m+b)(m+b-1)) = 2mb/(m+b)\n\nFor b=8, m=7: 2(8)(7)/(8+7) = 112/15, confirming the result."
+  },
+  {
+    "number": 16,
+    "title": "Will Second-Best Be Runner-Up?",
+    "question_pages": [12, 13],
+    "solution_pages": [38, 39],
+    "question": "A tennis tournament has 8 players. The number a player draws from a hat decides his first-round rung in the tournament ladder. Suppose that the best player always defeats the next best and that the latter always defeats all the rest. The loser of the finals gets the runner-up cup. What is the chance that the second-best player wins the runner-up cup?",
+    "answer": "The second-best player can only win the runner-up cup if he is in the half of the ladder not occupied by the best player (otherwise he meets the best player before the finals and is eliminated).\n\nFor 8 players (a tournament of 2^3 = 8), there are 7 rungs in total not occupied by the best player, and 4 of them are in the opposite half. So the second-best's probability is 4/7.\n\nMore generally, in a tournament of 2^n players there are 2^n - 1 rungs not occupied by the best player, and 2^(n-1) of them are in the opposite half. The second-best player wins the runner-up cup with probability:\n  2^(n-1) / (2^n - 1)\n\nFor n=3 (8 players): 4/7 ≈ 0.571."
+  },
+  {
+    "number": 17,
+    "title": "Twin Knights",
+    "question_pages": [13],
+    "solution_pages": [39, 40],
+    "question": "(a) Suppose King Arthur holds a jousting tournament where the jousts are in pairs as in a tennis tournament. See Problem 16 for tournament ladder. The 8 knights in the tournament are evenly matched, and they include the twin knights Balin and Balan. What is the chance that the twins meet in a match during the tournament?\n\n(b) Replace 8 by 2^n in the above problem. Now what is the chance that they meet?",
+    "answer": "(a) Place twin A in the top bracket (first line of the ladder). Twin B is equally likely to be in any of the other 7 positions.\n\n  - B is in the same pair as A (probability 1/7): they meet with certainty. Contribution: 1/7 × 1 = 1/7.\n  - B is in the next pair (probability 2/7): to meet, both must win their first match. Contribution: 2/7 × 1/4.\n  - B is in the bottom half (probability 4/7): to meet (in the finals), both must win 2 matches. Contribution: 4/7 × (1/2)^4 = 4/7 × 1/16.\n\nTotal probability = 1/7 + 2/7 × 1/4 + 4/7 × 1/16 = 4/28 + 2/28 + 1/28 = 7/28 = 1/4.\n\n(b) For 2^n players, the probability that the twins meet is 1/2^(n-1).\n\nProof by induction: the result holds for n=1 (certain to meet in 2-player tournament). For the inductive step, the chance the twins are in opposite halves is 2^(n-1)/(2^n - 1), and if so they can only meet in the finals — each must win n-1 jousts, so their chance of meeting is (1/2^(n-1))^2 = 1/2^(2n-2). The chance they are in the same half is (2^(n-1)-1)/(2^n-1), and by the induction hypothesis the chance they then meet is 1/2^(n-2). Adding:\n\n  [2^(n-1)/(2^n-1)] × 1/2^(2n-2) + [(2^(n-1)-1)/(2^n-1)] × 1/2^(n-2) = 1/2^(n-1)."
+  },
+  {
+    "number": 18,
+    "title": "An Even Split at Coin Tossing",
+    "question_pages": [13],
+    "solution_pages": [40, 41],
+    "question": "When 100 coins are tossed, what is the probability that exactly 50 are heads?",
+    "answer": "The 100 coins are fair and independent. The number of ways to get exactly 50 heads is C(100,50) = 100!/(50!50!). Each sequence has probability (1/2)^100. So:\n\n  P(even split) = C(100,50) × (1/2)^100 = 100! / (50! 50! 2^100) ≈ 0.0796\n\nEvaluated using logarithms of factorials, this is about 0.0796, or roughly 8%.\n\nStirling's Approximation: for large factorials, n! ≈ √(2π) n^(n+1/2) e^(-n). Applying this:\n\n  P(even split) ≈ [√(2π) 100^(100+1/2) e^(-100)] / [(√(2π) 50^(50+1/2) e^(-50))^2 × 2^100]\n                = √100 / (√(2π) × 50 × 2^100 / 2^100)\n                = 10 / (50√(2π))\n                = 1/√(50π) = 1/(5√(2π)) ≈ 0.0798\n\nThe Stirling approximation gives 0.0798 vs the exact 0.0796 — very close."
+  },
+  {
+    "number": 19,
+    "title": "Isaac Newton Helps Samuel Pepys",
+    "question_pages": [14],
+    "solution_pages": [41, 42, 43],
+    "question": "Pepys wrote Newton to ask which of three events is more likely: that a person get (a) at least 1 six when 6 dice are rolled, (b) at least 2 sixes when 12 dice are rolled, or (c) at least 3 sixes when 18 dice are rolled. What is the answer?",
+    "answer": "Each event involves rolling 6n dice and asking for at least n sixes. Since 1/6 is the probability of a six on each die, the expected number of sixes is n in all three cases. However, the probabilities are NOT equal.\n\nUsing the binomial distribution with p = 1/6, the probability of at least n sixes from 6n dice is:\n  P = 1 - sum_{x=0}^{n-1} C(6n, x) (1/6)^x (5/6)^(6n-x)\n\nNumerical results:\n  (a) 6 dice, at least 1 six:  P = 1 - (5/6)^6 ≈ 0.665\n  (b) 12 dice, at least 2 sixes: P ≈ 0.619\n  (c) 18 dice, at least 3 sixes: P ≈ 0.597\n\nEvent (a) is the most probable. The intuitive belief that all three are equally likely (or equally 1/2) is wrong — for small numbers of dice, hitting the expected number of sixes exactly is quite probable (making the distribution asymmetric), and the probability of meeting or exceeding the mean decreases as the number of dice grows.\n\nFor large numbers of dice (n → ∞), the probability approaches 1/2 from above, as shown by the table:\n  6n=96 (n=16): P=0.542; 6n=600 (n=100): P=0.517; 6n=900 (n=150): P=0.514\n\nPepys wagered on event (a) and then, when Newton told him (a) was most likely, welched on his original bet."
+  },
+  {
+    "number": 20,
+    "title": "The Three-Cornered Duel",
+    "question_pages": [14],
+    "solution_pages": [43, 44],
+    "question": "A, B, and C are to fight a three-cornered pistol duel. All know that A's chance of hitting his target is 0.3, C's is 0.5, and B never misses. They are to fire at their choice of target in succession in the order A, B, C, cyclically (but a hit man loses further turns and is no longer shot at) until only one man is left unhit. What should A's strategy be?",
+    "answer": "A should deliberately miss his first shot (fire into the ground).\n\nReasoning: A goes first, so he considers shooting at B or C.\n\nIf A shoots at C and hits (prob 0.3): B then shoots A (certain hit). A is eliminated. Bad.\n\nIf A shoots at B and hits (prob 0.3): C then shoots at A with probability 0.5 of hitting. If C misses, A shoots at C; they alternate until one hits. A's probability of winning this duel against C:\n  (.5)(.3) + (.5)^2(.7)(.3) + (.5)^3(.7)^2(.3) + ··· = (.5)(.3) / (1 - (.5)(.7)) = .15/.65 = 3/13 ≈ 0.231\n\nIf A deliberately misses: B must shoot first at C (the greater threat). If B hits C: A and B duel; A wins with probability 0.3. If B misses C: C shoots B (certain hit), then A and C duel; A wins with probability (.3) / (1 - (.7)(.5)) = 0.3/0.65 = 6/13 ≈ 0.462.\n  P(B hits C) = 1 (B never misses), so after A's deliberate miss, B kills C, and A faces B alone.\n  A's overall probability of winning = 0.3.\n\nComparing: shooting at B gives 3/13 ≈ 0.231; deliberate miss gives 0.3. The deliberate miss is A's best strategy.\n\nNote: A's second shot (after the deliberate miss and B killing C) is at B. If A hits B (prob 0.3) he wins; otherwise B shoots A (certain hit). So P(A wins) = 0.3."
+  },
+  {
+    "number": 21,
+    "title": "Should You Sample with or without Replacement?",
+    "question_pages": [14],
+    "solution_pages": [44, 45],
+    "question": "Two urns contain red and black balls, all alike except for color. Urn A has 2 reds and 1 black, and Urn B has 101 reds and 100 blacks. An urn is chosen at random, and you win a prize if you correctly name the urn on the basis of the evidence of two balls drawn from it. After the first ball is drawn and its color reported, you can decide whether or not the ball shall be replaced before the second drawing. How do you order the second drawing, and how do you decide on the urn?",
+    "answer": "Optimal strategy: if the first ball drawn is red, replace it before drawing again; if the first ball is black, do not replace it.\n\nReasoning: if the first ball is red, both urns now have half red and half black balls among the remaining balls (after removing a red from A: 1 red, 1 black; B is approximately 1/2 each). The second draw provides no discriminating information, so replacing avoids reducing urn A's stock.\n\nIf first ball is black, do not replace: then urn A has 2 reds and 0 blacks left, making the second draw perfectly discriminating.\n\nWith this strategy, the probability of identifying the urn correctly is approximately:\n\n  P(2 reds): A gives 1/2·2/3·2/3, B gives ≈ 1/8  → decide Urn A\n  P(red then black): A gives 1/2·2/3·1/3, B gives ≈ 1/8  → decide Urn B\n  P(black then red): A gives 1/2·1/3·1, B gives ≈ 1/8  → decide Urn A\n  P(2 blacks): A gives 1/2·1/3·0, B gives ≈ 1/8  → decide Urn B\n\nTotal P(correct) = 1/2[2/3 + 1/4 + 1/3 + 1/4] ≈ 23/36 ≈ 0.64.\n\nDrawing both balls without replacement gives about 5/8 ≈ 0.625; drawing both with replacement gives about 21.5/36 ≈ 0.597. The mixed strategy is best."
+  },
+  {
+    "number": 22,
+    "title": "The Ballot Box",
+    "question_pages": [14],
+    "solution_pages": [45, 46],
+    "question": "In an election, two candidates, Albert and Benjamin, have in a ballot box a and b votes respectively, a > b, for example, 3 and 2. If ballots are randomly drawn and tallied, what is the chance that at least once after the first tally the candidates have the same number of tallies?",
+    "answer": "For a=3, b=2, there are C(5,2) = 10 equally likely tallying sequences. Listing all sequences and marking those that reach a tie (*): there are 8 tie sequences out of 10, so P(tie) = 8/10 = 4/5.\n\nIn general, P(tie) = 2b/(a+b).\n\nProof: consider the first tie, which must occur when exactly 2n ballots have been counted (for some n ≤ b). For every sequence in which Albert leads until the tie, there is a complementary sequence (swap every A and B) in which Benjamin leads until the tie. The only way to get a first tie with Benjamin leading at first is for the very first ballot drawn to be a B, which has probability b/(a+b). By symmetry, the number of \"A-first\" tie sequences equals the number of \"B-first\" tie sequences. Therefore:\n\n  P(tie) = 2 × P(first ballot is B) = 2b/(a+b)\n\nwhere r = a/b. When a >> b (r large), P(tie) → 0. When a = b, P(tie) = 1 (a tie is certain).\n\nFor a=3, b=2: P = 2(2)/(3+2) = 4/5. ✓"
+  },
+  {
+    "number": 23,
+    "title": "Ties in Matching Pennies",
+    "question_pages": [14],
+    "solution_pages": [46, 47],
+    "question": "Players A and B match pennies N times. They keep a tally of their gains and losses. After the first toss, what is the chance that at no time during the game will they be even?",
+    "answer": "Using the ballot-box result (Problem 22), the probability of no tie after the first toss is:\n\n  P(no tie) = C(N-1, n) / 2^(N-1),    for N = 2n+1 (odd)\n  P(no tie) = C(N, n) / 2^N,           for N = 2n (even)\n\nNotably, the probability is the same for N = 2n (even) and N = 2n+1 (the next odd number).\n\nFor example, N=4 (so n=2): P(no tie) = C(4,2)/2^4 = 6/16 = 3/8.\n\nThe 16 equally likely sequences of 4 tosses, with * marking those where no tie occurs after the first toss:\n  *AAAA  BAAA  ABBA  BABB\n  *AAAB  AABB  BABA  *BBAB\n  *AABA  ABAB  BBAA  *BBBA\n   ABAA  BAAB  ABBB  *BBBB\n\nSix sequences (starred) have no tie after toss 1, confirming 6/16 = 3/8.\n\nThis result is surprising: the probability of never returning to equal after the first toss is substantial (3/8 for N=4), and does not shrink to zero as N grows."
+  },
+  {
+    "number": 24,
+    "title": "The Unfair Subway",
+    "question_pages": [15],
+    "solution_pages": [47],
+    "question": "Marvin gets off work at random times between 3 and 5 P.M. His mother lives uptown, his girl friend downtown. He takes the first subway that comes in either direction and eats dinner with the one he is first delivered to. His mother complains that he never comes to see her, but he says she has a 50-50 chance. He has had dinner with her twice in the last 20 working days. Explain.",
+    "answer": "The subway schedule is not symmetric in the way Marvin imagines. Suppose downtown trains run past his stop at, say, 3:00, 3:10, 3:20, ... and uptown trains at 3:01, 3:11, 3:21, ...\n\nTo go uptown, Marvin must arrive in the 1-minute window between a downtown train and the following uptown train (e.g. arrive between 3:00 and 3:01). To go downtown, he must arrive in the other 9 minutes of each 10-minute interval.\n\nSince Marvin arrives uniformly at random:\n  P(uptown train comes first) = 1/10 = 10%\n  P(downtown train comes first) = 9/10 = 90%\n\nThis explains why he sees his mother only about 2 times in 20 days (20 × 0.1 = 2). Marvin is wrong to claim 50-50: the trains do run equally often in each direction, but the gap between an uptown train and the next downtown train is 9 minutes, while the reverse gap is 1 minute."
+  },
+  {
+    "number": 25,
+    "title": "Lengths of Random Chords",
+    "question_pages": [15],
+    "solution_pages": [47, 48],
+    "question": "If a chord is selected at random on a fixed circle, what is the probability that its length exceeds the radius of the circle?",
+    "answer": "The problem is not well-defined until \"at random\" is specified. Three natural interpretations give three different answers, illustrating Bertrand's paradox.\n\nLet the circle have radius r. A chord longer than r corresponds to a central angle greater than 60°, i.e. a chord that subtends more than 1/6 of the circumference at each endpoint.\n\n(a) Distance from center uniformly distributed on [0, r]:\nA regular hexagon of side r inscribed in the circle has its sides at distance d = r√3/2 from the center. The chord exceeds r iff its distance from the center is less than r√3/2.\n  P = r√3/2 ÷ r = √3/2 ≈ 0.866\n\n(b) Midpoint of chord uniformly distributed over the disk interior:\nThe chord exceeds r iff its midpoint lies within a concentric circle of radius r√3/2 (= d from case a).\n  P = π(r√3/2)² / πr² = 3/4 = 0.75\n\n(c) Endpoints independently uniformly distributed on the circumference:\nFix one endpoint at A. The chord exceeds r iff the second endpoint falls on an arc of length 2/3 of the circumference (the arc more than 60° away on each side).\n  P = 2/3 ≈ 0.667\n\nAll three answers are mathematically valid under their respective assumptions. The problem illustrates that \"random\" must be precisely defined in geometric probability."
   }
 ]
