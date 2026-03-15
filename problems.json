@@ -362,5 +362,94 @@
     "solution_pages": [76, 77],
     "question": "The following are two versions of the matching problem:\n\n(a) From a shuffled deck, cards are laid out on a table one at a time, face up from left to right, and then another deck is laid out so that each of its cards is beneath a card of the first deck. What is the average number of matches of the card above and the card below in repetitions of this experiment?\n\n(b) A typist types letters and envelopes to n different persons. The letters are randomly put into the envelopes. On the average, how many letters are put into their own envelopes?",
     "answer": "The expected number of matches is 1, regardless of n (or deck size).\n\nFor a deck of n cards: define X_i = 1 if card i matches (card in position i of deck 1 equals card in position i of deck 2), X_i = 0 otherwise. Each pair has probability 1/n of matching:\n  E(X_i) = 1 × (1/n) + 0 × (1 - 1/n) = 1/n.\n\nBy linearity of expectation:\n  E(total matches) = E(Σ X_i) = Σ E(X_i) = n × (1/n) = 1.\n\nFor a standard 52-card deck: E = 52 × (1/52) = 1.\nFor the typist with n letters: E = n × (1/n) = 1.\n\nThe answer is always 1, regardless of n. Note that the X_i are NOT independent (they are negatively correlated: if many cards match, others are less likely to), but linearity of expectation requires no independence assumption."
+  },
+  {
+    "number": 46,
+    "title": "Probabilities of Matches",
+    "question_pages": [20],
+    "solution_pages": [77, 78, 79, 80, 81],
+    "question": "Under the conditions of the previous matching problem, what is the probability of exactly r matches?",
+    "answer": "Let P(r|n) be the probability of exactly r matches in an arrangement of n things.\n\nKey relation: P(r|n) = (1/r!) P(0|n-r),  for r = 0, 1, ..., n-1;  and P(n|n) = 1/n!.\n\nThe formula for P(0|n) is derived by examining differences P(0|n) - P(0|n-1) = (-1)^n / n!, which gives:\n  P(0|n-r) = 1/0! - 1/1! + 1/2! - 1/3! + ... + (-1)^{n-r}/(n-r)!\n\nSubstituting back:\n  P(r|n) = (1/r!)(1/0! - 1/1! + 1/2! - ... + (-1)^{n-r}/(n-r)!)\n\nWhen n-r is large, the parentheses approach the series expansion of e^{-1}, so:\n  P(r|n) ≈ (1/r!) e^{-1},   for n-r large.\n\nThis is exactly the Poisson probability with mean 1. The approximation is good when n-r is large (not just n, as one might first guess).\n\nIn particular, the probability of 0 matches is approximately e^{-1} ≈ 0.368 for large n."
+  },
+  {
+    "number": 47,
+    "title": "Choosing the Largest Dowry",
+    "question_pages": [20],
+    "solution_pages": [82, 83, 84, 85],
+    "question": "The king, to test a candidate for the position of wise man, offers him a chance to marry the young lady in the court with the largest dowry. The amounts of the dowries are written on slips of paper and mixed. A slip is drawn at random and the wise man must decide whether that is the largest dowry or not. If he decides it is, he gets the lady and her dowry if he is correct; otherwise he gets nothing. If he decides against the amount written on the first slip, he must choose or refuse the next slip, and so on until he chooses one or else the slips are exhausted. In all, 100 attractive young ladies participate, each with a different dowry. How should the wise man make his decision?",
+    "answer": "The optimal strategy is to pass the first s-1 slips and then choose the first candidate (the current maximum) thereafter.\n\nThe probability of winning with strategy s for n slips is:\n  π(s, n) = (s-1)/n × (1/(s-1) + 1/s + ... + 1/(n-1))\n\nThe optimal s* is the smallest s for which:\n  1/s + 1/(s+1) + ... + 1/(n-1) < 1 < 1/(s-1) + 1/s + ... + 1/(n-1)\n\nFor n = 100: optimal s = 38 (pass the first 37, then choose the first candidate), giving π ≈ 0.371.\n\nFor large n: optimal s ≈ n/e, and the winning probability → 1/e ≈ 0.368.\n\nRemarkably, what appears at first to offer only a 1/n chance of winning can be won with probability over 1/3 (about 37%) even for very large n."
+  },
+  {
+    "number": 48,
+    "title": "Choosing the Largest Random Number",
+    "question_pages": [20],
+    "solution_pages": [85, 86, 87],
+    "question": "As a second task, the king wants the wise man to choose the largest number from among 100, by the same rules, but this time the numbers on the slips are randomly drawn from the numbers from 0 to 1 (random numbers, uniformly distributed). Now what should the wise man's strategy be?",
+    "answer": "Since the distribution of values is now known (uniform on [0,1]), the wise man should choose a candidate if its value exceeds an indifference number x that depends on how many draws remain.\n\nWorking back from the end:\n- 1 draw left: choose if x > 1/2 (indifference at x = 0.5000)\n- 2 draws left: indifference at x = (1+√6)/5 ≈ 0.6899\n- r draws left: indifference x_r satisfies:\n  x^r = (r choose 1)x^{r-1}(1-x) + (1/2)(r choose 2)x^{r-2}(1-x)^2 + ... + (1/r)(r choose r)(1-x)^r\n\nFor large r, x_r ≈ r/(r + α) where α ≈ 0.8043.\n\nThis game provides more information than Problem 47 (known distribution vs. unknown), so the winning probability is higher. For n = 2 slips: probability = 3/4. For large n: winning probability → about 0.580."
+  },
+  {
+    "number": 49,
+    "title": "Doubling Your Accuracy",
+    "question_pages": [20],
+    "solution_pages": [88],
+    "question": "An unbiased instrument for measuring distances makes random errors whose distribution has standard deviation σ. You are allowed two measurements all told to estimate the lengths of two cylindrical rods, one clearly longer than the other. Can you do better than to take one measurement on each rod? (An unbiased instrument is one that on the average gives the true measure.)",
+    "answer": "Yes. Instead of one measurement per rod, measure their difference A-B (lay side by side) and their sum A+B (lay end to end).\n\nLet D = measurement of A-B = (A-B) + d, and S = measurement of A+B = (A+B) + s, where d and s are independent random errors each with variance σ².\n\nEstimate A = ½(D+S) = A + ½(d+s), and B = ½(S-D) = B + ½(s-d).\n\nBoth estimates are unbiased. The variance of each estimate is:\n  Var[½(d+s)] = ¼(σ² + σ²) = ½σ².\n\nThis is identical to the variance of the average of two independent direct measurements. So both measurements contribute their full information to measuring both rods — equivalent to taking 4 total measurements (2 on each rod).\n\nThe key requirement is that the rod ends can be perfectly aligned. If each alignment introduces an additional independent error with standard deviation σ/√2, the variance per estimate rises to σ²/3, but is still better than a single direct measurement."
+  },
+  {
+    "number": 50,
+    "title": "Random Quadratic Equations",
+    "question_pages": [20],
+    "solution_pages": [89],
+    "question": "What is the probability that the quadratic equation x² + 2bx + c = 0 has real roots?",
+    "answer": "To make this question meaningful, suppose b and c are independently uniformly distributed over [-n, n].\n\nThe equation has real roots if and only if the discriminant b² - c ≥ 0, i.e., c ≤ b².\n\nIn the (b, c) plane on the square [-n, n] × [-n, n] (area 4n²), the region with no real roots (c > b²) exists only for |b| ≤ √n, and has area:\n  ∫_{-√n}^{√n} (n - b²) db = 4n^{3/2}/3.\n\nTherefore:\n  P(complex roots) = (4n^{3/2}/3) / (4n²) = 1/(3√n).\n  P(real roots) = 1 - 1/(3√n).\n\nFor the unit square (n = 1): P(real roots) = 1 - 1/3 = 2/3.\nAs n → ∞: P(real roots) → 1.\n\nNote: one might think real roots are unusual, but the parabola c = b² covers a large fraction of the square, and that fraction grows as n increases."
+  },
+  {
+    "number": 51,
+    "title": "Two-Dimensional Random Walk",
+    "question_pages": [21],
+    "solution_pages": [90, 91, 92],
+    "question": "Starting from an origin O, a particle has a 50-50 chance of moving 1 step north or 1 step south, and also a 50-50 chance of moving 1 step east or 1 step west. After the step is taken, the move is repeated from the new position and so on indefinitely. What is the chance that the particle returns to the origin?",
+    "answer": "The probability of return to the origin is P = 1.\n\nThe two-dimensional walk is the product of two independent one-dimensional walks (east-west and north-south). The particle can only return to the origin in an even number of steps 2n. After 2n steps:\n  P(at origin) = P(X=0) × P(Y=0) = [(2n choose n)(1/2)^{2n}]².\n\nUsing Stirling's approximation: (2n choose n)(1/2)^{2n} ≈ 1/√(πn), so:\n  P(at origin after 2n steps) ≈ 1/(πn).\n\nThe mean total number of returns to the origin is:\n  μ = Σ_{n=1}^{∞} 1/(πn),\nwhich diverges (harmonic series).\n\nSince the mean number of returns = P/(1-P), for μ to be infinite we need 1-P = 0, i.e., P = 1.\n\nTherefore with probability 1 the particle returns to the origin, and in fact returns infinitely often (the fraction of non-returning paths is zero)."
+  },
+  {
+    "number": 52,
+    "title": "Three-Dimensional Random Walk",
+    "question_pages": [21],
+    "solution_pages": [92, 93],
+    "question": "As in the two-dimensional walk, a particle starts at an origin O in three-space. Think of the origin as centered in a cube 2 units on a side. One move in this walk sends the particle with equal likelihood to one of the eight corners of the cube. Thus, at every move the particle has a 50-50 chance of moving one unit up or down, one unit east or west, and one unit north or south. If the walk continues forever, find the fraction of particles that return to the origin.",
+    "answer": "Unlike the one- and two-dimensional cases, in three dimensions the probability of return P is strictly less than 1.\n\nAfter 2n steps:\n  P(at origin) = [(2n choose n)(1/2)^{2n}]³ ≈ [1/√(πn)]³ = 1/(πn)^{3/2}.\n\nThe mean number of returns is:\n  μ = Σ_{n=1}^{∞} 1/(πn)^{3/2},\nwhich converges (p-series with p = 3/2 > 1).\n\nSince the mean number of returns = P/(1-P) = finite, we get Q = 1-P > 0. Computing numerically:\n  Q ≈ 0.315,  so  P ≈ 0.35.\n\nThus only about 35% of particles return to the origin in a three-dimensional random walk. The other 65% wander off to infinity and never return. In higher dimensions, the fraction returning decreases further (e.g., about 0.105 in 4D)."
+  },
+  {
+    "number": 53,
+    "title": "Buffon's Needle",
+    "question_pages": [22],
+    "solution_pages": [94, 95],
+    "question": "A table of infinite expanse has inscribed on it a set of parallel lines spaced 2a units apart. A needle of length 2l (smaller than 2a) is twirled and tossed on the table. What is the probability that when it comes to rest it crosses a line?",
+    "answer": "By symmetry, only consider the angle θ of the needle with the horizontal, uniform on [0, π/2], and the position of the needle's center relative to the nearest parallel.\n\nFor a fixed angle θ, the half-projection of the needle perpendicular to the parallels is x = l cos θ. The needle crosses a parallel if the center falls within l cos θ of either adjacent parallel; the probability of crossing is (l/a) cos θ.\n\nAveraging over θ uniform on [0, π/2]:\n  P(crosses a line) = (2/π) ∫_0^{π/2} (l/a) cos θ dθ = (2l/a) × (1/(π/2)) × [sin θ]_0^{π/2} = 2l/(πa).\n\nAlternatively: P = 2(length of needle) / (circumference of circle of radius a).\n\nThis classic result connects a chance experiment to π: one can estimate π ≈ 2l/(aP̂) from repeated tosses, though convergence is slow."
+  },
+  {
+    "number": 54,
+    "title": "Buffon's Needle with Horizontal and Vertical Rulings",
+    "question_pages": [22],
+    "solution_pages": [95],
+    "question": "Suppose we toss a needle of length 2l (less than 1) on a grid with both horizontal and vertical rulings spaced one unit apart. What is the mean number of lines the needle crosses? (I have dropped the 2a for the spacing because we might as well think of the length of the needle as measured in units of spacing.)",
+    "answer": "The mean number of vertical rulings crossed equals the probability of crossing a vertical ruling. Using the result from Problem 53 with spacing = 1 (so a = 1/2):\n  Mean vertical crossings = 2l/(π × 1/2) = 4l/π.\n\nBy symmetry (rotating the problem 90°), the mean number of horizontal rulings crossed is also 4l/π.\n\nSince the mean of a sum is the sum of the means:\n  Mean total crossings = 4l/π + 4l/π = 8l/π.\n\nFor a needle of length 2l = 1 (so l = 1/2): mean number of crosses = 8(1/2)/π = 4/π ≈ 1.27."
+  },
+  {
+    "number": 55,
+    "title": "Long Needles",
+    "question_pages": [22],
+    "solution_pages": [96],
+    "question": "In the previous problem let the needle be of arbitrary length, then what is the mean number of crosses?",
+    "answer": "The mean number of crosses is 4(length)/π for a needle of any length on a unit grid (with both horizontal and vertical rulings), where length is measured in units of the grid spacing.\n\nDivide the long needle into n pieces of equal length, each shorter than 1. By Problem 54, each piece has expected crossings = 4(piece length)/π. By linearity of expectation, the total expected crossings equal the sum over all pieces:\n  Mean total crossings = 4(total length)/π.\n\nThe fact that the needle is tossed as a rigid structure rather than as separate pieces does not affect the mean.\n\nFor estimating π: toss a needle of length L on a grid of unit squares and count C crossings in N tosses. Then π ≈ 4LN/C. Longer needles give more crossings per toss, improving the estimate. (E.g., a toothpick of length 5.2 units giving 62 crossings in 10 tosses yields π ≈ 4(5.2)/(62/10) ≈ 3.35.)"
+  },
+  {
+    "number": 56,
+    "title": "Molina's Urns",
+    "question_pages": [22],
+    "solution_pages": [96],
+    "solution_type": "discussion",
+    "question": "Two urns contain the same total numbers of balls, some blacks and some whites in each. From each urn are drawn n (≥ 3) balls with replacement. Find the number of drawings and the composition of the two urns so that the probability that all white balls are drawn from the first urn is equal to the probability that the drawing from the second is either all whites or all blacks.",
+    "answer": "This problem, invented by E. C. Molina, is a probabilistic disguise of Fermat's Last Theorem.\n\nLet z be the number of white balls in the first urn, x the number of whites and y the number of blacks in the second urn (with the same total x+y in each). The condition is:\n  (z/(x+y))^n = (x/(x+y))^n + (y/(x+y))^n,\nor equivalently:\n  z^n = x^n + y^n.\n\nThis is exactly Fermat's equation. Fermat's Last Theorem states there are no positive integer solutions for n ≥ 3.\n\nAt the time of writing, it was known to be unsolvable for n < 2000, but the general proof was not yet available. (Fermat's Last Theorem was proved by Andrew Wiles in 1995, confirming no solution exists for any n ≥ 3.)\n\nThus no satisfying solution to Molina's urn problem exists for n ≥ 3."
   }
 ]
