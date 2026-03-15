@@ -2,31 +2,124 @@
   {
     "number": 1,
     "title": "The Sock Drawer",
+    "question_pages": [9],
+    "solution_pages": [23, 24],
     "question": "A drawer contains red socks and black socks. When two socks are drawn at random, the probability that both are red is 1/2. (a) How small can the number of socks in the drawer be? (b) How small if the number of black socks is even?",
-    "answer": "Let there be r red and b black socks. The probability of drawing two red socks is:\n\n    r/(r+b) × (r-1)/(r+b-1) = 1/2\n\nNote that r/(r+b) > (r-1)/(r+b-1) for b > 0, so squaring the middle term 1/√2 gives:\n\n    (r/(r+b))² > 1/2 > ((r-1)/(r+b-1))²\n\nTaking square roots: r/(r+b) > 1/√2 > (r-1)/(r+b-1)\n\nFrom the first inequality: r > (√2+1)b\nFrom the second: (√2+1)b+1 > r\nSo: (√2+1)b + 1 > r > (√2+1)b\n\nFor b=1, r must be between 2.414 and 3.414, so r=3. Check: P(2 red) = 3/4 × 2/3 = 1/2. ✓\n(a) Smallest total = 4 socks (3 red, 1 black).\n\nFor even b:\n  b=2: r between 4.8 and 5.8 → r=5, P = 5×4/(7×6) = 20/42 ≠ 1/2\n  b=4: r between 9.7 and 10.7 → r=10, P = 10×9/(14×13) = 90/182 ≠ 1/2\n  b=6: r between 14.5 and 15.5 → r=15, P = 15×14/(21×20) = 210/420 = 1/2 ✓\n(b) Smallest total with b even = 21 socks (15 red, 6 black).\n\nNote: Further solutions follow from Pell's equation, e.g. r=85, b=35."
+    "answer": "Let there be r red and b black socks. The probability of drawing two red socks is:\n\n    r/(r+b) × (r-1)/(r+b-1) = 1/2\n\nNote that r/(r+b) > (r-1)/(r+b-1) for b > 0, so squaring the middle term 1/√2 gives:\n\n    (r/(r+b))² > 1/2 > ((r-1)/(r+b-1))²\n\nTaking square roots: r/(r+b) > 1/√2 > (r-1)/(r+b-1)\n\nFrom the first inequality: r > (√2+1)b\nFrom the second: (√2+1)b + 1 > r\nSo: (√2+1)b + 1 > r > (√2+1)b\n\nFor b=1, r must be between 2.414 and 3.414, so r=3. Check: P(2 red) = 3/4 × 2/3 = 1/2. ✓\n(a) Smallest total = 4 socks (3 red, 1 black).\n\nFor even b:\n  b=2: r between 4.8 and 5.8 → r=5, P = 5(4)/7(6) = 20/42 ≠ 1/2\n  b=4: r between 9.7 and 10.7 → r=10, P = 10(9)/14(13) = 90/182 ≠ 1/2\n  b=6: r between 14.5 and 15.5 → r=15, P = 15(14)/21(20) = 210/420 = 1/2 ✓\n(b) Smallest total with b even = 21 socks (15 red, 6 black).\n\nFurther solutions follow from Pell's equation, e.g. r=85, b=35."
   },
   {
     "number": 2,
     "title": "Successive Wins",
+    "question_pages": [9],
+    "solution_pages": [25],
     "question": "To encourage Elmer's promising tennis career, his father offers him a prize if he wins (at least) two tennis sets in a row in a three-set series to be played with his father and the club champion alternately: father-champion-father or champion-father-champion, according to Elmer's choice. The champion is a better player than Elmer's father. Which series should Elmer choose?",
-    "answer": "Let f = probability Elmer beats his father, c = probability Elmer beats the champion, with f > c. The prize-winning sequences and their probabilities are:\n\n  Father first (F-C-F):          Champion first (C-F-C):\n  WWW: fcf                       WWW: cfc\n  WWL: fc(1-f)                   WWL: cf(1-c)\n  LWW: (1-f)cf                   LWW: (1-c)fc\n  Total: fc(2-f)                 Total: fc(2-c)\n\nSince f > c, we have 2-f < 2-c, so fc(2-c) > fc(2-f). Elmer should choose CFC (champion-father-champion).\n\nFor example with f=0.8, c=0.4: P(win|FCF) = 0.384, P(win|CFC) = 0.512.\n\nIntuitively: Elmer must win the middle set regardless, and he has a better chance of winning that set when it is against his father. The advantage of having the easier opponent in the middle outweighs playing the champion twice."
+    "answer": "Let f = probability Elmer beats his father, c = probability Elmer beats the champion, with f > c. The prize-winning sequences and their probabilities are:\n\n  Father first (F-C-F):          Champion first (C-F-C):\n  WWW: fcf                       WWW: cfc\n  WWL: fc(1-f)                   WWL: cf(1-c)\n  LWW: (1-f)cf                   LWW: (1-c)fc\n  Total: fc(2-f)                 Total: fc(2-c)\n\nSince f > c, we have 2-f < 2-c, so fc(2-c) > fc(2-f). Elmer should choose CFC (champion-father-champion).\n\nFor example with f=0.8, c=0.4: P(win|FCF) = 0.384, P(win|CFC) = 0.512.\n\nIntuitively: Elmer must win the middle set regardless, and he has a better chance of winning that set when it is against his father. The advantage of having the easier opponent in the middle outweighs playing the champion twice.\n\nNote: expected wins under CFC is 2c+f = 1.6, less than 2f+c = 2.0 under FCF — yet CFC gives a higher chance of winning the prize. The special condition of needing two in a row breaks the usual reasoning by analogy."
   },
   {
     "number": 3,
     "title": "The Flippant Juror",
+    "question_pages": [9],
+    "solution_pages": [26],
     "question": "A three-man jury has two members each of whom independently has probability p of making the correct decision and a third member who flips a coin for each decision (majority rules). A one-man jury has probability p of making the correct decision. Which jury has the better probability of making the correct decision?",
-    "answer": "The two juries have the same probability of a correct decision.\n\nIn the three-man jury, consider the cases:\n- Both serious jurors agree on the correct decision: probability p × p = p². The coin-flipper's vote is irrelevant. This contributes p² to the total.\n- The serious jurors split (one correct, one wrong): probability p(1-p) + (1-p)p = 2p(1-p). The coin-flipper breaks the tie correctly half the time, contributing 2p(1-p) × 1/2 = p(1-p).\n\nTotal probability of correct decision by three-man jury:\n  p² + p(1-p) = p² + p - p² = p\n\nThis equals the one-man jury's probability p. Neither jury is better."
+    "answer": "The two juries have the same probability of a correct decision.\n\nIn the three-man jury:\n- Both serious jurors agree correctly: probability p² — the coin-flipper's vote is irrelevant.\n- Serious jurors split: probability 2p(1-p) — the coin-flipper decides correctly half the time, contributing p(1-p).\n\nTotal probability of correct decision:\n  p² + p(1-p) = p² + p - p² = p\n\nThis equals the one-man jury's probability p. Neither jury is better."
   },
   {
     "number": 4,
     "title": "Trials until First Success",
+    "question_pages": [9],
+    "solution_pages": [26, 27],
     "question": "On the average, how many times must a die be thrown until one gets a 6?",
-    "answer": "The answer is 6. Let p = 1/6 be the probability of rolling a 6, and q = 1-p = 5/6. The probability of first success on trial k is pq^(k-1). These sum to 1 (verified by geometric series).\n\nThe mean number of trials m is:\n  m = p + 2pq + 3pq² + 4pq³ + ···\n  qm =     pq + 2pq² + 3pq³ + ···\nSubtracting: m - qm = p + pq + pq² + ··· = p/(1-q) = p/p = 1\n  m(1-q) = 1,  so  mp = 1,  and  m = 1/p.\n\nWith p = 1/6, m = 6.\n\nAlternative derivation: if the first toss fails (probability q), the expected total becomes 1+m; if it succeeds (probability p), it's 1. So m = p(1) + q(1+m) = 1 + qm, giving m = 1/p."
+    "answer": "The answer is 6. Let p = 1/6 be the probability of rolling a 6, q = 1-p = 5/6. The probability of first success on trial k is pq^(k-1).\n\nThe mean number of trials m:\n  m  = p + 2pq + 3pq² + 4pq³ + ···\n  qm =     pq + 2pq² + 3pq³ + ···\nSubtracting: m - qm = p + pq + pq² + ··· = p/(1-q) = 1\n  m(1-q) = 1,  mp = 1,  m = 1/p.\n\nWith p = 1/6, m = 6.\n\nAlternative: if the first toss fails (prob q), expected total = 1+m; if succeeds (prob p), it's 1. So m = p(1) + q(1+m) = 1 + qm, giving m = 1/p."
   },
   {
     "number": 5,
     "title": "Coin in Square",
+    "question_pages": [10],
+    "solution_pages": [27, 28],
     "question": "In a common carnival game a player tosses a penny from a distance of about 5 feet onto the surface of a table ruled in 1-inch squares. If the penny (3/4 inch in diameter) falls entirely inside a square, the player receives 5 cents but does not get his penny back; otherwise he loses his penny. If the penny lands on the table, what is his chance to win?",
-    "answer": "The penny has radius 3/8 inch. For it to lie entirely within a 1-inch square, its centre must not come within 3/8 inch of any edge. This means the centre must fall within a smaller square of side 1 - 2×(3/8) = 1/4 inch, centred in each grid square.\n\nSince probabilities are proportional to areas, the probability of winning is:\n  (1/4)² / (1)² = 1/16 ≈ 6.25%\n\n(This already ignores the chance the coin falls off the table, which makes the true probability smaller.)\n\nNote: the squares can be made effectively smaller by thickening the grid lines. If the lines are 1/16 inch wide, the winning central area has side 1/4 - 1/16 = 3/16 inch, reducing the probability to (3/16)² = 9/256 < 1/28."
+    "answer": "The penny has radius 3/8 inch. For it to lie entirely within a 1-inch square, its centre must not come within 3/8 inch of any edge. This restriction generates an inner square of side 1 - 2×(3/8) = 1/4 inch.\n\nSince probabilities are proportional to areas:\n  P(win) = (1/4)² = 1/16 ≈ 6.25%\n\n(This ignores the chance the coin falls off the table, which makes the true probability smaller.)\n\nIf the grid lines are 1/16 inch wide, the winning area has side 1/4 - 1/16 = 3/16 inch, reducing P(win) to (3/16)² = 9/256 < 1/28."
+  },
+  {
+    "number": 6,
+    "title": "Chuck-a-Luck",
+    "question_pages": [10],
+    "solution_pages": [28, 29],
+    "question": "Chuck-a-Luck is a gambling game often played at carnivals and gambling houses. A player may bet on any one of the numbers 1, 2, 3, 4, 5, 6. Three dice are rolled. If the player's number appears on one, two, or three of the dice, he receives respectively one, two, or three times his original stake plus his own money back; otherwise he loses his stake. What is the player's expected loss per unit stake? (Actually the player may distribute stakes on several numbers, but each such stake can be regarded as a separate bet.)",
+    "answer": "Imagine placing a unit stake on each of the six numbers (6 units total). Treat the three dice as distinguishable — there are 6×6×6 = 216 equally likely outcomes.\n\nCase (a) all three dice show different numbers (e.g. 1,2,3): 6×5×4 = 120 ways.\n  Three stakes win 1× each; three stakes lost. Net to player = 0.\n\nCase (b) exactly two dice alike (e.g. 1,1,2): 216 - 120 - 6 = 90 ways.\n  One stake wins 2×, one wins 1×, four are lost. Net to player = -1.\n  Loss per unit stake = 1/6.\n\nCase (c) all three dice alike (e.g. 1,1,1): 6 ways.\n  One stake wins 3×, five stakes lost. Net to player = -2.\n  Loss per unit stake = 2/6 = 1/3.\n\nExpected loss per unit stake:\n  (120/216)(0) + (90/216)(1/6) + (6/216)(1/3)\n  = 0 + 15/216 + 2/216 = 17/216 ≈ 0.079\n\nYou lose about 8% per play. Note that the multiple-payoff rolls (two or three alike) are the worst for the player, contrary to first intuition."
+  },
+  {
+    "number": 7,
+    "title": "Curing the Compulsive Gambler",
+    "question_pages": [10],
+    "solution_pages": [29, 30],
+    "question": "Mr. Brown always bets a dollar on the number 13 at roulette against the advice of Kind Friend. To help cure Mr. Brown of playing roulette, Kind Friend always bets Brown $20 at even money that Brown will be behind at the end of 36 plays. How is the cure working?\n\n(Most American roulette wheels have 38 equally likely numbers. If the player's number comes up, he is paid 35 times his stake and gets his original stake back; otherwise he loses his stake.)",
+    "answer": "Against the casino: Brown's single-turn expectation is 35(1/38) - 1(37/38) = -2/38 dollars. Over 36 turns: -2(36)/38 ≈ -$1.89.\n\nAgainst Kind Friend: Brown needs to win at least once in 36 plays to avoid being behind overall (winning once nets him +35 - 35×$1 = 0 from roulette, but he only needs to be ahead, not even). More precisely:\n  P(Brown loses all 36) = (37/38)^36 ≈ 0.383\n  P(Brown wins at least once) ≈ 0.617\n\nExpectation from the side bet with Kind Friend:\n  +20(0.617) - 20(0.383) ≈ +$4.68\n\nNet per 36 trials: +4.68 - 1.89 = +$2.79.\n\nThe cure is not working — Brown is making money. Kind Friend will be cured first. (Of course, if Brown loses all 36, he is out $56, which may jolt him a bit.)"
+  },
+  {
+    "number": 8,
+    "title": "Perfect Bridge Hand",
+    "question_pages": [10],
+    "solution_pages": [30, 31, 32],
+    "question": "We often read of someone who has been dealt 13 spades at bridge. With a well-shuffled pack of cards, what is the chance that you are dealt a perfect hand (13 of one suit)? (Bridge is played with an ordinary pack of 52 cards, 13 in each of 4 suits, and each of 4 players is dealt 13.)",
+    "answer": "The number of ways to be dealt 13 cards of one particular suit (say spades) from a well-shuffled deck, dealing off the top:\n  52 × 12 × 11 × ··· × 1 = 52 × 12!\n\nThe total number of ordered 13-card hands:\n  52 × 51 × 50 × ··· × 40 = 52!/39!\n\nProbability of 13 spades = 52 × 12! / (52!/39!) = 12! × 39! / 51!\n\nMultiplying by 4 for any perfect hand (any of 4 suits):\n  P = 4 × 13! × 39! / 52!\n\nUsing logarithms of factorials:\n  log(12!39!/51!) = 8.68034 + 46.30959 - 66.19065 = -11.20072\n  antilog: 1.588 × 10^(-11)\n\nThere is about 1 chance in 160 billion of a particular player being dealt a perfect hand on a given deal.\n\nUsing binomial coefficients: C(52,13) = 52!/(13!39!) ways to choose 13 cards; C(13,13) = 1 way to get all 13 spades. P(one perfect suit) = 1/C(52,13), so P(any perfect hand) = 4/C(52,13) = 4 × 13!39!/52!."
+  },
+  {
+    "number": 9,
+    "title": "Craps",
+    "question_pages": [10, 11],
+    "solution_pages": [32, 33, 34],
+    "question": "The game of craps, played with two dice, is one of America's fastest and most popular gambling games. Calculating the odds associated with it is an instructive exercise.\n\nThe rules are these. Only totals for the two dice count. The player throws the dice and wins at once if the total for the first throw is 7 or 11, loses at once if it is 2, 3, or 12. Any other throw is called his \"point.\" If the first throw is a point, the player throws the dice repeatedly until he either wins by throwing his point again or loses by throwing 7. What is the player's chance to win?",
+    "answer": "With two distinguishable dice there are 36 equally likely outcomes. The probability distribution of totals:\n\n  Total:    2    3    4    5    6    7    8    9   10   11   12\n  P(total): 1/36 2/36 3/36 4/36 5/36 6/36 5/36 4/36 3/36 2/36 1/36\n\nP(win on first throw) = P(7) + P(11) = 6/36 + 2/36 = 8/36\nP(lose on first throw) = P(2) + P(3) + P(12) = 1/36 + 2/36 + 1/36 = 4/36\n\nFor a point p, only totals p and 7 matter on subsequent throws (reduced sample space). Conditional probability of making point p:\n  P(point) / (P(point) + P(7))\n\n  Point 4 (or 10): 3/(3+6) = 3/9\n  Point 5 (or 9):  4/(4+6) = 4/10\n  Point 6 (or 8):  5/(5+6) = 5/11\n\nP(win by making a point) =\n  2 × [3/36 × 3/9 + 4/36 × 4/10 + 5/36 × 5/11]\n  = 2 × [9/324 + 16/360 + 25/396]\n  ≈ 0.27071\n\nTotal P(win) = 8/36 + 0.27071 ≈ 0.22222 + 0.27071 = 0.49293\n\nExpected loss per unit stake = 0.50707 - 0.49293 = 0.01414 ≈ 1.41%.\n\nCraps is the most nearly fair house gambling game with no strategy. (Verification via geometric series: for point P, let R = 1 - P - 6/36; then P(making point) = P/(1-R) = P/(P + 6/36), consistent with the reduced-sample-space approach.)"
+  },
+  {
+    "number": 10,
+    "title": "An Experiment in Personal Taste for Money",
+    "question_pages": [11],
+    "solution_pages": [34, 35],
+    "solution_type": "discussion",
+    "question": "(a) An urn contains 10 black balls and 10 white balls, identical except for color. You choose \"black\" or \"white.\" One ball is drawn at random, and if its color matches your choice, you get $10, otherwise nothing. Write down the maximum amount you are willing to pay to play the game. The game will be played just once.\n\n(b) A friend of yours has available many black and many white balls, and he puts black and white balls into the urn to suit himself. You choose \"black\" or \"white.\" A ball is drawn randomly from this urn. Write down the maximum amount you are willing to pay to play this game. The game will be played just once.",
+    "answer": "This problem has no single correct answer — it is a discussion of personal taste for money and uncertainty.\n\nIn game (a), the expected value is $5 (probability 1/2 of winning $10). You may or may not be willing to pay close to $5 depending on your attitude to risk.\n\nIn game (b), you can always protect yourself by choosing your color at random (flip a coin). This guarantees a 50-50 chance regardless of what your friend puts in the urn, giving an expected value of $5 — the same as game (a). Furthermore, if you have any information about your friend's preferences, you can do even better.\n\nTherefore you should be willing to pay at least as much to play game (b) as game (a). Most people feel the opposite because the conditions of game (b) seem more vague — this reflects the psychological phenomenon later formalized as ambiguity aversion (Ellsberg paradox, attributed to Daniel Ellsberg)."
+  },
+  {
+    "number": 11,
+    "title": "Silent Cooperation",
+    "question_pages": [11],
+    "solution_pages": [35],
+    "solution_type": "discussion",
+    "question": "Two strangers are separately asked to choose one of the positive whole numbers and advised that if they both choose the same number, they both get a prize. If you were one of these people, what number would you choose?",
+    "answer": "This is a \"problem without structure\" — there is no mathematically correct answer, only a discussion of human coordination behavior.\n\nIn practice, almost no one chooses a number larger than one digit. Of the one-digit numbers, 1, 3, and 7 are the most common choices, with 1 being the most popular as the most natural and minimal choice. The problem illustrates that without communication, people rely on salience and common cultural anchors (\"focal points\") to coordinate — a concept later formalized by Thomas Schelling."
+  },
+  {
+    "number": 12,
+    "title": "Quo Vadis?",
+    "question_pages": [12],
+    "solution_pages": [35, 36],
+    "solution_type": "discussion",
+    "question": "Two strangers who have a private recognition signal agree to meet on a certain Thursday at 12 noon in New York City, a town familiar to neither, to discuss an important business deal, but later they discover that they have not chosen a meeting place, and neither can reach the other because both have embarked on trips. If they try nevertheless to meet, where should they go?",
+    "answer": "This is another \"problem without structure\" with no uniquely correct answer.\n\nMosteller's suggested answer: the Empire State Building. Places that come to mind include the top of the Empire State Building, Times Square, airports, the Statue of Liberty, and information desks at Grand Central or Penn Station. The Statue of Liberty is eliminated once the strangers realize how hard it is to get there. Airports are far from town. Two major railroad stations split the vote. That leaves the Empire State Building or Times Square — Mosteller opts for the Empire State Building, as Times Square is \"vaguely large.\"\n\nThe problem illustrates Schelling's concept of focal points: in the absence of communication, people gravitate toward landmarks that are uniquely prominent and easy to specify."
+  },
+  {
+    "number": 13,
+    "title": "The Prisoner's Dilemma",
+    "question_pages": [12],
+    "solution_pages": [36, 37],
+    "question": "Three prisoners, A, B, and C, with apparently equally good records have applied for parole. The parole board has decided to release two of the three, and the prisoners know this but not which two. A warder friend of prisoner A knows who are to be released. Prisoner A realizes that it would be unethical to ask the warder if he, A, is to be released, but thinks of asking for the name of one prisoner other than himself who is to be released. He thinks that before he asks, his chances of release are 2/3. He thinks that if the warder says \"B will be released,\" his own chances have now gone down to 1/2, because either A and B or B and C are to be released. And so A decides not to reduce his chances by asking. However, A is mistaken in his calculations. Explain.",
+    "answer": "A's error is that he has not correctly listed the possible events — he does not have the right sample space for his experiment.\n\nThe four equally probable outcomes of A's experiment (asking the warder for a name other than himself):\n  1. A and B released, warder says B:  probability 1/3\n  2. A and C released, warder says C:  probability 1/3\n  3. B and C released, warder says B:  probability 1/6\n  4. B and C released, warder says C:  probability 1/6\n\n(In outcomes 1 and 2 the warder must name the other released prisoner. In outcomes 3 and 4 he chooses between B and C with equal probability.)\n\nIf the warder says \"B will be released\":\n  P(A released | warder says B) = P(outcome 1) / P(warder says B)\n    = (1/3) / (1/3 + 1/6) = (1/3) / (1/2) = 2/3.\n\nA's probability of release is still 2/3, unchanged. He gains no information about his own fate — he only learns something about C. Mathematics confirms common sense after all."
+  },
+  {
+    "number": 14,
+    "title": "Collecting Coupons",
+    "question_pages": [12],
+    "solution_pages": [37],
+    "question": "Coupons in cereal boxes are numbered 1 to 5, and a set of one of each is required for a prize. With one coupon per box, how many boxes on the average are required to make a complete set?",
+    "answer": "Once you have k distinct coupons, the probability that the next box gives a new one is (5-k)/5, so the expected number of additional boxes needed is 5/(5-k) (by Problem 4).\n\n  To get 1st new coupon: 5/5 = 1 box\n  To get 2nd new coupon: 5/4 boxes\n  To get 3rd new coupon: 5/3 boxes\n  To get 4th new coupon: 5/2 boxes\n  To get 5th new coupon: 5/1 = 5 boxes\n\nTotal expected boxes = 5(1 + 1/2 + 1/3 + 1/4 + 1/5) = 5(137/60) ≈ 11.42.\n\nEuler's approximation for harmonic sums: for n coupons in a set,\n  1 + 1/2 + 1/3 + ··· + 1/n ≈ log_e(n) + 1/(2n) + 0.57721···\nso the average number of boxes is approximately n·log_e(n) + 0.577·n + 1/2.\nFor n=5: 5(1.6094) + 0.577(5) + 0.5 ≈ 8.047 + 2.885 + 0.5 ≈ 11.43, confirming the exact answer."
+  },
+  {
+    "number": 15,
+    "title": "The Theater Row",
+    "question_pages": [12],
+    "solution_pages": [37, 38],
+    "question": "Eight eligible bachelors and seven beautiful models happen randomly to have purchased single seats in the same 15-seat row of a theater. On the average, how many pairs of adjacent seats are ticketed for marriageable couples?",
+    "answer": "A \"marriageable couple\" occupies adjacent seats consisting of one bachelor (B) and one model (M), i.e. a BM or MB pair.\n\nFor any specific adjacent pair of seats, the probability that one holds a bachelor and the other a model is:\n  P(BM) + P(MB) = (8/15)(7/14) + (7/15)(8/14) = 56/210 + 56/210 = 8/15\n\nSince the expected value of a sum equals the sum of expected values, and there are 14 adjacent pairs in a 15-seat row:\n  Expected marriageable pairs = 14 × 8/15 = 112/15 = 7 and 7/15 ≈ 7.47.\n\nMore generally, with b bachelors and m models randomly arranged in a line, the expected number of unlike adjacent pairs is:\n  (m + b - 1) × 2mb / ((m+b)(m+b-1)) = 2mb/(m+b)\n\nFor b=8, m=7: 2(8)(7)/(8+7) = 112/15, confirming the result."
   }
 ]
