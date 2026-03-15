@@ -1,0 +1,37 @@
+Anyone writing on problems in probability owes a great debt to the mathe-
+matical profession as a whole and probably to W. A. Whitworth and his
+book Choice and chance (Hafner Publishing Co., 1959, Reprint of fifth edi-
+tion much enlarged, issued in 1901) in particular.
+
+One of the pleasures of a preface is the opportunity it gives the author
+to acknowledge his debts to friends. To Robert E. K. Rourke goes the
+credit or blame for persuading me to assemble this booklet; and in many
+problems the wording has been improved by his advice. My old friends
+and critics Andrew Gleason, L. J. Savage, and John D. Williams helped
+lengthen the text by proposing additional problems for inclusion, by sug-
+gesting enticing extensions for some of the solutions, and occasionally by
+offering to exchange right for wrong; fortunately, I was able to resist only a
+few of these suggestions. In addition, 1 owe direct personal debts for sug-
+gestions, aid, and conversations to Kai Lai Chung, W. G. Cochran, Arthur
+P. Dempster, Bernard Friedman, John Garraty, John P. Gilbert, Leo Good-
+man, Theodore Harris, Olaf Helmer, J. L. Hodges, Jr., John G. Kemeny,
+Thomas Lehrer, Jess ]. Marcum, Howard Raiffa, Herbert Scarf, George B.
+Thomas, Jr., John W. Tukey, Lester E. Dubins, and Cleo Youtz.
+
+Readers who wish a systematic elementary development of probability
+may find helpful material in F. Mosteller, R. E. K. Rourke, G. B. Thomas,
+Jr., Probability with statistical applications, Addison-Wesley, Reading, Mass.,
+1961. In referring to this book in the text I have used the abbreviation
+PWSA. A shorter version is entitled Probability and statistics, and a still
+shorter one, Probability: A first course.
+
+More advanced material can be found in the following: W. Feller, An
+introduction to probability theory and its applications, Wiley, New York;
+E. Parzen, Modern probability theory and its applications, Wiley, New York.
+
+FREDERICK MOSTELLER
+
+West Falmouth, Massachusetts
+August, 1964
+
+vi

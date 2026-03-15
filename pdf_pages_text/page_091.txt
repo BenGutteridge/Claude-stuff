@@ -1,0 +1,47 @@
+get the story on the two-dimensicnal random walk, all we need do is com-
+pute yu.
+
+Starting from the origin, the particle can only get home to the origin in an
+even number of steps. Furthermore its path can be represented as the
+product of two independent one-dimensional random walks, each starting
+at zero, one stepping east or west on each move, the other stepping north or
+south on each. For example, toss a coin twice; the first toss decides the east-
+west component, the second the north-south one. After the first two steps,
+the horizontal component, X, has the distribution
+
+x | -2 0 2
+Px) | & € 4
+
+The vertical component, Y, is similarly distributed after two steps, and
+their joint probability is distributed over the 9 possible points as follows:
+
+Marginal for Y
+
+P(x, y) y PY)
+tte ote ots 2 +
+of ce ok o 6¢
+sts oye ots -2 +
+
+Marginal x -2 0 2
+forX Pa) + # 4
+
+Joint distribution of X and Y after two moves.
+
+The main information we vsh to note is that the probability at the origin
+is yj; and that it can be obtained by multiplying P(X = 0) by P(Y = 0)
+because of the independence of the component walks. Finally, we want to
+interpret this information. At the end of two moves 3% of particles have
+returned to the origin. The contribution to the mean number of returns
+to the origin is then (q4;)1 + (43)0 = 34. We compute the probability of
+the particle’s being at the origin after 2, 4, 6,... trials and add these up to
+get the expected number of times the particle returns to the origin.
+
+After 2n moves, n = 1, ?,..., the probability of the particle’s being at the
+origin is
+
+. - 2n\(1\?"?
+P(particle at origin) = P(X = 0)P(Y = 0) = (ale) | >
+
+83
+
+51

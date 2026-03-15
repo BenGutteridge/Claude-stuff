@@ -1,0 +1,32 @@
+24. The Unfair Subway
+
+Marvin gets off work at random times between 3 and 5 p.m. His mother
+lives uptown, his girl friend downtown. He takes the first subway that
+comes in either direction and eats dinner with the one he is first delivered to.
+His mother complains that he never comes to see her, but he says she has a
+50-50 chance. He has had dinner with her twice in the last 20 working days.
+Explain.
+
+25. Lengths of Random Chords
+
+If a chord is selected at random on a fixed circle, what is the probability
+that its length exceeds the radius of the circle?
+
+26. The Hurried Duelers
+
+Duels in the town of Discretion are rarely fatal. There, each contestant
+comes at a random moment between 5 A.M. and 6 A.M. on the appointed
+day and leaves exactly 5 minutes later, honor served, unless his opponent
+arrives within the time interval and then they fight. What fraction of duels
+‘cad to violence?
+
+27. Catching the Cautious
+Counterfeiter
+
+(a) The king’s minter boxes his coins 100 to a box. In each box he puts 1
+false coin. The king suspects the minter and from each of 100 boxes draws a
+random coin and has it tested. What is the chance the minter’s peculations go
+undetected?
+
+(b) What if both 100's are replaced by n?
+

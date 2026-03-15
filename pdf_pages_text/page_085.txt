@@ -1,0 +1,50 @@
+And, of course, for either sex, the implications of these results for the
+choice of a marriage partner may repay careful study for those who are
+still single.
+
+In the previous problem the wise man has no information about the dis-
+tribution of the numbers. In the next he knows exactly.
+
+48. Choosing the Largest Random Number
+
+As a second task, the king wants the wise man to choose the largest number
+from among 100, by the same rules, but this time the numbers on the slips are
+randomly drawn from the numbers from 0 to 1 (random numbers, uniformly
+distributed). Now what should the wise man’s strategy be?
+
+Solution for Choosing the Largest Random Number
+
+The very first number could be chosen if it were large enough, for example,
+0.99900, because the chance of getting a number larger than this later, let
+alone choosing it, is only 1 — (0.999)®® = 0.1.
+
+As before, we have to choose between a candidate on hand and the chance
+that a later number will be larger and we will choose it. We work back from
+the end. If we have not chosen before the last draw, we choose it, and it
+wins or loses. If we have not chosen before the next-to-last draw and it is a
+candidate (largest so far), we choose it if it is larger than 4, reject it if it
+is less, and are indifferent to 4 itself. If it were less than 4, we have a better
+chance of winning if we go on.
+
+If we have gotten to the third draw from the end and if we have a candidate
+x as the value on the slip, the probabilities of 0, 1, or 2 larger numbers later
+are x”, 2x(1 — x), and (1 — x)?, respectively. If we choose the next number
+larger than x, the probability of winning later is
+
+ax(l — x) + Hl — 9),
+
+because if there are 0 later, we cannot win by going on; if 1, we are sure to
+win; and if 2 are larger than x, the chance is only 4 that we choose the
+larger. If I am indifferent to a number at some draw, I would not be in-
+different to it at a later draw; instead, I would want to choose it because I
+do not have as many opportunities to improve my holdings as I did earlier.
+Consequently, when two numbers larger than the indifference number x are
+present later in the sequence, we can be sure I would choose the first one.
+It has only a 50-50 chance of being the larger of the two. Thus, in com-
+puting what would happen if we decline to choose an indifference number
+that has been drawn, we can be sure, in general, that the best strategy chooses
+the next drawing whose value exceeds the indifference number in hand.
+
+77
+
+48

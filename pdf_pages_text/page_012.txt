@@ -1,0 +1,42 @@
+12. Quo Vadis?
+
+Two strangers who have a private recognition signal agree to meet on a
+certain Thursday at 12 noon in New York City, a town familiar to neither,
+to discuss an important business deal, but later they discover that they have
+not chosen a meeting place, and neither can reach the other because both
+have embarked on trips. If they try nevertheless to meet, where should they
+go?
+
+13. The Prisoner’s Dilemma
+
+Three prisoners, A, B, and C, with apparently equally good records have
+applied for parole. The parole board has decided to release two of the
+three, and the prisoners know this but not which two. A warder friend of
+prisoner A knows who are to be released. Prisoner A realizes that it would
+be unethical to ask the warder if he, A, is to be released, but thinks of asking
+for the name of one prisoner other than himself who is to be released. He
+thinks that before he asks, his chances of release are %. He thinks that if
+the warder says “B will be released,” his own chances have now gone down
+to 4, because either A and B or Band Care to be released. And so A decides
+not to reduce his chances by asking. However, A is mistaken in his calcula-
+tions. Explain.
+
+14. Collecting Coupons
+
+Coupons in cereal boxes are numbered | to 5, and a set of one of each is
+tequired for a prize. With one coupon per box, how many boxes on the
+average are required to make a complete set?
+
+15. The Theater Row
+
+Eight eligible bachelors and seven beautiful models happen randomly to
+have purchased single seats in the same 15-seat row of a theater. On the
+average, how many pairs of adjacent seats are ticketed for marriageable
+couples?
+
+16. Will Second-Best Be Runner-Up?
+
+A tennis tournament has 8 players. The number a player draws from a
+hat decides his first-round rung in the tournament ladder. See diagram.
+
+4

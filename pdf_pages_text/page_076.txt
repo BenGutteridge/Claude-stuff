@@ -1,0 +1,52 @@
+These inequalities yield, after a little algebra, the condition
+
+1 1
+@) Tom 1S*™S yoy
+
++1.
+
+Thus unless 1/(1 — 2p) is an odd integer, N is uniquely determined as the
+nearest even integer to 1/(1 — 2p). When 1/(1 — 2p) is an odd mteger,
+both adjacent even integers give the same optimum probability. And we
+can incidentally prove that when 1/(1 — 2p) = 2n + 1, Pon = Ponyo-
+
+Consequently for p = 0.45, we have 1/(1 — 0.9) = 10 as the optimum
+number of plays to choose.
+
+This material is abbreviated from “Optimal length of play for a binomial
+game,” Mathematics Teacher, Vol. 54, 1961, pp. 411-412.
+
+P. G. Fox originally alluded to a result which gives rise to this game in
+“A primer for chumps,” which appeared in the Saturday Evening Post,
+November 21, 1959, and discussed the idea further in private correspondence
+arising from that article in a note entitled “A curiosity in the binomial ex-
+pansion—and a lesson in logic.” I am indebted to Clayton Rawson and John
+Scarne for alerting me to Fox’s paper and to Fox for helpful correspondence.
+
+45, Average Number of Matches
+
+The following are two versions of the matching problem:
+(a) From a shuffled deck, cards are laid out on a table one at a time, face up
+. from left to right, and then another deck is laid out so that each of its cards is
+ery Sey beneath a card of the first deck. What is the average number of matches of the
+4 hee card above and the card below in repetitions of this experiment?
+¢ (b) A typist types letters and envelopes to 7 different persons. The letters are
+randomly put into the envelopes. On the average, how many letters are put into
+their own envelopes?
+
+Solution for Average Number of Matches
+
+Let us discuss this problem for a deck of cards. Given 52 cards in a deck,
+each card has | chance in 52 of matching its paired card. With 52 oppor-
+tunities for a match, the expected number of matches is 52(¢;) = 1; thus,
+on the average you get 1 match. Had the deck consisted of n distinct cards,
+the expected number of matches would still be 1 because n(1/n) = 1. The
+result leans on the theorem that the mean of a sum is the sum of the means.
+
+More formally, each pair of cards can be thought of as having associated
+with it a random variable X; that takes the value | when there is a match
+and the value 0 when there is not. Then
+
+E(X,) = 1(!) + o(1 - ‘ = i.
+
+68

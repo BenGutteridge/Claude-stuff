@@ -1,0 +1,46 @@
+. . . 2
+° ° ° e i
+. . ° . ov
+Part of lattice of points traveled by
+particles in the two-dimensional ran- ° e . e-l
+dom walk problem. At each move
+the particle goes one step north- . . . -2
+east, northwest, southeast, or south- 3
+
+west from its current position, the *, 5 *) 9 { 2
+directions being equally likely. x
+
+we
+
+Solution for Two-Dimensional Random Walk
+
+In the one-dimensional random walk, The Cliff-Hanger, Problem 35 (last
+paragraph of Solution), we found the probability that the particle returns
+to the origin to be unity when the probabilities of steps to the left and right
+were equally likely. But matters were most delicately balanced. Had either
+probability budged from 4, the particle would have walked off to infinity.
+In two dimensions one might suppose that the particle has plenty of space
+to wander off to infinity. Let us see. I plan to find the average number of
+times a particle returns to the origin, and from this to deduce the probability
+that the particle returns. First, how many times will a particle come back to
+the origin? If P is the probability of a return, then 1 — P = Q is the
+probability of no return. The probability of exactly x returns is P*Q, be-
+cause after each return the particle might as well be regarded as starting over.
+If P were known, then the mean number of returns to the origin could be
+computed from this geometric series as
+
+w= >> xP70.
+z=0
+Looking back at Problem 4 on trials until first success, we find the mean
+number to be the reciprocal of the probability of success. In that problem
+the success terminated the series. Here a non-return to the origin terminates
+the series, and so the mean number of trials to first success is 1/Q. Conse-
+quently, the mean number of successes is 1/Q — 1. If Q = 1, then the
+mean number of successes is 0, that is, with probability one a particle gets
+lost and never returns. On the other hand, the smaller Q is, the larger the
+mean number of returns. Indeed, for every Q there is a mean number of
+returns and for every mean there is a Q. If the mean number of returns be-
+fore final escape were infinite (unbounded), then Q would have to vanish,
+and P would equal I. More formally, as » tends to », P tends to 1. Now to
+
+82

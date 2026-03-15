@@ -1,0 +1,45 @@
+length of the first 5 pieces is 11, and so you might estimate the total number
+as 60 + 11 or 71. Of course, you cannot expect your estimate to be exactly
+right very often.
+
+The method just described makes sure that in many such estimates you
+average close to the correct value. That is, imagine many problems in which
+the unknown number WN is to be guessed. Follow the estimation program
+described above each time (draw a sample, make an estimate). Then the
+set of estimates will average close to the true value in the long run.
+
+On the other hand, you might not be interested in being close in the long
+Tun, or in averaging up well. You might want to try to be exactly right this
+time, however faint the hope. Then a reasonable strategy is just to guess
+the largest number you have seen. If you've seen 2 locomotives, then the
+
+chance that a sample of 2 contains the largest is (V — »(3) or fA :
+
+The method of confidence limits is often used to make an interval estimate.
+For a description, I will confine myself to the case of one observation. If
+the company has N locomotives and we draw a random one, then the
+probabilities of the numbers 1, 2,..., N areeach 1/N. Therefore we can be
+sure that the chance that our locomotive is in some set is the size of the
+set divided by N. For example, let 1 be the random number to be drawn,
+then for even values of N, P(n > N/2) = 4, and for odd values of N the
+probability is slightly more. Then we can read the statement 2 > N/2 and
+say that the probability is at least 4 that it is true when 7 is a random variable.
+If we have observed the value of m and do not know W, but wanted to say
+something about it, we could say 2n > N, and that would put an upper
+bound on NW. The statement itself is either right or wrong in any particular
+instance, and it is right in more than half of experiments and statements
+made in this manner, If one wanted to be surer, then one could change the
+limits. For example, P(n > 4N) > % The confidence statement would be
+3n > N, and we would be at Jeast % sure it was correct. In our problem, if
+we wanted to be at least % sure of making a statement that contains the
+correct value of NV, we say N is between 60 and 180.
+
+Another method of estimation that is much in vogue is maximum likeli-
+hood. One would choose the value of N that makes our sample most likely.
+For example, if N = 100, our sample value of 60 would have probability
+yb; but if N = 60, its probability is 35. We can't go lower than 60 because
+if N = 59 or less we can’t observe 60, and our sample would have probability
+0. Consequently, if 7 is the observed value, the maximum likelihood estimate
+of Nisa.
+
+62

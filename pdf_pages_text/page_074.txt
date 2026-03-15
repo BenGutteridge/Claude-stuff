@@ -1,0 +1,50 @@
+In general, if there are n pieces the average lengths in order of size are pro-
+
+portional to
+1/1
+smallest: —\-
+nnn,
+
+. Ifi 1
+next largest: a (i + 74)
+1fi 1 1
+3rd: 1+ t+ 4)
+1/1 1 I
+largest: 1g tog ata):
+
+But I have no easy proof of this.
+
+44. Winning an Unfair Game
+
+A game consists of a sequence of plays; on each play either you or your
+opponent scores a point, you with probability p (less than 4), he with probability
+1 — p. The number of plays is to be even—2 or 4 or 6 and so on. To win the
+game you must get more than half the points. You know p, say 0.45, and you
+get a prize if you win. You get to choose in advance the number of plays. How
+many do you choose?
+
+Solution for Winning an Unfair Game
+
+Don’t balk just because the game is unfair; after all you are the only one
+eligible for a prize. Let us call you player A and your opponent player B.
+Let the total number of plays be N = 2n. Ona given play, your chance of
+winning a point is p, your opponent’s q = 1 — p.
+
+At first blush, most peopie notice that the game is unfair and therefore
+that, as N increases, the expected value of the difference (A’s points — B’s
+points) grows more and more negative. They conclude that A should
+play as little as he can and still win—that is, two plays.
+
+Had an odd number of plays been allowed, this reasoning based on
+expected values would have led to the correct answer, and A should choose
+only one play. With an even number of plays, two opposing effects are at
+work: (1) the bias in favor of B, and (2) the redistribution of the probability
+in the middle term of the binomial distribution (the probability of a tie)
+as the number of plays increases.
+
+Consider, for a moment, a fair game (p = 4). Then the larger N, the
+larger A’s chance to win because as 2n increases, the probability of a tie tends
+to zero, and the limiting value of A’s chance to win is 4. For N = 2, 4, 6,
+his probabilities are 3, ys, 2%. Continuity suggests that for p slightly less
+
+66

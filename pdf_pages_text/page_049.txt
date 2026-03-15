@@ -1,0 +1,61 @@
+Solution for
+The Hurried Duelers !
+
+Let x and y be the times of arrivals
+measured in parts of an hour from 5 a.m. v
+The shaded region of the figure shows the
+arrival times for which the duelists meet.
+
+The probability that they do not meet
+is (14), and so the fraction of duels in
+which they meet is 4% = }.
+
+ale
+
+No meeting
+
+No meeting
+
+1
+12
+%
+
+aL
+rd
+
+27. Catching the Cautious Counterfeiter
+
+(a) The king’s minter boxes his coins 100 to a box. In each box he puts | false
+coin. The king suspects the minter and from each of 100 boxes draws a random
+coin and has it tested. What is the chance the minter’s peculations go undetected?
+
+(b) What if both 100’s are replaced by 1?
+
+Solution for Catching the Cautious Counterfeiter
+
+(a) P(O false coins) = (1 — zb5)'°° = 0.366.
+
+(b) Let there be n boxes and n coins per box.
+
+For any box the chance that the coin drawn is good is | — 1/n, and since
+there are » boxes,
+
+\"
+P (0 false coins) = (1 - 1 a
+ny
+
+Let us look at this probability for a few values of n.
+
+n P(O false coins)
+1 0
+2 0.250
+3 0.296
+4 0.316
+5 0.328
+10 0.349
+20 0.358
+100 0.366
+1000 0.3677
+w 0.367879 ... = I/e
+
+41

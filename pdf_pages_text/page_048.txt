@@ -1,0 +1,54 @@
+Some Plausible Solutions for
+Lengths of Random Chords
+
+Until the expression “‘at random” is made more specific, the question
+does not have a definite answer. The three following plausible assumptions,
+together with their three different probabilities,
+illustrate the uncertainty in the notion of “at
+
+—————
+random” often encountered in geometrical prob-
+ability problems. (i \/ \
+
+We cannot guarantee that any of these results B
+would agree with those obtained from some
+physical process which the reader might use to \ Wy)
+pick random chords, indeed, the reader may
+enjoy studying empirically whether any do agree.
+
+Let the radius of the circle be r.
+
+(a) Assume that the distance of the chord from the center of the circle
+is evenly (uniformly) distributed from 0 to r. Since a regular hexagon of
+side r can be inscribed in a circle, to get the probability, merely find the
+distance d from the center and divide by the radius. Note that d is the
+altitude of an equilateral triangle of side r. Therefore from plane geometry
+
+we get d = »/r2 — r2/4 = r\/3/2. Consequently, the desired probability
+is
+
+A Cc
+
+rV3/2r = V3/2 = 0.866.
+
+(b) Assume that the midpoint of the chord is evenly distributed over the
+interior of the circle. Consulting the figure again, we see that the chord is
+longer than the radius when the midpoint of the chord is within d of the
+center. Thus all points in the circle of radius d, concentric with the original
+circle, can serve as midpoints of the chord. Their fraction, relative to the
+area of the original circle, is xd?/ar? = d?/r? = } = 0.75. This proba-
+bility is the square of the result we got from assumption (a) above.
+
+(c) Assume that the chord is determined by two points chosen so that
+their positions are independently evenly distributed over the circumference
+of the original circle. Suppose the first point falls at A in the figure. Then
+for the chord to be shorter than the radjus, the second point must fall on the
+arc BAC, whose length is 4 the circumference. Consequently, the probability
+that the chord is longer than the radius is 1 — 4 = 3.
+
+26. The Hurricd Duelers
+
+Duels in the town of Discretion are rarely fatal. There, each contestant comes
+at a random moment between 5 a.M. and 6 A M on the appointed day and leaves.
+exactly 5 minutes later, honor served, unless his opponent arrives within the time
+interval and then they fight. What fraction of duels lead to violence?

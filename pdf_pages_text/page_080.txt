@@ -1,0 +1,49 @@
+differences helps. Let’s look at P(O|n) — P(O|n — 1) for the values of n
+up to 4 (given in the Summary Table):
+
+P(O|1) — Plo) = 0-1 = -1 = -+
+PO) - POll) = 4-O0=+5=4+4)
+P(0)3) ~ PO2)=2-F=-f=-4>
+PO|s) ~ POB)= 2-2=+H=44-
+
+These results suggest that the differences have the form (—1)"/r!. That is,
+P(O\n — r) — PO|n — r — 1) = (-1)"7/(@ — Pt.
+
+When we sum the differences, we get on the left-hand side
+
+Pn — 1) — POO) =~ yt + SU.
+
+Writing P(0|0) in the form 1/0! and transposing it, we get, if the differences
+have the conjectured form,
+
+@) POn- = F-Pt AHH ECD Ey
+
+All we need to do now is to check that this guess works. We get
+
+-1 -1F -1
+® LEG ee eae slew)
+
+i=O t=O
+
+1) -1
+fee nt ) tix y.
+
+t=O i=
+
+Courage, brother!
+This looks like a mess, but it just needs a little petting and patting. The
+sum in expression (4) is made up of terms of the form
+
+Cy
+jit
+
+where the j’s come from the multipliers ahead of the summation signs and
+the i’s from the terms behind. Let us regroup the terms so that i + j isa
+constant. For example, when i + j = 3 (assuming n > 3), we get only
+the terms
+
+-p, (-p?, ey, ep
+
+a a
+
+72

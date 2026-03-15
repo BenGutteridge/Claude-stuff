@@ -1,0 +1,31 @@
+43. The Broken Bar
+
+A bar is broken at random in two places. Find the average size of the
+smallest, of the middle-sized, and of the largest pieces.
+
+44, Winning an Unfair Game
+
+A game consists of a sequence of plays; on each play either you or your
+opponent scores a point, you with probability p (less than 4), he with
+probability 1 — p. The number of plays is to be even—2 or 4 or 6 and so
+on. To win the game you must get more than half the points. You know p,
+say 0.45, and you get a prize if you win. You get to choose in advance the
+number of plays. How many do you choose?
+
+Matching Problems (45 and 46)
+
+45. Average Number of Matches
+
+The following are two versions of the matching problem:
+
+(a) From a shuffled deck, cards are laid out on a table one at a time, face
+up from left to right, and then another deck is laid out so that each of its
+cards is beneath a card of the first deck. What is the average number of
+matches of the card above and the card below in repetitions of this experi-
+ment?
+
+(b) A typist types letters and envelopes to different persons. The letters
+are randomly put into the envelopes. On the average, how many letters are
+put into their own envelopes?
+
+II

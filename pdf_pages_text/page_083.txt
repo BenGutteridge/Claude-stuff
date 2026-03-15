@@ -1,0 +1,57 @@
+slip that has the largest dowry thus far is worth considering; call such a
+dowry a candidate.
+
+I plan now an indifference argument to show that the form of the optimum
+strategy is to pass s — | slips and choose the first candidate thereafter. We
+would choose a candidate at draw / if its probability of winning exceeds the
+probability of winning with the best strategy at a later date; formally choose
+draw i if
+
+(1) P(win with draw i) > P(win with best strategy from i + 1 on).
+
+We shall show that the probability on the right decreases as i increases,
+that the probability on the left increases as i increases, and therefore that a
+draw arrives after which it is preferable to keep a candidate rather than to
+go on. Then we compute the probability of winning with such a strategy
+and finally find its optimum value.
+
+Being young in the game loses us no strategies that are available later,
+because we can always pass slips until we get to the position where we want
+to be. Consequently, the probability on the right-hand side of the inequality
+must decrease or stay constant as i increases. At i = 0 its probability is
+the one we are looking for, the optimum probability, and at i = n — 1 its
+probability is 1/n, because that is the chance of winning with the final draw.
+
+The probability at draw i of a candidate’s being the largest in the entire
+sample is the probability that the maximum is among the first i draws,
+namely i/n, which strictly increases with i from 1/n to 1. Somewhere along
+the line i/n exceeds the probability of winning achievable by going on. The
+form of the optimum strategy can thus be expressed by the rule: let the first
+s — 1 go by and then choose the first candidate thereafter. Let us compute
+the probability of winning with strategies of this form. The probability of a
+win is the probability of there being only one candidate from draw s through
+draw n. The probability that the maximum slip is at draw k is 1/n. The
+probability that the maximum of the first kK — 1 draws appears in the first
+s— lis(s — 1)/(K — 1). The product (s — 1)/{(k — 1)] gives the proba-
+bility of a win at draw k, s < k < n. Summing these numbers gives us the
+probability w(s,”) of picking the true maximum of n by the optimum
+strategy as
+
+| s-1% 1
+(2) mom) = aT a yk
+
+1
+no~1
+
+=ist( | tigg
+Ss
+
+). l<s<n;
+n
+
+since the first draw is always a candidate, (1, ) = 1/n. Note forn = 4,
+s = 2, that +(2,4) = 44, as we got in our example.
+
+75
+
+47

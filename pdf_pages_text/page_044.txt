@@ -1,0 +1,47 @@
+with a final hit by A. Summing the geometric series, we get
+
+(5)3){1 + 65)C7) + [CSC 4-3
+
+(53) _ IS 38 3
+= T= (CC ~~ 3
+
+<6"
+
+Thus hitting B and finishing off with C has less probability of winning for
+A than just missing the first shot. So A fires his first shot into the ground
+and then tries to hit B with his next shot. C is out of luck.
+
+In discussing this with Thomas Lehrer, I raised the question whether
+that was an honorable solution under the code duello. Lehrer replied that
+the honor involved in three-cornered duels has never been established,
+and so we are on safe ground to allow A a deliberate miss.
+
+21. Should You Sample with or without Replacement?
+
+Two urns contain red and black balls, all alike except for color Urn A has2
+reds and 1 black, and Urn B has 101 reds and 100 blacks. An urn is chosen at
+random, and you win a prize if you correctly name the urn on the basis of the
+evidence of two balls drawn from it. After the first ball is drawn and its color
+reported, you can decide whether or not the ball shall be replaced before the
+second drawing. How do you order the second drawing, and how do you
+decide on the urn?
+
+Solution for Should You Sample with or
+without Replacement?
+
+If the first ball drawn is a red, then no matter which urn is being drawn
+from, it now has half red and half black balls, and the second ball provides
+no discrimination. Therefore if red is drawn first, replace it before drawing
+again. If black is drawn, do not replace it. When this strategy is followed,
+the probabilities associated with the outcomes are
+
+Urn A Urn B decide
+2 reds 4-3-3 EZR - Rt = fb Urn A
+red, then black ae ce. $504 -382 = 3 Urn B
+black, then red $4-1 E-3R2-48b = f Urn A
+2 black $°4-0 £482 Be ~ 4 Um B
+
+The total probability of deciding correctly is approximately (replacing 489
+by 4, etc.)
+H$+ 4+ 4+ 4 = RH 064.
+36

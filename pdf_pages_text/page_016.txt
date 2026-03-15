@@ -1,0 +1,35 @@
+28. Catching the Greedy Counterfeiter
+
+The king’s minter boxes his coins n to a box. Each box contains m false
+coins. The king suspects the minter and randomly draws 1 coin from each
+of n boxes and has these tested. What is the chance that the sample of n
+coins contains exactly r false ones?
+
+29. Moldy Gelatin
+
+Airborne spores produce tiny mold colonies on gelatin plates in a labora-
+tory. The many plates average 3 colonies per plate. What fraction of plates
+has exactly 3 colonies? If the average is a large integer m, what fraction of
+plates has exactly m colonies?
+
+30. Evening the Sales
+
+A bread salesman sells on the average 20 cakes on a round of his route.
+What is the chance that he sells an even number of cakes? (We assume the
+sales follow the Poisson distribution.)
+
+Birthday Problems (31, 32, 33, 34)
+
+31. Birthday Pairings
+
+What is the least number of persons required if the probability exceeds 4
+that two or more of them have the same birthday? (Year of birth need not
+match.)
+
+32. Finding Your Birthmate
+
+You want to find someone whose birthday matches yours. What is the
+least number of strangers whose birthdays you need to ask about to have a
+50-50 chance?
+
+8

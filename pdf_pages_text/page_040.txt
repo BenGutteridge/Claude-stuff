@@ -1,0 +1,49 @@
+(b) Note that for a tournament of size 2 they are sure to meet. For
+2? = 4 entries, their chance of meeting is 1/2; for 2? = 8 entries, we have
+computed their chance to be 1/4 = 1/27. Thus a reasonable conjecture is
+that for a tournament of size 2”, their chance of meeting is 1/2"—1.
+
+Let us prove this conjecture by induction. We consider first the case where
+the knights are in opposite halves of the ladder, then the case where they
+are in the same half. The chance that both A and B are in opposite halves
+of the ladder is 2"—1/(2" — 1), as we know from the tennis problem im-
+mediately above. If they are in opposite halves, A and B can meet only in
+the finals. A knight has chance 1/2"—! of getting to the finals because he
+must win n — | jousts. The chance that both A and B make the finals is
+(1/2"-!)? = 1/2?"-?, Therefore the chance of their being in opposite halves
+and meeting is
+
+(r-/a" — 1yK1/2?"-).
+
+To this probability must be added the chance of their being in the same half
+and meeting. Their chance of being in the same half is (2"—! — 1)/Q2" — 1),
+and according to the induction hypothesis, their chance of meeting in a
+tournament of n — 1 rounds is 1/2"—?. If the induction hypothesis is true,
+their total probability of meeting is
+
+arch 1 at. ot
+eo] Jaa + IT
+I
+
+= GopraG tet p=,
+
+which was the induction hypothesis we hoped to verify. That completes the
+induction.
+
+18. An Even Split at Coin Tossing
+When 100 coins are tossed, what is the probability that exactly 50 are heads?
+
+Solution for An Even Split at Coin Tossing
+
+Let us order the 100 coins from left to right, and then toss each one.
+The probability of any particular sequence of 100 tosses, a sequence of 100
+heads and tails, is (4)'°° because the coins are fair and the tosses independent.
+For example, the probability that the first 50 are heads and the second 50 are
+tails is (4)'°°. How many ways are there to arrange 50 heads and 50 tails in
+a row? In the Solution to the Perfect Bridge Hand (Problem 8) we found we
+100!
+
+— . 100)
+could use binomial coefficients to make the count. We get ( so) = s0Is01
+
+32

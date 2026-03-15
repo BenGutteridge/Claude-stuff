@@ -1,0 +1,44 @@
+46. Probabilities of Matches
+
+Under the conditions of the previous matching problem, what is the
+probability of exactly 7 matches?
+
+47. Choosing the Largest Dowry
+
+The king, to test a candidate for the position of wise man, offers him a
+chance to marry the young lady in the court with the largest dowry. The
+amounts of the dowries are written on slips of paper and mixed. A slip is
+drawn at random and the wise man must decide whether that is the largest
+dowry or not. If he decides it is, he gets the lady and her dowry if he is
+correct; otherwise he gets nothing. If he decides against the amount written
+on the first slip, he must choose or refuse the next slip, and so on until he
+chooses one or else the slips are exhausted. In all, 100 attractive young
+ladies participate, each with a different dowry. How should the wise man
+make his decision?
+
+In the previous problem the wise man has no information about the
+distribution of the numbers. In the next he knows exactly.
+
+48. Choosing the Largest Random Number
+
+As a second task, the king wants the wise man to choose the largest number
+from among 100, by the same rules, but this time the numbers on the slips
+are randomly drawn from the numbers from 0 to 1 (random numbers,
+uniformly distributed). Now what should the wise man's strategy be?
+
+49, Doubling Your Accuracy
+
+An unbiased instrument for measuring distances makes random errors
+whose distribution has standard deviationg. You are allowed two measure-
+ments all told to estimate the lengths of two cylindrical rods, one clearly
+longer than the other. Can you do better than to take one measurement on
+each rod? (An unbiased instrument is one that on the average gives the
+true measure.)
+
+50. Random Quadratic Equations
+What is the probability that the quadratic equation
+
+x? +4 2bx+e=0
+has real roots?
+
+12

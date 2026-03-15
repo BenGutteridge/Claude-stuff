@@ -1,0 +1,51 @@
+Solution for Catching the Greedy Counterfeiter
+
+Each of the coins in the king’s sample is drawn from a new box and has
+probability m/n of being counterfeit. The drawings are independent, and
+so we get the binomial! probability for r false (and n — r true) to be
+
+P(r false coins) = (my - “
+
+Let us see what happens when n grows large while r and m are fixed. We
+write P(r false coins) as
+
+la(n—1)---@—r4t]) ., m\" m\"
+nr nt -m(r- 2) - 2) :
+
+As n grows, 1/r! is unchanged, m’ is unchanged,
+
+n(n — 1)++-(a— r+ 1)/n"
+
+tends to 1, (1 - *) tends to e~”, as explained in Problem 27, and
+
+(1 - ) tends to | (again because m and r are fixed). Therefore for
+
+large n
+
+—m ar
+P(r false coins) ~ é
+
+rt
+
+These terms add up to 1, that is,
+—m{1 mm mM —mm
+e ee mel
+
+The series in parentheses is an expansion of e”.
+
+Poisson Distribution
+The distribution whose probabilities are
+
+mp
+Py = S, r=0,1,2,...,
+
+is called the Poisson distribution, and it approximately represents the
+probabilistic behavior of many physical processes.
+
+You might read about the Poisson distribution in M. J. Moroney, Facts
+from figures, 3rd ed., Penguin Books, Ltd., Baltimore, Maryland, 1956,
+pp. 96-107.
+
+43
+
+28

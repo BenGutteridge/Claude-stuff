@@ -1,0 +1,47 @@
+Places that come to mind in 1964 are top of the Empire State Building,
+airports, information desks at railroad stations, Statue of Liberty, Times
+Square. The Statue of Liberty will be eliminated the moment the strangers
+find out how hard it is to get there. Airports suffer from distance from
+town and numerosity. That there are two important railroad stations seems
+to me to remove them from the competition. That leaves the Empire State
+Building or Times Square. I would opt for the Empire State Building,
+because Times Square is getting vaguely large these days. I think their
+problem would have been easier if they had been meeting in San Francisco
+or Paris, don’t you?
+
+13. The Prisoner’s Dilemma
+
+Three prisoners, 4, B, and C, with apparently equally good records have
+applied for parole. The parole board has decided to release two of the three, and
+the prisoners know this but not which two. A warder friend of prisoner A
+knows who are to be released. Prisoner A realizes that it would be unethical to
+ask the warder if he, A, is to be released, but thinks of asking for the name of
+one prisoner other than himself who is to be released He thinks that before he
+asks, his chances of release are §. He thinks that if the warder says “‘B will be
+released,” his own chances have now gone down to 4, because either A and B
+or Band C are to be released. And so A decides not to reduce his chances by
+asking. However, A is mistaken in his calculations Explain.
+
+Solution for The Prisoner’s Dilemma
+
+Of all the problems people write me about, this one brings in the most
+letters.
+
+The trouble with A’s argument is that he has not listed the possible events
+properly. In technical jargon he does not have the correct sample space.
+He thinks his experiment has three possible outcomes: the released pairs
+AB, AC, BC with equal probabilities of 4. From his point of view, that is
+the correct sample space for the experiment conducted by the parole board
+given that they are to release two of the three. But A’s own experiment adds
+an event—the response of the warder. The outcomes of his proposed
+experiment and reasonable probabilities for them are:
+
+1, A and B released and warder says B, probability 4.
+2. Aand C released and warder says C, probability 4.
+3. Band C released and warder says B, probability 4.
+4, Band C released and warder says C, probability 3.
+
+If, in response to A’s question, the warder says “‘B will be released,” then
+the probability for A’s release is the probability from outcome 1 divided by
+
+28

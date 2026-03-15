@@ -1,0 +1,42 @@
+random, let X stand for the position of the first point dropped and Y for the
+position of the second. Then the random pair (X, Y) is uniformly distributed
+over a unit square as in Fig. 2, and probabilities can be measured by areas.
+For example, the probability that X < 0.2 and Y < ©.3 is given by the
+area below and to the left of (0.2, 0.3), and it is 0.2 x 0.3 = 0.06.
+
+% x 1
+
+Fig. 2. Unit square representing Fig. 3. Unshaded area shows where
+probability distribution for a pair of Y> X.
+points (X, Y) dropped on a unit interval.
+
+For convenience, let us suppose that X is to the left of Y, or that X < Y.
+Then the distribution is over the unshaded half-square in Fig. 3. Then
+probabilities are still proportional to areas, but the area must be multiplied
+by 2 to get the probability. If we want to get the average length for the
+segment of smallest length, then note that either X, Y — X, or 1 — Y is
+smallest. Let us suppose X is smallest, so that
+
+X<Y-—X © or, equivalently, 2X < YY,
+and
+X<1- Y _ or, equivalently, X+Y <i.
+
+In Fig. 4, the triangular region meeting all these conditions is shown
+heavily outlined. Although X runs from 0 to 4, it must be averaged over the
+triangular region. The key fact from plane geometry is that the centroid of
+a triangle is 4 of the way from a base toward the opposite vertex. The base
+of interest in the heavily outlined triangle is the one on the Y-axis. The
+altitude parallel to the X-axis is 4. Consequently, the mean of Xis 4-4 = 4.
+Therefore the average value of the smallest segment is 4.
+
+Let’s see what happens if X is the largest. We want
+
+X>Y—X — or, equivalently, 2X > Y,
+and
+
+xX>1-Y or, equivalently, X+Y>1
+
+Figure 5 shows the appropriate quadrilateral region heavily outlined. To
+get its mean for X, we break the quadrilateral into two triangles along the
+
+64

@@ -1,0 +1,48 @@
+The first inequality reduces to: The second inequality reduces to:
+1 1
+@+n(i-d)<an n—1sa(i— 4),
+Nenstlh n<oN.
+
+Combining these results gives usm < N <n + 1, and so either n = Nor
+n = N — 1. When these values are substituted for a in the formula for the
+expected man-days, we get N*(1 — 1/N)¥ and (N — INL — 1/N)N—!,
+which are equal. Since the Nth man adds nothing, N — 1 must be the
+factory size. Since (| — 1/N)* ~ e—', we get at last N?e~! as the approxi-
+mate expected number of days worked. If all N men worked every day, they
+would work N? days, and so e—' is the expected fraction that the actual man-
+days worked is of the potential N? man-days. Thus the fraction is about
+0.37. The factory size is 364, and the man-days worked are roughly 49,000,
+assuming no other absenteeism. The 364th worker adds only 0.37 days to
+the total expectation! Labor must be very cheap in Erewhon.
+
+35. The Cliff-Hanger
+
+From where he stands, one step toward the cliff would send the drunken man
+over the edge. He takes random steps, either toward or away from the cliff. At
+any step his probability of taking a step away is %, of a step toward the cliff 4.
+What is his chance of escaping the cliff?
+
+Solution for The Cliff-Hanger
+
+Before trying to solve a problem, | find it a help to see what is happening.
+Let us see what could happen in the first few steps. The diagram illustrates
+that the man can go over the cliff only on an odd-numbered step. After
+one step, he had a 4 chance of being over the cliff. The path through the
+positions | — 2 — 1 > 0 ade another 3% to the probability of disaster
+for a total of $4. At the end of 5 steps, the paths | + 2+ 1+ 2-1-0
+and | > 23 —+2— 1-0 have together added 54, to the probability
+of disaster for a total of $34. One could extend the table, and one might
+learn something from a further analysis of the probabilities. I turn now toa
+different attack.
+
+This famous random walk problem has many forms. Next, we shall treat
+it as a particle moving along an axis.
+
+Consider a particle initially at position x = 1 on the real line. The
+structure of the problem will be clearer if we let p, rather than 2, be the
+probability of a step to the right. The particle moves from position I either
+to position x = 2 with probability p or to position x = 0 with probability
+
+SI
+
+35

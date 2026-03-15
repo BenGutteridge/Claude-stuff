@@ -1,0 +1,52 @@
+Solution to The Theater Row
+The sequence might be (B for bachelor, M for model)
+
+BBMMBBMBMBMBBMM,
+
+and then 9 BM or MB pairs occur. We want the average number of unlike
+adjacent pairs. To be unlike, we must have BM or MB. Look at the first
+two positions. If they are unlike, we score one marriageadle couple, if
+alike, we score zero. The chance of a marriageable couple in the first two
+
+seats is
+ferve tre te = te
+
+Furthermore 3% is also the expected number of marriageable couples in the
+first two seats because 3(1) + 75(0) = 34. This same calculation applies
+to any adjacent pair. To get the average number of marriageable adjacent
+pairs, we multiply by the number of adjacent pairs, 14, and get 77 as the
+expected number.
+
+More generally, with 6 elements of one kind and m of another, randomly
+arranged in a line, the expected number of unlike adjacent elements is
+
+bm _— mb ,
+(m + bm +b — 1) ° (m+ bm + 6 — 1)
+
+_ _2mb_.
+~m+6
+
+mto- nf
+
+In our example 5 = 8, m = 7, giving 775.
+
+The key theorem used here is that the average of a sum is the sum of the
+averages. We found the average number of marriageable pairs in each
+position, 3% in the example, and added them up for every adjacent pair. A
+derivation of this theorem is given in PWSA pp. 214-216.
+
+16. Will Second-Best Be Runner-Up?
+
+A tennis tournament has 8 players. The number a player draws from a hat
+decides his first-round rung in the tournament ladder See diagram.
+
+Suppose that the best player always defeats the next best and that the latter
+always defeats all the rest. The loser of the finals gets the runner-up cup. What is
+the chance that the second-best player wins the runner-up cup?
+
+Solution for Will Second-Best Be Runner-Up?
+
+4. The second-best player can only get the runner-up cup if he is in the
+half of the ladder not occupied by the best player.
+
+30

@@ -1,0 +1,39 @@
+33. Relating the Birthday Pairings
+and Birthmate Problems
+
+If ry persons compare birthdays in the pairing probiem, the probability is
+Pr that at least 2 have the same birthday. What should x be in the personal
+birthmate problem to make your probability of success approximately Pp?
+
+34. Birthday Holidays
+
+Labor laws in Erewhon require factory owners to give every worker a
+holiday whenever one of them has a birthday and to hire without discrimina-
+tion on grounds of birthdays. Except for these holidays they work a 365-day
+year. The owners want to maximize the expected total number of man-
+days worked per year in a factory. How many workers do factories have in
+Erewhon?
+
+35. The Cliff-Hanger
+
+From where he stands, one step toward the cliff would send the drunken
+man over the edge. He takes random steps, either toward or away from the
+cliff. At any step his probability of taking a step away is %, of a step toward
+the cliff 4. What is his chance of escaping the cliff?
+
+36. Gambler’s Ruin
+
+Player M has $1, and Player N has $2. Each play gives one of the players
+$1 from the other. Player M is enough better than Player N that he wins
+% of the plays. They play until one is bankrupt. What is the chance that
+Player M wins?
+
+37. Bold Play vs. Cautious Play
+
+At Las Vegas, a man with $20 needs $40, but he is too embarrassed to
+wire his wife for more money. He decides to invest in roulette (which he
+doesn’t enjoy playing) and is considering two strategies: bet the $20 on
+“evens” all at once and quit if he wins or loses, or bet on “evens” one dollar
+at a time until he has won or lost $20. Compare the merits of the strategies.
+
+9

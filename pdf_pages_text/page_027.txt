@@ -1,0 +1,48 @@
+The mean number of trials, m, is by definition,
+m = p + 2pq + 3pq? + 4pg? ++.
+Note that our usual trick for summing a geometric series works:
+qm = pq + 2pq? + 3pq? +---.
+Subtracting the second expression from the first gives
+
+m—qm=pt+pqt pt,
+or
+m7 — q) = 1.
+Consequently,
+mp=1, and m= I/p.
+
+In our example, p = 3, and som = 6, as seemed obvious.
+
+1 wanted to do the above algebra in detail because we come up against
+geometric distributions repeatedly. But a beautiful way to do this problem
+is to notice that when the first toss is a failure, the mean number of tosses
+required is | + m, and when the first toss is a success, the mean number is 1.
+Then m = p(1) + Ui + m), orm = 1 + qm, and
+
+m = 1/p.
+
+5. Coin in Square
+
+In a common carnival game a player tosses 2 penny from a distance of about
+5 feet onto the surface of a table ruled in 1-inch squares. If the penny (} inch
+in diameter) falls entirely inside a square, the player receives 5 cents but does
+not get his penny back; otherwise he loses his penny. If the penny lands on the
+table, what is his chance to win? |
+
+Solution for Coin in Square
+
+i”
+
+When we toss the coin onto the
+table, some positions for the center of
+the coin are more likely than others,
+but over a very small square we can
+tegard the probability distribution as
+uniform. This means that the proba-
+bility that the center falls into any
+region of a square is proportional to the Shaded area shows where center
+area of the region, indeed, is the area of coin must fall for player to win.
+
+a]
+Yip.
+
+19

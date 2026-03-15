@@ -1,0 +1,57 @@
+than 4, A should choose a large but finite number of plays. But if p is small,
+N = 2 should be optimum for A. It turns out that for p < 4, N = 2 is
+optimum.
+
+Your probability of winning in a game of 2n trials is the sum of the
+
+probabilities of getting n + 1, + 2,..., 2m points, a sum given by
+2n
+2n\ 2 an
+Pa = >> (?") ore =,
+zantl
+
+In a game of 2n + 2 plays, the probability of winning at least n + 2 points
+
+and the game is
+ente2
+2n+ 2 -
+Ponta = > ( t ) argent? *
+
+rent2
+
+A game composed of 2” + 2 plays can be regarded as having been
+created by adding two plays to a game of 2 plays. Unless player A has won
+either n or n + 1 times in the 2n game, his status as a winner or Joser cannot
+differ in the 2n + 2 game from that in the 2n game.
+
+Except for these two possibilities, P2n,2 would be identical with Pon.
+These exceptions are: (1) having + 1 successes in the first 2n plays, 4
+loses the next two, thus reducing his probability of winning in the 2n + 2
+
+game by
+2 2n n+l _n—1,
+q (, + 1) ime)
+
+or (2) having won n plays in the 2n game, he wins the next two, increasing
+
+his probability by
+2(2n\ nn
+P\ Jeo:
+
+If N = 2n is the optimum value, then both Py_2 < PyandPy > Py+e2
+must hold. The results of the previous paragraph imply that these inequalities
+are equivalent to the following two inequalities:
+
+2 mn ~ 2) non—2 2('n =?) n-1n—-1
+e("; PY SPN, )R oT
+
+10)
+
+n
+
+After some simplifications, which you may wish to verify (we exclude the
+trivial case p = 0), we reduce inequalities (1) to
+
+(2) (a-— lq Smp; gz (nt Ip.
+
+67

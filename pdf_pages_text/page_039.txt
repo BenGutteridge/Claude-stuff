@@ -1,0 +1,36 @@
+First round Second round Finals
+
+4 Winner
+
+Tennis tournament ladder of 8.
+
+In a tournament of 2” players, there are 2"—! rungs in the half (top or
+bottom) of the ladder not occupied by the best player, and 2” — 1 rungs in
+the whole ladder not occupied by the best player. Therefore in a tournament
+of 2" players, the second-best man has probability 2"~1/(2" — 1) of winning
+the runner-up cup.
+
+17. Twin Knights
+
+(a) Suppose King Arthur holds a jousting tournament where the
+jousts are in pairs as in a tennis tournament. See Problem 16 for
+tournament ladder. The 8 knights in the tournament are evenly
+matched, and they include the twin knights Balin and Balan. What
+is the chance that the twins meet in a match during the tournament?
+
+(b) Replace 8 by 2" in the above problem. Now what is the
+chance that they meet?
+
+Solution for Twin Knights
+
+(a) Designate the twins as A and &. Put 4 in the top bracket (first line of
+the ladder). Then 2 is in the same bracket (pair of lines), or in the next
+bracket, or in the bottom half. The chance that B is adjacent to A is 4, and
+then the chance they meet is 1. The chance that B is in the next pair from A
+is #, and then the chance they meet is 3, because, to meet, each must win
+his first match. Finally, the chance that B is in the bottom half is #, and then
+their chance to meet is 1/24 = 7 because both must win 2 matches. Thus
+the total probability of their meeting is
+
+Pith stead
+31

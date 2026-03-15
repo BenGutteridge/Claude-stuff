@@ -1,0 +1,45 @@
+Consequently, the probability of an even split is
+. loo! /1\'°°
+P(even split) = 50850! (!) :
+Evaluating this with logarithms, I get 0.07959 or about 0.08.
+
+Stirling’s Approximation
+
+Sometimes, to work theoretically with large factorials, we use Stirling’s
+approximation
+nl = \/2m nthe",
+
+where e is the base of the natural logarithms. The percentage error in the
+approximation is about 100/12n. Let us use Stirling's approximation on
+the probability of an even split
+
+Vir 10000+4_—100 100 10044
+
+P(even split) ~ = —_———__—__—
+( plit) (2m §0°°+4,—50)29100 V2 5019°5Q(2 2%)
+
+Since 1/1/27 is about 0.4, the approximation gives about 0.08 as we got
+before. More precisely the approximation gives to four decimals 0.0798
+instead of 0.0796.
+
+Stirling’s approximation is discussed in advanced calculus books. For
+one nice treatment see R. Courant, Differential and integral calculus, Vol. 1,
+Translated by E. J. McShane, Interscience Publishers, Inc., New York,
+1937, pp. 361-364.
+
+19, Isaac Newton Helps Samuel Pepys
+
+Pepys wrote Newton to ask which of three events is more likely: that a person
+get (a) at least 1 six when 6 dice are rolled, (b) at least 2 sixes when 12 dice are
+rolled, or (c) at least 3 sixes when 18 dice are rolled What is the answer?
+
+Solution for Isaac Newton Helps Samuel Pepys
+
+Yes, Samuel Pepys wrote Isaac Newton a long, complicated letter about
+a wager he planned to make. To decide which option was the favorable
+one, Pepys needed the answer to the above question. You may wish to
+read the correspondence in American Statistician, Vol. 14, No. 4, Oct., 1960,
+
+33
+
+19

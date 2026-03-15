@@ -1,0 +1,47 @@
+left makes the probability 1 that 6 is between 0 and x/2. We can also write,
+remembering 2/ is the length of the needle,
+
+2(length of needle)
+
+P(needle crosses a parallel) = circumference of circle of radius a”
+
+Why is this problem a favorite? I think because it suggests a relation
+between a pure chance experiment and a famous number x. You could
+actually construct such a table—it needn’t be quite infinite—with rulings,
+say, an inch apart; often ordinary graph paper is so ruled. Get a needlelike
+object, perhaps an inch long, and keep track of the fraction of times the
+needle crosses a line. Then x may be estimated as about 2/(proportion of
+crosses). You won't get close to x very fast this way, and this estimate is
+always a rational number (if you get some crosses), but the charming thing
+is that there is any relation at all between a universal constant like x and a
+chance experiment. Instead of doing this experiment, wait a bit, we'll have a
+better one in Problem 55. If geometrical probabilities interest you, take a
+look at: Joseph Edwards, Treatise on integral calculus, Vol. II, Chelsea
+Publishing Co., New York, 1954 (originally printed by Macmillan in 1922).
+M. G. Kendall and P. A. P. Moran, Geometrical probability, Griffin's Statis-
+tical Monographs and Courses No. 10, Hafner Publishing Company, New
+York, 1963.
+
+54. Buffon’s Needle with Horizontal and Vertical Rulings
+
+Suppose we toss a needle of length 2/ (less than 1) on a grid with both hori-
+zontal and vertical rulings spaced one unit apart. What is the mean number of
+lines the needle crosses? (I have dropped 2a for the spacing because we might
+as well think of the length of the needle as measured in units of spacing )
+
+Solution for Buffon’s Needle with Horizontal
+and Vertical Rulings
+
+The mean number of vertical rulings crossed is the same as the probability
+of crossing a vertical ruling. From the previous problem (with a = 4), it
+is 4//x. The mean number of horizontal rulings crossed must also be 4//r
+because it is the same problem if you turn your head through 90°. The
+mean of a sum is the sum of the means, and so the mean total number of
+crossings is 8//z.
+
+if the needle is of length 1, the mean number of crosses is 4/x ~ 1.27.
+
+Up to now we have worked with needles shorter than the spacing, what
+about longer needles?
+
+87

@@ -1,0 +1,43 @@
+Solution for Curing the Compulsive Gambler
+If Mr. Brown wins once in 36 turns, he is even with the casino. His
+probability of losing all 36 times is (3%)°° ~ 0.383. In a single turn his
+expectation is
+35(¢s) — 148) = — & (dollars),
+and in 36 turns
+
+— =~ = — 1.89 (dollars).
+
+Against Kind Friend, Mr. Brown has an expectation of
++20(0.617) — 20(0.383) = + 4.68 (dollars).
+
+And so all told Mr. Brown gains +4.68 — 1.89 = +2.79 dollars per 36
+trials; he is finally making money at roulette. Possibly Kind Friend will be
+cured first. Of course, when Brown loses all 36, he is out $56, which may
+jolt him a bit.
+
+8. Perfect Bridge Hand
+
+We often read of someone who has been dealt 13 spades at bridge. With a
+well-shuffled pack of cards, what is the chance that you are dealt a perfect hand
+(13 of one suit)? (Bridge is played with an ordinary pack of 52 cards, 13 in each
+of 4 suits, and each of 4 players is dealt 13)
+
+Solution for Perfect Bridge Hand
+
+The chances are mighty slim. Since the cards are well shuffied, we might
+as well deal your 13 off the top. To get 13 of one suit you can start with any
+card, and thereafter you are restricted to the same suit, So the number of
+ways to be dealt 13 of one suit is
+
+52K 12K X1IOXIXBXTX6OXS5SX4X3XK2X1
+= 52 X 121,
+
+The total number of ways to get a bridge hand is
+
+52 X Sl X 50 X 49 X 48 X 47 X 46 X 45
+x 44 X 43 X 42 X 41 X 40 = 521/391.
+
+The desired probability is 52 < 12!/(52!/39!) = 12!39!/5L!. The reciprocal
+gives odds to | against. From 5-place tables of logarithms of factorials
+
+22

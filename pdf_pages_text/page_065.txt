@@ -1,0 +1,54 @@
+of + 100% (0 < 4 < 1) on any net positive income that he has won there.
+It is therefore no harder or easier for him to win y dollars with an initial
+fortune of x than it is for his brother in the Golden Paradise to win y/(1 — 1)
+dollars. The greatest probability with which he can achieve his goal is
+therefore
+
+ay
+
+The Paradise Lost
+
+Here, the croupier collects the tax of ¢ 100% on the positive income, if
+any, of each individual gamble. The gambler here is evidently in no way
+better off than his brother in the Lesser Paradise. In particular, (1) is an
+upper bound on the probability of winning y with an initial fortune of x
+in the Paradise Lost. This probability can be achieved by staking all on a
+single chance as before. However, it cannot be achieved by any strategy that
+has positive probability of employing some gamble that has positive proba-
+bility of winning any positive amount less than y after taxes. To see this,
+consider that the Lesser Paradise brother can imitate any strategy of the
+Paradise Lost brother, setting aside for his own later use whatever the
+croupier takes from the Paradise Lost brother in taxes on small prizes. Thus,
+the former can have a higher expected income than the latter can have on
+any strategy in which he risks winning a small prize.
+
+_ =x
+(= ox+y
+
+Red-and-Black
+
+In Red-and-Black, the gambler can stake any amount in his possession
+against a chance of probability w (0 < w < 4) of winning a prize equal
+to his stake. Put differently, he wins the fair prize of (1 — w)/w times his
+stake subject to an immediate tax of 1 100%, where
+
+pole r®,
+— l=w
+
+Therefore the probability for a gambler in Red-and-Black to win y with an
+initial fortune of x is at most (1), as it is for his brother in Paradise Lost.
+In terms of w, this is
+
+wx
+Q) wx + (1 wy
+
+Moreover, the bound (2) can be achieved only if the gambler in Red-and
+Black can avoid any positive probability of ever winning a positive amount
+less than y on his individual gambles and be sure of either losing exactly x
+or winning exactly y. As is not hard to see, this can occur only if y = x, in
+which case he can win y with a single bold gamble with the probability w
+given by (2).
+
+37
+
+37

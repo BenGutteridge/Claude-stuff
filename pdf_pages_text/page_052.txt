@@ -1,0 +1,56 @@
+29. Moldy Gelatin
+
+Airborne spores produce tiny mold colonies on gelatin plates in a laboratory.
+The many plates average 3 colonies per plate. What fraction of plates has
+exactly 3 colonies? If the average is a large integer m, what fraction of plates
+has exactly m colonies?
+
+Solution for Moldy Gelatin
+
+Regard the surface of a plate as broken into n small equal areas. For
+each area the probability of a colony is p, but the mean number is mp = 3.
+We want tiny areas. As nm grows, p becomes small, because the area of a
+subregion tends to zero. Instead of fixing on a mean number of 3, let us keep
+a general mean, m = np. You may be worrying that in some areas 2 or more
+colonies can occur, but relax, because the little regions will be so small they
+can barely hold one colony. Then the probability of exactly r colonies in n
+small areas is the binomial
+
+n 7, aor
+(") pal — py,
+
+where p = m/n. Replace p by m/n. Then, the formula is our old friend from
+the Greedy Counterfeiter, Problem 28. Let n tend to infinity, and we again
+get the Poisson distribution
+
+—m ar
+
+Py) ="
+
+> r= 0,1,2,....
+
+For m = 3, andr = 3, this yields 0.224.
+You might verify from the definition that m is the mean of the distribution
+as follows:
+
+mean = > xP(x) = m > etm "(x — 1)! = m.
+
+z—O oml
+
+Several good tables of the Poisson are now available:
+
+T. C. Fry, Probability and its engineering uses, D. Van Nostrand Company,
+Inc., Princeton, New Jersey, 1928, pp. 458-467.
+
+T. Kitagawa, Tables of Poisson distribution, Baifukan, Tokyo, Japan,
+1952.
+
+E. C. Molina, Poisson’s exponential binomial limit, D. Van Nostrand
+Company, Inc., Princeton, New Jersey, 1942.
+
+To get the results for a large value of m, where r = m, we could use the
+tables or apply Stirling’s approximation. Stirling’s approximation gives
+
+P(m) = eo m™ ~ eo m™ __! ~ 04.
+m! Vin m™tte™ — Vinm Vm
+

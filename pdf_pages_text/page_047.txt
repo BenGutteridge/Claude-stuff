@@ -1,0 +1,48 @@
+For N = 2n, the probability of x wins for A is (") /. Ifx<n,
+
+the probability of a tie is 2x/N, based on the ballot box result, and for x > n
+it is 20N — x)/N. To get the unconditional probability of a tie, we weight
+the probability of the outcome x by the probability of a tie with x wins and
+sum to get
+
+ome [9(8) + (9) #2 (8) #4 (0)
+
+ad) tay 2) +a
+
+When the binomial coefficients are converted to factorials and their
+coefficients canceled, we find that, except for a missing term which is
+(N = 1i/nla — DE = (” ; '), the sum in brackets would be (% _ ')
+over the possible values of x. Consequently, we can rewrite expression (1)
+as
+
+@) zwei[ em - ("= ')] =1- ("=~ ") [2
+
+The complement of expression (2) gives at last the probability of no tie
+
+(T ') / 2-1, which a little algebra shows can be written (") / 2N
+
+as suggested earlier.
+
+24. The Unfair Subway
+
+Marvin gets off work at random times between 3 and 5 p.m. His
+mother lives uptown, his girl friend downtown. He takes the
+first subway that comes in either direction and eats dinner with the
+one he is first delivered to. His mother complains that he never
+comes to see her, but he says she has a 50-50 chance. He has had
+dinner with her twice in the last 20 working days. Explain.
+
+Solution for The Unfair Subway
+
+Downtown trains run past Marvin's stop at, say, 3:00, 3:10, 3:20, ... ,etc.,
+and uptown trains at 3:01, 3:11, 3:21,.... To go uptown Marvin must
+arrive in the 1-minute interval between a downtown and an uptown train.
+
+25. Lengths of Random Chords
+
+If a chord is selected at random on a fixed circle what is the probability that
+its length exceeds the radius of the circle?
+
+39
+
+25

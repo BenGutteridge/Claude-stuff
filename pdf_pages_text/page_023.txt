@@ -1,0 +1,53 @@
+Solutions for
+Fifty Challenging Problems
+in Probability
+
+1. The Sock Drawer
+
+A drawer contains red socks and black socks. When two socks are drawn at
+random, the probability that both are red is 4 (a) How small can the number
+of socks in the drawer be? (b) How small if the number of black socks is even?
+
+Solution for The Sock Drawer
+
+Just to set the pattern, let us do a numerical example first. Suppose there
+were 5 red and 2 black socks; then the probability of the first sock’s being
+red would be 5/(5 + 2). If the first were red, the probability of the second’s
+being red would be 4/(4 + 2), because one red sock has already been
+removed. The product of these two numbers is the probability that both
+socks are red:
+
+5 x 4 _ 54) _ 10°
+54+2°442 76) 21
+This result is close to $, but we need exactly 4. Now let us go at the problem
+algebraically.
+
+Let there be r red and 6 black socks. The probability of the first sock’s
+being red is r/(r + 5); and if the first sock is red, the probability of the
+second’s being red now that a red has been removed is (r — 1)/(r + 6 — 1).
+Then we require the probability that both are red to be 4, or
+r—l
+
+1
+X>yea1 72
+
+Sf
+
+r+o6
+One could just start with 6 = 1 and try successive values of r, then go to
+6 = 2 and try again, and so on. That would get the answers quickly. Or
+we could play along with a little more mathematics. Notice that
+
+r-1
+
+yHb-1’ for 6 > 0.
+
+r
+r+b7
+
+Therefore we can create the inequalities
+
+r Pol (274 y.
+(-r5) > a> r+6-1 .
+
+15

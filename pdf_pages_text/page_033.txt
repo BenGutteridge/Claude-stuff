@@ -1,0 +1,47 @@
+Cell entries give totals for game of craps
+Throw of green die
+
+12 3 4 +5 6
+1 | 2 4|5l/ 6] 7
+213]/4{/s]e6]7/ 8.
+
+thowor 314/576 | 74] 84 9
+
+reddie 4/5 }/6/]71] 8} 9 | 0
+sie6|/7]/8] 9] wo] u
+6/7/8{9|oln]w
+
+Thus the probability of a win on the first throw is
+
+PO) + Pll) = & + w= &
+
+The probability of a loss on the first throw is
+
+PQ) + PQ) + PUI) = de tak tke = te
+
+For later throws we need the probability of making the point. Since no
+throws except either the point or 7 matter, we can compute for each of these
+the conditional probability of making the point given that it has been thrown
+initially. Sometimes such an approach is called the method of reduced
+sample spaces because, although the actual tosses produce the totals 2 through
+12, we ignore all but the point and 7.
+
+For example, for four as the point, there are 3 ways to make the point
+and 6 ways to make a seven, and so the probability of making the point is
+3/G + 6) = 3/9.
+
+Similarly, we get the conditional probabilities for the other points and
+summarize:
+
+- 3 3 - 5 5
+“sye75 0 6&8 sper
+
+4 4 4 24
+5 4+6. 10 9 446 10
+-5 5 3 3
+& sper 1 37675
+
+Each probability of winning must be weighted by the probability of
+throwing the point on the initial throw to give the unconditional probability
+
+25

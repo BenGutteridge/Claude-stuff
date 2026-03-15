@@ -1,0 +1,52 @@
+Position measured in steps
+from the edge of the cliff
+
+ool 2. 3 4 5 6
+
+LN,
+
+3 L™,;
+
+noe ANA,
+
+" SNS,
+ff oh x
+
+243, 243 243
+
+4
+
+5
+
+Diagram for The Cliff-Hanger showing probabilities of the man’s
+being at various distances from the edge.
+
+1 — p. More generally, if the particle is at position x = n,n > 0, man
+integer, its next move is either to x = n + 1 with probability p or to x =
+n — 1 with probability 1 — p. If the particle ever arrives at x = 0, it is
+absorbed there (takes no further steps). We wish to know the probability,
+P,, that the particle is absorbed at x = 0, given that it starts at x = 1.
+Naturally, the value of P, depends upon p. It seems reasonable that if p
+is near 1, P, is small, but if p is near 0, P; is close to 1.
+
+\-p oP
+0 1 2 3 4 5
+htt tH
+Start
+
+Consider the situation after the first step: either the particle moved left
+to x = 0 and was absorbed (this event has probability 1 — p) or it moved
+right to x = 2 (this event has probability p). Let P2 be the probability of
+the particle’s being absorbed at x = 0 when the particle starts from position
+x = 2. Then we can write
+
+qd) Py=l—pt pP2,
+
+because 1 — p is the probability of absorption at the first step and pP2 is
+the probability of being absorbed later.
+
+Paths leading to absorption from x = 2 can be broken into two parts:
+(1) a path that goes from x = 2 to x = | for the first time (not necessarily
+in one step), and (2) a path from x = 1 to x = 0 (again, not necessarily in
+
+52

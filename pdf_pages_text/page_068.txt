@@ -1,0 +1,45 @@
+While the calculation of the distribution for the length of the leftmost
+segment is easy, and you could get the rightmost one by symmetry, you
+might boggle at finding the distribution for the second or third segment.
+You may have guessed already that they are the same as that for the leftmost
+segment, but most people do not. It is the purpose of the next remarks to
+make that proposition reasonable.
+
+Instead of dropping points on a unit interval, let us drop them on a circle
+of unit circumference; instead of three points, let us drop four and call the
+
+fourth one z.
+¥
+
+10
+Zz
+
+Four points dropped on a circle of unit circumference.
+
+Thus, the points x, y, w are dropped at random on a unit interval as before,
+but it does not have a scale on it. We drop the fourth point z, also at random.
+The four points have all been treated alike, and the four segments of the
+circle, here (zx), (xy), (yw), and (wz), arise from a process equitable to all
+segments. Imagine dropping four points many times and each time getting
+the distance from z to the first counterclockwise point, from there to the next,
+and so on. Then we would generate four distributions of segment lengths,
+and these distributions would be alike across many drops of 4 points.
+
+Now for each drop, cut the circle at z, and straighten it into a unit interval
+labeling the ends 0 and 1 as implied by the figure. The drop of four points
+on a circle using z as a cut is equivalent to a drop of three points on the unit
+interval.
+
+Although you may still have lingering doubts, we shall not give a formal
+proof, but we do state the principle.
+
+PRINCIPLE OF SYMMETRY: When n points are dropped at random on an
+interval, the lengths of the n + 1 line segments have identical distributions.
+
+39. The Clumsy Chemist
+
+In a laboratory, each of a handful of thin 9-inch glass rods had one tip marked
+with a blue dot and the other with a red. When the laboratory assistant tripped
+and dropped them onto the concrete floor, many broke into three pieces. For
+these, what was the average length of the fragment with the blue dot?
+

@@ -1,0 +1,47 @@
+Third, suppose the original problem were extended so that you wanted
+the least number to achieve at least one pair of either identical birthdays or
+adjacent birthdays (December 31 is adjacent to January 1). Try this problem
+on your own.
+
+32, Finding Your Birthmate
+
+You want to find someone whose birthday matches yours. What is the least
+number of strangers whose birthdays you need to ask about to have a 50-50
+chance?
+
+Solution for Finding Your Birthmate
+
+I think this personal birthmate problem is what most persons think of
+when they are asked about Birthday Pairings, Problem 31. From their
+notions about the personal birthmate problem stems their surprise at r = 23
+for the previous problem. In the current birthmate problem it is of no use
+to you if two other persons have the same birthday unless it matches yours.
+For this problem most people reason that the number should be about half
+of 365 or, say, 183. Since they have confused the pairings problem with this
+one, they regard 23 as very small.
+
+While good marks should be given for 183 for the birthmate problem to
+persons working it in their heads, even here that number is not close to the
+correct value because the sampling of births is done with replacement. If
+your first candidate is born on the Fourth of July, that does not use up the
+date, and later candidates may also be born on that date. Indeed, each
+candidate’s chance to miss matching your birthday is (N — 1)/N, where
+N = 365, the number of days in a year. When you examine n people, the
+probability that none of them have your birthday is [(N — 1)/NJ", and so
+the probability that at least one matches is
+
+(4) Pg=1— (54.
+
+We need to find the smallest 1 so that Ps is at least 3. The logarithm of
+364 is 2.56110, of 4 is —0,30103.
+
+If we solve the resulting problem in logarithms, we find that n should be
+253, quite a bit more than 183.
+
+Alternatively, we could use again the approximation
+
+N=-1_
+
+chs a
+
+48

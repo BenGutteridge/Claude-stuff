@@ -1,0 +1,55 @@
+to evaluate the probability of no like birthdays in the form
+
+N!
+(N— PINe’
+The following data help:
+jog 365! = 778.39975 log 365 = 2.56229286
+r = 20, log 345! = 727.38410
+r= 21, log 344! = 72484628
+r = 22, log 343! = 722.30972
+r = 23, log 342! = 719.77442
+r = 24, log 341! = 717.24040
+r = 25, log 340! = 714.70764
+
+A short bout with tables of logarithms shows that for r = 23 the probability
+of at least one success is 0.5073, but for r = 22 the probability is 0.4757.
+Thus r = 23 is the least number that gives a 50-50 chance of getting some
+like birthdays. Most persons are surprised that the number required is so
+small for they expected about 365/2. We discuss that notion in our next
+problem, but let us do a bit more with the current one.
+
+First, the table gives probabilities of at least one pair of like birthdays
+for various values of r:
+
+r 5 10 20 23 30
+Pr | 0.027 | 0.117 | 0.411 | 0.507 | 0.706
+
+40 60
+
+0.994
+
+0.891
+
+Second, let us learn a tricky way to approximate the probability of failure.
+
+Recall that
+2 x?
+
+il a
+
+If x were very small, then the terms beyond 1 — x would not amount to
+much. Consequently, for small values of x we might approximate e~* by
+1 — x or, as in what follows, 1 — x by e~7. Note that M(N — 1)---
+(N — r+ 1)/N" is a product of factors (N — k)/N, where k is much
+smaller than N. These factors can be written as 1 — k/N, whereOQ < k <r.
+Therefore
+
+NIN = lees (Nort 1)/N" we eT lOt +e FG— DUN
+
+= eT DI2N
+
+To see the approximation in action, try it on r = 23 and get about 0.500
+instead of 0.507. Or set r(r — 1)/2(365) equal to —log.0.5 = 0.693 and
+solve for r.
+
+47

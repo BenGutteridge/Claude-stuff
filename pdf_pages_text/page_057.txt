@@ -1,0 +1,47 @@
+Then we require approximately
+
+Pg= 1 — eT = 4,
+Consequently,
+enY = h
+
+Taking natural logarithms gives us
+
+n/N = 0.693,
+n = 0.693N.
+
+And for N = 365,” = 253.
+This birthmate problem is easier to solve than the pairings problem, and
+so it would be nice to have a relation between the two answers.
+
+33. Relating the Birthday Pairings and Birthmate
+Problems
+If r persons compare birthdays in the pairings problem, the probability is
+
+Pr that at least 2 have the same birthday. What should 7 be in the personal
+birthmate problem to make your probability of success approximately Pr?
+
+Solution for Relating the Birthday Pairings
+and Birthmate Problems
+
+Essentially, the issue is the number of opportunities for paired birthdays.
+In the birthmate problem, # persons offer 1 opportunities to find your own
+birthmate. In the birthday-pairings problem, each individual compares his
+own birthday with r — | others. The number of such pairs among r persons
+is r(r — 1)/2, and that is the number of opportunities for like birthdays.
+To get approximately the same probability in the two problems, we should
+have
+
+(1) nz rr — 19/2.
+
+For example, when r = 23, 1 should be about 23(22)/2=253, which
+agrees exactly with our findings in the two previous problems.
+
+Those who wish to pursue this further might see “Understanding the
+birthday problem,” Mathematics Teacher, Vol. 55, 1962, pp. 322-5.
+
+In the previous two problems we found that, for n much less than N, the
+probability of not finding one’s own birthmate among a people is approxi-
+mately e—"/"_ Similarly, we found in the birthday-pairings problem that,
+for r small compared with N, the probability of not finding a pair with
+
+49

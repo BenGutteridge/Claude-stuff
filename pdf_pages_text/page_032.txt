@@ -1,0 +1,54 @@
+another. Its numerical value is given in terms of factorials:
+
+(5) = f=
+2) ~ WH TKXTXIXIKI
+
+More generally with n things, a of one kind and m — a of another, the
+number of arrangements is
+0) zat
+~ al(n — a)!
+
+In our problem the number of ways to choose 13 cards is
+(2) - 2.
+13/ 13139!
+
+13!
+The number of ways to get 13 spades is (33) = Bio 7 1, because O! = I.
+
+We multiply by 4 because of the 4 suits, and the final probability is 4 X
+13139! /52!, as we already found.
+Binomial coefficients are discussed in PWSA, pp. 33-39.
+
+10.
+
+9. Craps
+
+The game of craps, played with two dice, is one of America’s fastest and
+most popular gambling games. Calculating the odds associated with it is an
+instructive exercise.
+
+The rules are these. Only totals for the two dice count The player throws the
+dice and wins at once if the total for the first throw is 7 or 11, loses at once if it
+is 2, 3, or 12. Any other throw is called his “point.” If the first throw is a
+point, the player throws the dice repeatedly until he either wins by throwing his
+point again or loses by throwing 7. What is the player’s chance to win?
+
+Solution for Craps
+
+The game is surprisingly close to even, as we shall see, but slightly to the
+player’s disadvantage.
+
+Let us first get the probabilities for the totals on the two dice. Regard
+the dice as distinguishable, say red and green. Then there are 6 X 6 = 36
+possible equally likely throws whose totals are shown in the table (next
+page).
+
+By counting the cells in the table we get the probability distribution of
+the totals:
+
+Total 2345 678 9 0 1 12
+P(total) to ts ts de ts ts ds ds ts te ve
+
+Here P means “‘probability of.”
+
+24

@@ -1,0 +1,51 @@
+Solution for Doubling Your Accuracy
+
+Yes. Let A be the true length of the longer one, B that for the shorter.
+You could lay them side by side and measure their difference in length,
+A — B, and then lay them end to end and measure the sum of their lengths,
+A+B.
+
+Let D be your measurement of A — B, Sof A + B. Then an estimate of
+A is $(D + S), and of B is 4S — D). Now D = A — B + d, where d
+is a random error, and S = A + B+ s, where s is a random error.
+Consequently,
+
+HD+ 5) = WA- BEAL B+ d+) = At 4G+9.
+
+On the average, the error $(d + s) is zero because both d and s have mean
+zero. The variance of the estimate of A is the variance of $(d + s), whichis
+403 + 02) = 4? + 0”) = 407. This value is identical with the variance
+for the average of a sample of two independent measurements. Thus both
+our measurements have contributed their full value to measuring A. In the
+same manner you can show that the variance of the estimate of B is also $07.
+Consequently, taking two measurements, one on the difference and one on
+the sum, gives estimates whose precision is equivalent to that where 4
+measurements are used, two on each rod separately.
+
+To achieve such good results, we must be able to align the ends of the
+rods perfectly. If we cannot, instead of two alignments for each measure-
+ment, we have three. If each alignment contributes an independent error with
+standard deviation ¢/+/2, then one measurement of the sum or difference
+has standard deviation o+4/3/2. Then the variance of our estimate of A
+
+wou be ile? + fo") = do? = o/h
+
+Under these assumptions our precision is only as good as 14 independent
+measurements instead of 2, but still better than a single direct measurement.
+
+We may rationalize the assignment of standard deviation o/./2 to each
+alignment by thinking of s (or d) as composed of the sum of two independent
+unbiased measurement errors, each having variance ¢?/2. Then the sum of
+the component errors would produce the variance assumed earlier of 77.
+When we also assign the third alignment the variance o?/2, our model is
+completed.
+
+You can read about variances of means and sums of independent variables
+in PWSA, pp. 318-322.
+
+50. Random Quadratic Equations
+What is the probability that the quadratic equation
+x? + 2bx+c¢=0
+has real roots?
+
+80
