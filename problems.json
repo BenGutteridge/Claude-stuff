@@ -1,0 +1,32 @@
+[
+  {
+    "number": 1,
+    "title": "The Sock Drawer",
+    "question": "A drawer contains red socks and black socks. When two socks are drawn at random, the probability that both are red is 1/2. (a) How small can the number of socks in the drawer be? (b) How small if the number of black socks is even?",
+    "answer": "Let there be r red and b black socks. The probability of drawing two red socks is:\n\n    r/(r+b) × (r-1)/(r+b-1) = 1/2\n\nNote that r/(r+b) > (r-1)/(r+b-1) for b > 0, so squaring the middle term 1/√2 gives:\n\n    (r/(r+b))² > 1/2 > ((r-1)/(r+b-1))²\n\nTaking square roots: r/(r+b) > 1/√2 > (r-1)/(r+b-1)\n\nFrom the first inequality: r > (√2+1)b\nFrom the second: (√2+1)b+1 > r\nSo: (√2+1)b + 1 > r > (√2+1)b\n\nFor b=1, r must be between 2.414 and 3.414, so r=3. Check: P(2 red) = 3/4 × 2/3 = 1/2. ✓\n(a) Smallest total = 4 socks (3 red, 1 black).\n\nFor even b:\n  b=2: r between 4.8 and 5.8 → r=5, P = 5×4/(7×6) = 20/42 ≠ 1/2\n  b=4: r between 9.7 and 10.7 → r=10, P = 10×9/(14×13) = 90/182 ≠ 1/2\n  b=6: r between 14.5 and 15.5 → r=15, P = 15×14/(21×20) = 210/420 = 1/2 ✓\n(b) Smallest total with b even = 21 socks (15 red, 6 black).\n\nNote: Further solutions follow from Pell's equation, e.g. r=85, b=35."
+  },
+  {
+    "number": 2,
+    "title": "Successive Wins",
+    "question": "To encourage Elmer's promising tennis career, his father offers him a prize if he wins (at least) two tennis sets in a row in a three-set series to be played with his father and the club champion alternately: father-champion-father or champion-father-champion, according to Elmer's choice. The champion is a better player than Elmer's father. Which series should Elmer choose?",
+    "answer": "Let f = probability Elmer beats his father, c = probability Elmer beats the champion, with f > c. The prize-winning sequences and their probabilities are:\n\n  Father first (F-C-F):          Champion first (C-F-C):\n  WWW: fcf                       WWW: cfc\n  WWL: fc(1-f)                   WWL: cf(1-c)\n  LWW: (1-f)cf                   LWW: (1-c)fc\n  Total: fc(2-f)                 Total: fc(2-c)\n\nSince f > c, we have 2-f < 2-c, so fc(2-c) > fc(2-f). Elmer should choose CFC (champion-father-champion).\n\nFor example with f=0.8, c=0.4: P(win|FCF) = 0.384, P(win|CFC) = 0.512.\n\nIntuitively: Elmer must win the middle set regardless, and he has a better chance of winning that set when it is against his father. The advantage of having the easier opponent in the middle outweighs playing the champion twice."
+  },
+  {
+    "number": 3,
+    "title": "The Flippant Juror",
+    "question": "A three-man jury has two members each of whom independently has probability p of making the correct decision and a third member who flips a coin for each decision (majority rules). A one-man jury has probability p of making the correct decision. Which jury has the better probability of making the correct decision?",
+    "answer": "The two juries have the same probability of a correct decision.\n\nIn the three-man jury, consider the cases:\n- Both serious jurors agree on the correct decision: probability p × p = p². The coin-flipper's vote is irrelevant. This contributes p² to the total.\n- The serious jurors split (one correct, one wrong): probability p(1-p) + (1-p)p = 2p(1-p). The coin-flipper breaks the tie correctly half the time, contributing 2p(1-p) × 1/2 = p(1-p).\n\nTotal probability of correct decision by three-man jury:\n  p² + p(1-p) = p² + p - p² = p\n\nThis equals the one-man jury's probability p. Neither jury is better."
+  },
+  {
+    "number": 4,
+    "title": "Trials until First Success",
+    "question": "On the average, how many times must a die be thrown until one gets a 6?",
+    "answer": "The answer is 6. Let p = 1/6 be the probability of rolling a 6, and q = 1-p = 5/6. The probability of first success on trial k is pq^(k-1). These sum to 1 (verified by geometric series).\n\nThe mean number of trials m is:\n  m = p + 2pq + 3pq² + 4pq³ + ···\n  qm =     pq + 2pq² + 3pq³ + ···\nSubtracting: m - qm = p + pq + pq² + ··· = p/(1-q) = p/p = 1\n  m(1-q) = 1,  so  mp = 1,  and  m = 1/p.\n\nWith p = 1/6, m = 6.\n\nAlternative derivation: if the first toss fails (probability q), the expected total becomes 1+m; if it succeeds (probability p), it's 1. So m = p(1) + q(1+m) = 1 + qm, giving m = 1/p."
+  },
+  {
+    "number": 5,
+    "title": "Coin in Square",
+    "question": "In a common carnival game a player tosses a penny from a distance of about 5 feet onto the surface of a table ruled in 1-inch squares. If the penny (3/4 inch in diameter) falls entirely inside a square, the player receives 5 cents but does not get his penny back; otherwise he loses his penny. If the penny lands on the table, what is his chance to win?",
+    "answer": "The penny has radius 3/8 inch. For it to lie entirely within a 1-inch square, its centre must not come within 3/8 inch of any edge. This means the centre must fall within a smaller square of side 1 - 2×(3/8) = 1/4 inch, centred in each grid square.\n\nSince probabilities are proportional to areas, the probability of winning is:\n  (1/4)² / (1)² = 1/16 ≈ 6.25%\n\n(This already ignores the chance the coin falls off the table, which makes the true probability smaller.)\n\nNote: the squares can be made effectively smaller by thickening the grid lines. If the lines are 1/16 inch wide, the winning central area has side 1/4 - 1/16 = 3/16 inch, reducing the probability to (3/16)² = 9/256 < 1/28."
+  }
+]
