@@ -201,5 +201,85 @@
     "solution_pages": [47, 48],
     "question": "If a chord is selected at random on a fixed circle, what is the probability that its length exceeds the radius of the circle?",
     "answer": "The problem is not well-defined until \"at random\" is specified. Three natural interpretations give three different answers, illustrating Bertrand's paradox.\n\nLet the circle have radius r. A chord longer than r corresponds to a central angle greater than 60°, i.e. a chord that subtends more than 1/6 of the circumference at each endpoint.\n\n(a) Distance from center uniformly distributed on [0, r]:\nA regular hexagon of side r inscribed in the circle has its sides at distance d = r√3/2 from the center. The chord exceeds r iff its distance from the center is less than r√3/2.\n  P = r√3/2 ÷ r = √3/2 ≈ 0.866\n\n(b) Midpoint of chord uniformly distributed over the disk interior:\nThe chord exceeds r iff its midpoint lies within a concentric circle of radius r√3/2 (= d from case a).\n  P = π(r√3/2)² / πr² = 3/4 = 0.75\n\n(c) Endpoints independently uniformly distributed on the circumference:\nFix one endpoint at A. The chord exceeds r iff the second endpoint falls on an arc of length 2/3 of the circumference (the arc more than 60° away on each side).\n  P = 2/3 ≈ 0.667\n\nAll three answers are mathematically valid under their respective assumptions. The problem illustrates that \"random\" must be precisely defined in geometric probability."
+  },
+  {
+    "number": 26,
+    "title": "The Hurried Duelers",
+    "question_pages": [15],
+    "solution_pages": [49],
+    "question": "Duels in the town of Discretion are rarely fatal. There, each contestant comes at a random moment between 5 A.M. and 6 A.M. on the appointed day and leaves exactly 5 minutes later, honor served, unless his opponent arrives within the time interval and then they fight. What fraction of duels lead to violence?",
+    "answer": "Let x and y be the arrival times of the two duelers, measured in minutes after 5 A.M., each uniform on [0, 60]. They meet (and fight) if and only if |x - y| ≤ 5.\n\nOn the 60 × 60 unit square of equally likely (x, y) pairs, the region where they do NOT meet consists of two triangles (one where x > y + 5, one where y > x + 5), each with legs of length 55. Their combined area is 2 × (1/2) × 55² = 55² = 3025.\n\nP(no meeting) = 3025 / 3600 = (55/60)²\n\nFraction of duels leading to violence:\n  P = 1 - (55/60)² = (60² - 55²) / 60² = (5 × 115) / 3600 = 575/3600 = 23/144 ≈ 0.160\n\nAbout 16% of duels lead to violence.\n\nMore generally, with a T-minute window and t-minute wait:\n  P = 1 - ((T - t)/T)² = 1 - (1 - t/T)²."
+  },
+  {
+    "number": 27,
+    "title": "Catching the Cautious Counterfeiter",
+    "question_pages": [15],
+    "solution_pages": [49, 50],
+    "question": "(a) The king's minter boxes his coins 100 to a box. In each box he puts 1 false coin. The king suspects the minter and from each of 100 boxes draws a random coin and has it tested. What is the chance the minter's peculations go undetected?\n\n(b) What if both 100's are replaced by n?",
+    "answer": "(a) Each drawn coin comes from a different box and has probability 1/100 of being the false one in that box. The 100 draws are independent, so:\n  P(0 false coins in sample) = (99/100)^100 ≈ e^{-1} ≈ 0.366\n\nThe minter escapes detection with probability about 36.6%.\n\n(b) With n boxes each containing 1 false coin out of n:\n  P(0 false in sample) = ((n-1)/n)^n → 1/e as n → ∞\n\nSelected values:\n  n=1: 0, n=2: 0.250, n=3: 0.296, n=4: 0.316, n=10: 0.349, n=100: 0.366, n=1000: 0.368, n→∞: 1/e ≈ 0.368\n\nThe probability increases toward 1/e as n grows. For any large n, the cautious counterfeiter has roughly a 37% chance of escaping detection — a surprisingly comfortable margin."
+  },
+  {
+    "number": 28,
+    "title": "Catching the Greedy Counterfeiter",
+    "question_pages": [16],
+    "solution_pages": [50, 51],
+    "question": "The king's minter boxes his coins n to a box. Each box contains m false coins. The king suspects the minter and randomly draws 1 coin from each of n boxes and has these tested. What is the chance that the sample of n coins contains exactly r false ones?",
+    "answer": "Each sampled coin comes from a different box and has probability m/n of being counterfeit. Since the draws are independent, the exact probability is binomial:\n  P(r false coins) = C(n, r) × (m/n)^r × (1 - m/n)^{n-r}\n\nAs n grows large with m and r fixed, this approaches the Poisson distribution:\n  P(r false coins) ≈ e^{-m} m^r / r!\n\nThe Poisson distribution with mean m arises as the limit of the binomial when n → ∞ with mean np = m fixed. The probabilities sum to 1:\n  e^{-m} Σ_{r=0}^{∞} m^r/r! = e^{-m} × e^m = 1\n\nThis distribution approximately represents many physical processes where events are rare and independent (\"many coins, each with a small chance of being counterfeit\")."
+  },
+  {
+    "number": 29,
+    "title": "Moldy Gelatin",
+    "question_pages": [16],
+    "solution_pages": [52, 53],
+    "question": "Airborne spores produce tiny mold colonies on gelatin plates in a laboratory. The many plates average 3 colonies per plate. What fraction of plates has exactly 3 colonies? If the average is a large integer m, what fraction of plates has exactly m colonies?",
+    "answer": "Model each colony as an independent Poisson event. The Poisson distribution with mean m gives:\n  P(r colonies) = e^{-m} m^r / r!\n\nFor m = 3, r = 3:\n  P(3) = e^{-3} × 27 / 6 = 9e^{-3}/2 ≈ 0.224\n\nAbout 22.4% of plates have exactly 3 colonies.\n\nFor a large integer m, P(m) = e^{-m} m^m / m!. By Stirling's approximation (m! ≈ √(2πm) × m^m × e^{-m}):\n  P(m) ≈ e^{-m} m^m / (√(2πm) m^m e^{-m}) = 1/√(2πm) ≈ 0.4/√m\n\nNumerical check:\n  m=4:  P(4) = 0.1954, 0.4/√4 = 0.200\n  m=9:  P(9) = 0.1318, 0.4/√9 = 0.133\n  m=16: P(16) = 0.0992, 0.4/√16 = 0.100\n\nThe Stirling approximation is quite accurate even for moderate m."
+  },
+  {
+    "number": 30,
+    "title": "Evening the Sales",
+    "question_pages": [16],
+    "solution_pages": [53],
+    "question": "A bread salesman sells on the average 20 cakes on a round of his route. What is the chance that he sells an even number of cakes? (We assume the sales follow the Poisson distribution.)",
+    "answer": "Most people guess about 1/2, and for large m they are essentially right.\n\nWith Poisson mean m, sum over all even r to find P(even):\n(A)  1 = e^{-m} e^m = e^{-m}(1 + m/1! + m²/2! + m³/3! + m⁴/4! + ···)\n(B)  e^{-2m} = e^{-m} e^{-m} = e^{-m}(1 - m/1! + m²/2! - m³/3! + m⁴/4! - ···)\n\nAdding (A) and (B), the odd-power terms cancel and the even-power terms double:\n  1 + e^{-2m} = 2 e^{-m} × (sum over even r of m^r/r!)\n  P(even number of cakes) = (1 + e^{-2m})/2\n\nFor m = 20: P(even) = (1 + e^{-40})/2 ≈ 1/2.\n\nThe probability is extremely close to 1/2 (the e^{-40} correction is negligible).\n\nNote: for a Poisson with mean m = 1 (one special birthday cake per trip on average), P(even) = (1 + e^{-2})/2 ≈ 0.568 — noticeably above 1/2."
+  },
+  {
+    "number": 31,
+    "title": "Birthday Pairings",
+    "question_pages": [16],
+    "solution_pages": [54, 55, 56],
+    "question": "What is the least number of persons required if the probability exceeds 1/2 that two or more of them have the same birthday? (Year of birth need not match.)",
+    "answer": "Assume 365 equally likely birthdays (ignoring leap years). The probability that r people all have different birthdays:\n  P(no match) = 365/365 × 364/365 × 363/365 × ··· × (365-r+1)/365 = N(N-1)···(N-r+1)/N^r\n\nwhere N = 365. The probability of at least one matching pair:\n  P_R = 1 - N(N-1)···(N-r+1)/N^r\n\nUsing tables of logarithms of factorials:\n  r = 22: P_R = 0.4757 (less than 1/2)\n  r = 23: P_R = 0.5073 (exceeds 1/2)\n\nThe answer is r = 23.\n\nMost people expect the answer to be near 183 (= 365/2), but 23 is surprisingly small.\n\nA table of P_R for various r:\n  r:   5      10     20     23     30     40     60\n  P_R: 0.027  0.117  0.411  0.507  0.706  0.891  0.994\n\nApproximation: P(no match) ≈ e^{-r(r-1)/(2N)}, so P_R ≈ 1 - e^{-r(r-1)/730}. Setting equal to 1/2 gives r(r-1) ≈ 505, r ≈ 23."
+  },
+  {
+    "number": 32,
+    "title": "Finding Your Birthmate",
+    "question_pages": [16],
+    "solution_pages": [56, 57],
+    "question": "You want to find someone whose birthday matches yours. What is the least number of strangers whose birthdays you need to ask about to have a 50-50 chance?",
+    "answer": "Each person asked has probability (N-1)/N = 364/365 of NOT matching your birthday, independently of the others (sampling with replacement — two people can share a birthday). The probability that none of n people matches your birthday:\n  P(no match) = ((N-1)/N)^n = (364/365)^n\n\nWe need the smallest n with P_S = 1 - (364/365)^n ≥ 1/2:\n  (364/365)^n ≤ 1/2\n  n × log(364/365) ≤ log(1/2)\n  n ≥ log(2) / log(365/364) ≈ 0.693 × 365 ≈ 252.7\n\nSo n = 253.\n\nUsing the approximation (N-1)/N ≈ e^{-1/N}: e^{-n/N} ≈ 1/2 gives n ≈ N × ln 2 ≈ 365 × 0.693 ≈ 253. ✓\n\nThis surprises people who confuse it with Problem 31 and guess n ≈ 23. The key difference: in Problem 31, every pair among r people compares birthdays; here only you compare against each of n others."
+  },
+  {
+    "number": 33,
+    "title": "Relating the Birthday Pairings and Birthmate Problems",
+    "question_pages": [17],
+    "solution_pages": [57, 58],
+    "question": "If r persons compare birthdays in the pairing problem, the probability is P_R that at least 2 have the same birthday. What should n be in the personal birthmate problem to make your probability of success approximately P_R?",
+    "answer": "The key is the number of opportunities for a birthday match.\n\nIn the birthmate problem with n strangers, you compare your birthday against each of n people: n opportunities.\n\nIn the birthday pairings problem with r people, every individual compares with every other: r(r-1)/2 pairs, and thus r(r-1)/2 opportunities for a match.\n\nTo get approximately the same probability in both problems, set:\n  n ≈ r(r-1)/2\n\nFor example, r = 23 gives n ≈ 23 × 22/2 = 253, which agrees exactly with the answers to Problems 31 and 32.\n\nMore formally: for small probabilities, P_R ≈ 1 - e^{-r(r-1)/(2N)} and P_S ≈ 1 - e^{-n/N}. These are equal when n/N = r(r-1)/(2N), i.e. n = r(r-1)/2."
+  },
+  {
+    "number": 34,
+    "title": "Birthday Holidays",
+    "question_pages": [17],
+    "solution_pages": [58, 59],
+    "question": "Labor laws in Erewhon require factory owners to give every worker a holiday whenever one of them has a birthday and to hire without discrimination on grounds of birthdays. Except for these holidays they work a 365-day year. The owners want to maximize the expected total number of man-days worked per year in a factory. How many workers do factories have in Erewhon?",
+    "answer": "Let N = 365, n = number of workers. A given day is a working day iff no worker has a birthday on that day. The probability of this is (1 - 1/N)^n. Since there are N days, the expected man-days worked per year is:\n  f(n) = n × N × (1 - 1/N)^n\n\nTo maximize over n, compare f(n) with f(n+1) and f(n-1):\n  f(n+1) ≤ f(n) ⟹ (n+1)(1-1/N) ≤ n ⟹ N ≤ n+1\n  f(n-1) ≤ f(n) ⟹ n-1 ≤ n(1-1/N) ⟹ n ≤ N\n\nCombining: n ≤ N ≤ n+1, so the optimal n is N-1 = 364.\n\nExpected man-days = 364 × 365 × (364/365)^{364} ≈ 365² × e^{-1} ≈ 49,000.\n\n(Since (1 - 1/N)^N ≈ e^{-1}, the fraction of the theoretical maximum N² = 133,225 man-days actually worked is about e^{-1} ≈ 37%.)\n\nThe factory size is 364 workers. Labor must be very cheap in Erewhon."
+  },
+  {
+    "number": 35,
+    "title": "The Cliff-Hanger",
+    "question_pages": [17],
+    "solution_pages": [59, 60, 61],
+    "question": "From where he stands, one step toward the cliff would send the drunken man over the edge. He takes random steps, either toward or away from the cliff. At any step his probability of taking a step away is 2/3, of a step toward the cliff 1/3. What is his chance of escaping the cliff?",
+    "answer": "Let P_1 = probability of eventually falling off (absorption at x = 0), starting from position x = 1. Let p = probability of a step away from the cliff (p = 2/3 here), 1-p = probability of step toward the cliff.\n\nAfter one step: the man either falls (probability 1-p) or moves to x = 2 (probability p). From x = 2, absorption requires first returning to x = 1 (probability P_1, by translational symmetry) and then from x = 1 to x = 0 (probability P_1). So P_2 = P_1².\n\nThus:\n  P_1 = (1-p) + p P_1²\n\nRearranging: p P_1² - P_1 + (1-p) = 0, with solutions:\n  P_1 = 1   or   P_1 = (1-p)/p\n\nFor p ≤ 1/2: (1-p)/p ≥ 1, which is impossible for a probability, so P_1 = 1 (certain absorption).\nFor p > 1/2: (1-p)/p < 1, and by continuity, P_1 = (1-p)/p.\n\nFor p = 2/3:\n  P_1 = (1/3)/(2/3) = 1/2\n\nThe man falls off the cliff with probability 1/2, so his chance of escaping is also 1/2.\n\n(Note: for an unbiased random walk, p = 1/2, and P_1 = 1 — certain absorption — which is a famous and surprising result of random walk theory.)"
   }
 ]
