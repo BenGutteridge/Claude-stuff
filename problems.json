@@ -281,5 +281,86 @@
     "solution_pages": [59, 60, 61],
     "question": "From where he stands, one step toward the cliff would send the drunken man over the edge. He takes random steps, either toward or away from the cliff. At any step his probability of taking a step away is 2/3, of a step toward the cliff 1/3. What is his chance of escaping the cliff?",
     "answer": "Let P_1 = probability of eventually falling off (absorption at x = 0), starting from position x = 1. Let p = probability of a step away from the cliff (p = 2/3 here), 1-p = probability of step toward the cliff.\n\nAfter one step: the man either falls (probability 1-p) or moves to x = 2 (probability p). From x = 2, absorption requires first returning to x = 1 (probability P_1, by translational symmetry) and then from x = 1 to x = 0 (probability P_1). So P_2 = P_1².\n\nThus:\n  P_1 = (1-p) + p P_1²\n\nRearranging: p P_1² - P_1 + (1-p) = 0, with solutions:\n  P_1 = 1   or   P_1 = (1-p)/p\n\nFor p ≤ 1/2: (1-p)/p ≥ 1, which is impossible for a probability, so P_1 = 1 (certain absorption).\nFor p > 1/2: (1-p)/p < 1, and by continuity, P_1 = (1-p)/p.\n\nFor p = 2/3:\n  P_1 = (1/3)/(2/3) = 1/2\n\nThe man falls off the cliff with probability 1/2, so his chance of escaping is also 1/2.\n\n(Note: for an unbiased random walk, p = 1/2, and P_1 = 1 — certain absorption — which is a famous and surprising result of random walk theory.)"
+  },
+  {
+    "number": 36,
+    "title": "Gambler's Ruin",
+    "question_pages": [17],
+    "solution_pages": [62, 63],
+    "question": "Player M has $1, and Player N has $2. Each play gives one of the players $1 from the other. Player M is enough better than Player N that he wins 2/3 of the plays. They play until one is bankrupt. What is the chance that Player M wins?",
+    "answer": "This is a special case of the general Gambler's Ruin problem. Player M starts with m units, Player N with n units; on each play M wins with probability p and loses with probability q = 1-p; they play until one is bankrupt.\n\nLet Q = P(M loses). From the Cliff-Hanger result (Problem 35), M playing against a bank with infinite resources would go bankrupt with probability (q/p)^m. In the finite game, Q and the complementary probability 1-Q both satisfy absorption conditions, giving:\n  (q/p)^m = Q + (1-Q)(q/p)^{m+n}\n\nSolving for P = 1 - Q = P(M wins):\n  P = [1 - (q/p)^m] / [1 - (q/p)^{m+n}]    (p ≠ 1/2)\n  P = m / (m+n)                               (p = q = 1/2)\n\nFor our problem: p = 2/3, q = 1/3, m = 1, n = 2.\n  q/p = (1/3)/(2/3) = 1/2\n  P = [1 - (1/2)^1] / [1 - (1/2)^3] = (1/2) / (7/8) = 4/7\n\nM wins with probability 4/7 ≈ 0.571.\n\nNote: for even players (p = q = 1/2), P = 1/(1+2) = 1/3. So it is better to be twice as good a player (4/7 ≈ 0.571) than to be twice as wealthy (1/3 ≈ 0.333). Skill dominates initial capital."
+  },
+  {
+    "number": 37,
+    "title": "Bold Play vs. Cautious Play",
+    "question_pages": [17],
+    "solution_pages": [64, 65, 66],
+    "question": "At Las Vegas, a man with $20 needs $40, but he is too embarrassed to wire his wife for more money. He decides to invest in roulette (which he doesn't enjoy playing) and is considering two strategies: bet the $20 on \"evens\" all at once and quit if he wins or loses, or bet on \"evens\" one dollar at a time until he has won or lost $20. Compare the merits of the strategies.",
+    "answer": "Bold play (one bet of $20 on evens): American roulette has 18 even numbers out of 38.\n  P(bold win) = 18/38 = 9/19 ≈ 0.474\n\nCautious play ($1 at a time, gambler's ruin with m = n = 20, p = 18/38, q = 20/38):\n  q/p = 20/18 = 10/9\n  P = [1 - (10/9)^20] / [1 - (10/9)^40] ≈ (8.23 - 1) / (67.7 - 1) ≈ 0.11\n\nCautious play reduces the chance of reaching the goal to less than one-fourth that of bold play. Bold play is far superior when you need to reach a target and the game is unfavorable.\n\nThe intuitive explanation: bold play is also fast play, and fast play reduces the exposure of money to the house's percentage. The Dubins–Savage theorem (from their book \"How to Gamble If You Must\") shows that for any unfavorable game where you want to reach a target, bold play — staking everything (or as much as needed) on a single bet — is optimal among all strategies.\n\nTheoretical note: In a fair game (the \"Golden Paradise\"), betting fortune x on winning y additional dollars achieves probability x/(x+y) — the best possible. In an unfavorable game (\"Paradise Lost\" or \"Red-and-Black\"), the analogous maximum probability of winning y starting with x is wx/(wx + (1-w)y), where w is the probability of winning each bet. This maximum is achieved only by bold play."
+  },
+  {
+    "number": 38,
+    "title": "The Thick Coin",
+    "question_pages": [18],
+    "solution_pages": [66, 67],
+    "question": "How thick should a coin be to have a 1/3 chance of landing on edge?",
+    "answer": "Model the coin as embedded in a sphere: the probability of any outcome is proportional to the surface area of the corresponding zone. For P(edge) = 1/3, the edge zone must cover 1/3 of the sphere's surface. Since the surface area of a spherical zone is proportional to its height, the edge band has height (1/3) × 2R = 2R/3, so the coin's half-thickness equals (1/3)R.\n\nLet R = sphere radius and r = coin radius. By the Pythagorean theorem (the coin sits at the equator of the sphere):\n  R² = r² + (R/3)²\n  R² = r² + R²/9\n  8R²/9 = r²\n  (1/3)R = (√2/4)r ≈ 0.354r\n\nFull coin thickness = 2 × (R/3) = (√2/2)r.\nAs a fraction of coin diameter:\n  thickness / diameter = (√2/2)r / (2r) = √2/4 ≈ 0.354 ≈ 35%.\n\nThe coin should be about 35% as thick as its diameter.\n\nFor example, an ordinary quarter has diameter ≈ 24 mm, so it would need to be ≈ 8.5 mm thick — roughly like a hockey puck. The problem assumes the coin's surface properties match the sphere model; in practice the result should be validated empirically."
+  },
+  {
+    "number": 39,
+    "title": "The Clumsy Chemist",
+    "question_pages": [18],
+    "solution_pages": [69],
+    "question": "In a laboratory, each of a handful of thin 9-inch glass rods had one tip marked with a blue dot and the other with a red. When the laboratory assistant tripped and dropped them onto the concrete floor, many broke into three pieces. For these, what was the average length of the fragment with the blue dot?",
+    "answer": "By the Principle of Symmetry for random breaks: when a rod breaks at random into n pieces, all n pieces have identical distributions and the same mean length.\n\nThe rod broke at 2 random points, producing 3 pieces: the blue-dotted end piece, the middle piece, and the red-dotted end piece. By the symmetry principle, all three have the same mean length. Since the total length is 9 inches:\n  Mean length of each piece = 9/3 = 3 inches.\n\nThe average length of the blue-dotted fragment is 3 inches."
+  },
+  {
+    "number": 40,
+    "title": "The First Ace",
+    "question_pages": [18],
+    "solution_pages": [69],
+    "question": "Shuffle an ordinary deck of 52 playing cards containing four aces. Then turn up cards from the top until the first ace appears. On the average, how many cards are required to produce the first ace?",
+    "answer": "Apply the Principle of Symmetry: the 4 aces divide the deck into 5 segments (before the first ace, between aces 1 and 2, between aces 2 and 3, between aces 3 and 4, and after the last ace). By symmetry, these 5 segments have identical distributions and the same mean. Since there are 48 non-ace cards in total:\n  Mean segment length = 48/5 = 9.6 cards.\n\nThe first ace appears after 9.6 non-ace cards on average, so it is the 10.6th card turned up on average.\n\nAlternatively: the expected position of the 1st of 4 aces in a random arrangement of 52 cards is (52+1)/(4+1) = 53/5 = 10.6. ✓"
+  },
+  {
+    "number": 41,
+    "title": "The Locomotive Problem",
+    "question_pages": [18],
+    "solution_pages": [69, 70, 71, 72],
+    "solution_type": "discussion",
+    "question": "(a) A railroad numbers its locomotives in order, 1, 2, ..., N. One day you see a locomotive and its number is 60. Guess how many locomotives the company has.\n\n(b) You have looked at 5 locomotives and the largest number observed is 60. Again guess how many locomotives the company has.",
+    "answer": "There is no single correct answer — the problem illustrates several estimation methods.\n\n(a) One locomotive observed, number = 60:\n  - Symmetry/unbiased estimate: The observed locomotive's number should be near the middle of [1, N], so estimate N ≈ 2×60 - 1 = 119.\n  - Maximum likelihood: The value of N that makes observation 60 most probable is N = 60 (the smallest N for which 60 could be observed).\n  - 50% confidence bound: P(n > N/2) = 1/2, so we can say N > 120 at 50% confidence, or equivalently N ≤ 120 with 50% confidence.\n\n(b) 5 locomotives observed, largest = 60:\n  - Symmetry estimate: the 5 observed numbers and the unknown end N divide the range into 6 segments. The last segment (from 60 to N) should have the same mean as the others. Average gap ≈ 60/5 = 11, so N ≈ 60 + 11 = 71.\n  - Maximum likelihood: N = 60 (observed maximum).\n  - Unbiased estimate: m × (k+1)/k = 60 × 6/5 = 72, where m is the maximum observed and k is the number of observations.\n\nConfidence methods: P(n > N/2) ≥ 1/2 for any N, so 2n > N is a statement that is right more than half the time. For higher confidence (at least 2/3 sure), use 3n ≥ N, giving N ≤ 180.\n\nThe maximum likelihood estimate (just guess the largest number seen) is appealing for wanting to be exactly right occasionally, at the cost of systematic underestimation in the long run."
+  },
+  {
+    "number": 42,
+    "title": "The Little End of the Stick",
+    "question_pages": [18],
+    "solution_pages": [72],
+    "question": "(a) If a stick is broken in two at random, what is the average length of the smaller piece?\n\n(b) (For calculus students.) What is the average ratio of the smaller length to the larger?",
+    "answer": "(a) The break point is uniformly distributed along the stick. It is equally likely to fall in the left half or the right half. If it falls in the left half, the smaller piece is on the left and its average length is half of the left half = 1/4 of the stick. By symmetry the same holds if the break is in the right half. So the average length of the smaller piece is 1/4 of the total length.\n\n(b) Suppose the break falls at position x, uniform on [0,1]. By symmetry, condition on the break being in [1/2, 1] (smaller piece = 1-x, larger = x, ratio = (1-x)/x). The average ratio is:\n  2 ∫_{1/2}^{1} (1-x)/x dx = 2 ∫_{1/2}^{1} (1/x - 1) dx = 2[ln x - x]_{1/2}^{1}\n  = 2[(0 - 1) - (ln(1/2) - 1/2)] = 2[-1 + ln 2 + 1/2] = 2 ln 2 - 1 ≈ 0.386.\n\nThe average ratio of the smaller piece to the larger is 2 ln 2 - 1 ≈ 0.386, not 1/3 as naive intuition suggests."
+  },
+  {
+    "number": 43,
+    "title": "The Broken Bar",
+    "question_pages": [19],
+    "solution_pages": [72, 73, 74],
+    "question": "A bar is broken at random in two places. Find the average size of the smallest, of the middle-sized, and of the largest pieces.",
+    "answer": "Work with a bar of unit length broken at two random points x < y, uniform on the unit square. By the Principle of Symmetry, the three pieces each have mean 1/3, but we want the means of the ordered pieces (smallest, middle, largest).\n\nUsing geometric probability on the unit square (the two break points are uniform on [0,1]×[0,1]), one must find the regions where each piece is smallest, middle-sized, or largest, and integrate accordingly.\n\nThe mean lengths of the three pieces in increasing order of size are proportional to:\n  smallest:  (1/3)(1/3)             = 1/9  ≈ 0.111\n  middle:    (1/3)(1/3 + 1/2)       = 5/18 ≈ 0.278\n  largest:   (1/3)(1/3 + 1/2 + 1)  = 11/18 ≈ 0.611\n\nCheck: 1/9 + 5/18 + 11/18 = 2/18 + 5/18 + 11/18 = 1 ✓\n\nMore generally, if a bar is broken into n pieces, the average lengths in increasing order of size are proportional to:\n  kth smallest: (1/n)(1/n + 1/(n-1) + ... + 1/(n-k+1))  for k = 1, 2, ..., n\n\nFor example, the largest piece has mean (1/n)(1/n + 1/(n-1) + ... + 1/2 + 1).\n\n(The book notes: \"But I have no easy proof of this\" general formula.)"
+  },
+  {
+    "number": 44,
+    "title": "Winning an Unfair Game",
+    "question_pages": [19],
+    "solution_pages": [74, 75, 76],
+    "question": "A game consists of a sequence of plays; on each play either you or your opponent scores a point, you with probability p (less than 1/2), he with probability 1-p. The number of plays is to be even — 2 or 4 or 6 and so on. To win the game you must get more than half the points. You know p, say 0.45, and you get a prize if you win. You get to choose in advance the number of plays. How many do you choose?",
+    "answer": "Intuition says choose 2 plays (minimise exposure to the unfair game), but this is wrong when the number of plays must be even.\n\nLet N = 2n. Your probability of winning is:\n  P_{2n} = Σ_{x=n+1}^{2n} C(2n, x) p^x q^{2n-x}\n\nFor large N with p < 1/2, P_{2n} → 0 because the opponent's expected lead grows. However, the probability of a tie C(2n,n)(pq)^n → 0 too, so the redistribution of the tie probability matters.\n\nComparison of P_{2n} with P_{2n+2} shows that P_{2n+2} > P_{2n} iff nq > (n+1)p, i.e., n > p/(q-p) = p/(1-2p). The optimal 2n satisfies:\n  1/(1-2p) - 1 ≤ 2n ≤ 1/(1-2p) + 1\n\nUnless 1/(1-2p) is an odd integer, N is uniquely determined as the nearest even integer to 1/(1-2p).\n\nFor p = 0.45: 1/(1-0.9) = 1/0.1 = 10. So choose N = 10 plays.\n\nSurprisingly, a moderately large number of plays is optimal, not just 2. The tie-redistribution effect benefits the underdog for moderate N."
+  },
+  {
+    "number": 45,
+    "title": "Average Number of Matches",
+    "question_pages": [19],
+    "solution_pages": [76, 77],
+    "question": "The following are two versions of the matching problem:\n\n(a) From a shuffled deck, cards are laid out on a table one at a time, face up from left to right, and then another deck is laid out so that each of its cards is beneath a card of the first deck. What is the average number of matches of the card above and the card below in repetitions of this experiment?\n\n(b) A typist types letters and envelopes to n different persons. The letters are randomly put into the envelopes. On the average, how many letters are put into their own envelopes?",
+    "answer": "The expected number of matches is 1, regardless of n (or deck size).\n\nFor a deck of n cards: define X_i = 1 if card i matches (card in position i of deck 1 equals card in position i of deck 2), X_i = 0 otherwise. Each pair has probability 1/n of matching:\n  E(X_i) = 1 × (1/n) + 0 × (1 - 1/n) = 1/n.\n\nBy linearity of expectation:\n  E(total matches) = E(Σ X_i) = Σ E(X_i) = n × (1/n) = 1.\n\nFor a standard 52-card deck: E = 52 × (1/52) = 1.\nFor the typist with n letters: E = n × (1/n) = 1.\n\nThe answer is always 1, regardless of n. Note that the X_i are NOT independent (they are negatively correlated: if many cards match, others are less likely to), but linearity of expectation requires no independence assumption."
   }
 ]
