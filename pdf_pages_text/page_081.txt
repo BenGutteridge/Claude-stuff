@@ -1,0 +1,54 @@
+If we multiply this by 3!, it becomes the more familiar
+
+3, t,t
+on tia -ant ao’
+
+which can be written in binomial coefficient notation:
+
+-()+()-@ +6):
+
+And the latter is just an expansion of (x + y)® when x = —1 and y = 1,
+another way of saying that the sum is zero because (—1 + 1)° = 0 = 0.
+
+This binomial-expansion trick can be applied for each i+ j = r for
+r= 1,2,...,m, and for each r we get a sum of zero. For r = 0, we get
+just one term (—1)°/(0!0!) = 1. Consequently, we have verified that the
+conjectured solution (3) satisfies eq. (2).
+
+Could other solutions satisfy eq. (2)? No. Our technique was just an
+easy way to check eq. (2). We could with a bit more bother have solved for
+P(O|n), after setting in our guess for P(O|1),..., P(O| — 1), thus achieving
+a more formal induction proof.
+
+Finally, substituting the result (3) into result (1), we can write
+
+1/1 td 1"
+Pom = 4(4 ta 14 EVN),
+
+When n — r is large, the parentheses contain many terms in the series
+expansion of e~!, and so
+
+P(r|n) = ces, for n — r large.
+
+We foresaw initially a close relation between the probability of r matches in
+the matching problem and that for a count of r in the Poisson problem with
+mean equal to 1. For close agreement, we have found that n — r needs to
+be large, not just m as we originally conjectured.
+
+The probability of 0 matches then is about e~! ~ 0.368 for large n.
+
+47, Choosing the Largest Dowry
+
+The king, to test a candidate for the position of wise man, offers him a chance
+to marry the young lady in the court with the largest dowry. The amounts of the
+dowries are written on slips of paper and mixed. A slip is drawn at random and
+the wise man must decide whether that is the largest dowry or not. If he decides
+it is, he gets the lady and her dowry if he is correct; otherwise he gets nothing.
+If he decides against the amount written on the first slip, he must choose or
+refuse the next slip, and so on until he chooses one or else the slips are exhausted.
+In all, 100 attractive young ladies participate, each with a different dowry. How
+should the wise man make his decision?
+
+73
+
+47

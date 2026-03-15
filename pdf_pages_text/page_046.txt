@@ -1,0 +1,44 @@
+probability that the first ballot is a B is just
+
+>).
+
+a+b
+But there are just as many tie sequences resulting from the first ballot’s
+being an A. Thus the probability of a tie is exactly
+
+. 2b 2
+PW) = EB PET
+where r = a/b, We note that when a is much larger than 6, that is, when r
+gets large, the probability of a tie tends to zero (a result that is intuitively
+reasonable). And the formula holds when 5 = a, because we must have a
+tie and the formula gives unity as the probability.
+
+23. Ties in Matching Pennies
+
+Players A and B match pennies N times They keep a tally of their gains and
+losses. After the first toss, what is the chance that at no time during the game
+will they be even?
+
+Solution for Ties in Matching Pennies
+
+Below we extend the method described in the Solution for The Ballot
+Box, Problem 22, to show that the probability of not getting a tie is (for N
+odd and N even)
+
+P(no tie) = ("= \ [2 N=2n+1,
+
+P(no tie) = (*) / 2, N = 2n.
+
+The formulas show that the probability is the same for an even N and for
+the following odd number N + 1. For example, when N = 4, the second
+formula applies. The 16 possible outcomes are
+
+*AAAA BAAA ABBA BABB
+*AAAB AABB BABA *BBAB
+*AABA ABAB BBAA *BBBA
+ABAA BAAB ABBB *BBBB
+
+where the star indicates that no tie occurs Since the number of combinations
+of 4 things taken 2 at a time is 6, the formula checks,
+
+38

@@ -1,0 +1,49 @@
+31. Birthday Pairings
+
+What is the least number of persons required if the probability exceeds 4
+é " that two or more of them have the same birthday? (Year of birth need not
+a RS match.)
+
+Solution for Birthday Pairings
+
+The usual simplifications are that February 29 is ignored as a possible
+birthday and that the other 365 days are regarded as equally likely birth
+dates.
+
+Let us solve a somewhat more general problem. Let N be the number of
+equally likely days, r the number of individuals, and iet us compute the
+probability of no like birthdays. Then we can get the probability of at
+least one pair of like birthdays by taking the complement.
+
+There are N days for the first person to have a birthday, N — | for the
+second so that he does not match the first, N — 2 for the third so that he
+matches neither of the first two, and so on down to N — r + 1 for the rth
+person. Then apply the multiplication principle and find the number of
+ways for no matching birthdays to be
+
+ay MN — 1)--*(N—7r+1), 7 factors.
+
+To get the probability of no matching birthdays we also need the number
+of ways r people can have birthdays without restriction. There are N ways
+for each person. Then the multiplication principle says that the total number
+of different ways the birthdays can be assigned to r people is
+
+103) Nt.
+
+The number in expression (1) divided by that in expression (2) is the
+probability of no like birthdays, because we assume that all birthdays and
+therefore all ways of assigning birthdays are equally likely. The complement
+of this ratio is the probability of at least one pair of like birthdays.
+
+Thus
+
+Pp = P (at least 1 matching pair)
+
+@) = 1— MN = 1)05*(N— 7+ DN
+
+To evaluate expression (3) for large values of N such as 365 requires some
+courage or, better, some good tables of logarithms. T. C. Fry in Probability
+and its engineering uses, D. Van Nostrand Company, Inc., Princeton, New
+Jersey, 1928, gives tables of logarithms of factorials, and so it is convenient
+
+46

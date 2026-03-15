@@ -1,0 +1,49 @@
+In this discussion I have not tried to use casual information such as “it’s
+a large company, and so it must have at least 100 locomotives, but it couldn’t
+possibly have 100,000.” Such information can be useful.
+
+42, The Little End of the Stick
+
+(a) If a stick is broken in two at random, what is the average length of the
+smaller piece?
+
+(b) (For calculus students.) What is the average ratio of the smaller length to
+the larger?
+
+Solution for The Little End of the Stick
+
+(a) Breaking “‘at random” means that all points of the stick are equally
+likely as a breaking point (uniform distribution). The breaking point is just
+as likely to be in the left half as the right half. If it is in the left half, the
+smaller piece is on the left; and its average size is half of that half, or one-
+fourth the length of the stick. The same sort of argument applies when the
+break is in the right half of the stick, and so the answer is one-fourth of the
+length.
+
+(b) We might suppose that the point fell in the right-hand half. Then
+(1 — x)/x is the fraction if the stick is of unit length. Since x is evenly distri-
+buted from $ to 1, the average value, instead of the intuitive 4, is
+
+1
+I-x, 1
+2f, x dx 2fi( 1) ax
+
+= 2log.2 — 1 = 0.386.
+
+43. The Broken Bar
+
+A bar is broken at random in two places. Find the average size of the smallest,
+of the middle-sized, and of the largest pieces.
+
+Solution for The Broken Bar
+
+We might as well work with a bar of unit length. Let x and y be the
+positions of the two breaking points, x the leftmost one (Fig. 1). We know
+from the principle of symmetry that each of the three segments (left, middle,
+and right) averages 4 of the length in repeated drops of two points. But we
+are asked about the smallest one, for example. If we drop two points at
+
+0 v y 1
+Fig. 1. Interval with break points x and y.
+
+63

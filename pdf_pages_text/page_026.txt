@@ -1,0 +1,47 @@
+3. The Flippant Juror
+
+A three-man jury has two members each of whom independently has proba-
+bility p of making the correct decision and a third member who flips a coin
+for each decision (majority rules) A one-man jury has probability p of making
+the correct decision. Which jury has the better probability of making the correct
+decision?
+
+Solution for The Flippant Juror
+
+The two juries have the same chance of a correct decision. In the three-
+man jury, the two serious jurors agree on the correct decision in the fraction
+p X p = p’ of the cases, and for these cases the vote of the joker with the
+coin does not matter. In the other correct decisions by the three-man jury,
+the serious jurors vote oppositely, and the joker votes with the “correct”
+juror. The chance that the serious jurors split is p(1 — p) + (1 — p)p or
+2p(1 — p). Halve this because the coin favors the correct side half the time.
+Finally, the total probability of a correct decision by the three-man jury is
+p? + p(l — p) = p? + p — p’ = p:p, which is identical with the prob-
+ability given for the one-man jury.
+
+4. Trials until First Success
+
+On the average, how many times must a die be thrown until one gets a 6?
+
+Solutions for Trials until First Success
+
+It seems obvious that it must be 6. To check, let p be the probability of a
+6 on a given trial. Then the probabilities of success for the first time on each
+trial are (letg = 1 — p):
+
+Probability of
+
+Trial :
+success on trial
+1 P
+Pq
+2
+
+3 Pq
+
+The sum of the probabilities is
+
+ptt to =p +qtgt-)
+P/( — 9) = p/p = 1.
+
+18

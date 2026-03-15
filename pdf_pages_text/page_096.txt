@@ -1,0 +1,50 @@
+55. Long Needles
+
+In the previous problem let the needle be of arbitrary length, then what is the
+mean number of crosses?
+
+Solution for Long Needles
+
+Let the needle be divided into n pieces of equal lengths so that all are less
+than 1. If we toss each of these little needles at random, each will have a
+mean number of crosses obtained from the previous problem. The mean
+of the sum is the sum of the means, and so their expected number of crosses
+is 4(original length)/x. The fact that the needle was not tossed as a rigid
+structure does not matter to the mean.
+
+For purposes of estimating x the experiment of tossing a long needle on a
+grid of squares represents a substantial improvement over the original Buffon
+problem. Why not get some graph paper and try it? I used a toothpick and
+graph paper ruled in half-inch squares. The toothpick was 5.2 half-inches
+jong. I decided on 10 tosses, got 8, 6, 7, 6, 5, 6, 7, 5, 5, 7 crosses, totaling
+62. My estimate for x is 4(5.2)/(62/10) = 3.35, instead of 3.14. A friend
+of mine also made 10 tries, producing 67 crosses, yielding the estimate 3.10.
+
+56. Molina’s Urns
+
+Two urns contain the same total numbers of balls, some blacks and some
+whites in each. From each urn are drawn n ( > 3) balls with replacement. Find
+the number of drawings and the composition of the two urns so that the proba-
+bility that all white balls are drawn from the first urn is equal to the probability
+that the drawing from the second is either all whites or all blacks.
+
+Discussion for Molina’s Urns
+
+E. C. Molina invented this problem to display Fermat’s famous conjec-
+ture in number theory as a probability problem.
+
+Let z be the number of white balls in the first urn, x the number of whites
+and y the number of blacks in the second. Then we want to find integers
+n, x, y, and z so that
+
+(5) - G5) + 5)
+
+z= x® 4 yr
+
+or
+
+Although, for many values of n, it is known that this equation cannot be
+satisfied, it is not known whether it is impossible for all values of n > 3.
+But it is known to be impossible for n < 2000.
+
+88

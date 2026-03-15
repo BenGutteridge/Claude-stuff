@@ -1,0 +1,44 @@
+The problem of an exact upper bound and optimum strategies for the
+gambler in Red-and-Black who wants to win an amount different from x
+is more difficult and will not be entered into here.
+
+38. The Thick Coin
+How thick should a coin be to have a 4 chance of landing on edge?
+
+Solution for The Thick Coin
+
+On first hearing this question, the late great mathematician, John von
+Neumann, was unkind enough to solve it—including a 3-decimal answer—
+in his head in 20 seconds in the presence of some unfortunates who had
+
+labored much longer.
+_w
+
+This problem has no definite answer without some simplifying con-
+ditions. The elasticity of the coin, the intensity with which it is tossed, and
+the properties of the surface on which it lands combine to make the real-
+life question an empirical one.
+
+-— Edge
+
+Edge
+P Edge
+. Tails
+“S Heads
+Heads
+Coin falls on edge Coin falls on face
+
+The simplifying conditions that spring to mind are those that correspond
+to inscribing the coin in a sphere, where the center of the coin is the center
+of the sphere. The coin itself is regarded as a right circular cylinder. Then
+a random point on the surface of the sphere is chosen. If the radius from
+that point to the center strikes the edge, the coin is said to have fallen on
+edge.
+
+To simulate this in reality, the coin might be
+tossed in such a way that it fell on a thick sticky
+substance that would grip the coin when it K —-— Zone
+touched, and then the coin would slowly settle Nee
+to its edge or its face.
+
+58

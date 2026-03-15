@@ -1,0 +1,40 @@
+Solution for Random Quadratic Equations
+
+To make this question meaningful, we shall suppose that the point (b, c)
+is randomly chosen from a uniform distribution over a large square centered
+at the origin, with side 2B (see the figure). We solve the problem for a given
+value of B; then we let B grow large so that b and c can take any values.
+
+For the quadratic to have real roots, we must have
+
+BP-—~c>O.
+
+In the figure, we plot the parabola b? = c and show the regions in the
+square, for B = 4, where the original equation has real roots.
+
+Regions yielding complex and
+real roots. Shaded region gives
+real roots; unshaded, complex.
+
+It is an easy exercise in calculus to show that the area of the unshaded
+region is $B7 (for B > 1), and, of course, the whole square has area 4B?.
+Consequently, the probability of getting complex roots is 1/(3\/B). When
+B = 4, the result is 3. As B grows large, 1/+/B tends to zero, and so the
+probability that the roots are real tends to 1!
+
+I should warn you that the problem we have just solved is not identical
+with that for ax? + 26x +c = 0. You might think you could divide
+through by a. You can, but if the old coefficients a, b, c were independently
+uniformly distributed over a cube, then b/a and c/a are neither uniformly
+nor independently distributed.
+
+51. Two-Dimensional Random Walk
+
+Starting from an origin O, a particle has a 50-50 chance of moving 1 step north
+or 1 step south, and also a 50-50 chance of moving | step east or 1 step west.
+After the step is taken, the move is repeated from the new position and so on
+indefinitely. What is the chance that the particle returns to the origin?
+
+81
+
+51

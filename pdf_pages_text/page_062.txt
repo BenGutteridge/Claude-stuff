@@ -1,0 +1,49 @@
+tinuity, for p > 4 we have P, = (1 — p)/p. Therefore our cliff-hanging
+man has probability 4 of falling over the cliff.
+
+To give another interpretation, if a gambler starting with one unit of
+money (x = 1) could and did play indefinitely against a casino with in-
+finitely large resources a fair game (p = 4) in which he wins or loses one
+unit on each play, he would be certain to lose his money (P; = 1). To have
+an even chance of not going bankrupt, he must have p = 3.
+
+That bankruptcy is certain for p = 4 is surprising for most of us. We
+usually suppose that if the trials of a game are ‘“‘fair” (average loss is zero),
+then the whole game is fair. Indeed, this supposition is ordinarily correct.
+If we imagine this game, with p = 4, being played infinitely many times,
+then the average amount of money on hand after a plays is |, for every
+finite number n. So the unfairness is one of those paradoxes of the infinite.
+Another surprise for p = 4 is that the average number of trials required for
+absorption is not finite. The case p = } is indeed strange and deep.
+
+You may enjoy applying the technique given here to a particle that starts
+at x = m, rather than x = 1, and generalizing the above results to show
+that the probability of absorption from position m is [(1 — p)/p]” or |
+depending on whether p is greater or less than 4. When p > 4 and m is
+large, it is extremely plausible that the particle escapes and therefore we
+would reject 1 as the absorption probability.
+
+Had the particle started at 0 and been allowed to take its steps in either
+direction with p = 4, another classical random walk problem would ask
+whether the particle would ever return to the origin. We see it would because
+it is sure to return from x = 1 and from x = —t. More on this later.
+
+36. Gambler’s Ruin
+
+Player M has $I, and Player N has $2. Each play gives one of the players $1
+from the other. Player M is enough better than Player N that he wins § of the
+plays, They play until one is bankrupt What is the chance that Player M wins?
+
+Solution for Gambler’s Ruin
+
+Our problem is a special case of the general random walk problem with
+two absorbing barriers. Historically, the problem arose as a gambling
+problem, called “gambler’s ruin,” and many famous mathematicians have
+contributed to questions arising from it. Let us restate the problem generally.
+
+Player M has m units; Player N has » units. On each play of a game one
+player wins and the other loses | unit. On each play, the probability that
+Player M wins is p, that N wins is g = | — p. Play continues until one
+player is bankrupt. The figure represents the amount of money Player M
+
+54

@@ -1,0 +1,50 @@
+The optimum value of s, say s*, is the smallest s for which our initial in-
+equality holds. That is the smallest s for which
+
+s sfl 1 1
+GB) ee ee
+
+or equivalently that s for which
+
+1 1 1 1 1 1
+OM stepite tage <'! <scatstsa
+1
++ eee + nol | .
+OPTIMUM VALUES OF s AND PROBABILITIES OF WINNING FOR THE
+DOWRY PROBLEM
+n 5 1(s,n) n s 1(s, n)
+1 1 1.000 10 4 0.399
+2 1 0.500 20 8 0.384
+3 2 0.500 50 19 0.374
+4 2 0.458 100 38 0.371
+5 3 0.433 co) n/e Te = 0.368
+
+The table gives optimum values of s and their probabilities for a few values
+of n. For n = 100, pass 37 and take the first candidate thereafter.
+
+Large Values of n
+
+For large n, we can approximate }(?7_,1/i by C + log.n, where C is
+Euler's constant. Using this approximation in formula (2), we get, if s and n
+are large,
+
+G5) m(s, 0) =
+
+sali, nal SI z.
+n Be nes
+
+Similarly, approximating the left- or right-hand sum in inequality (4) shows
+us that log,(n/s) ~ 1, and so s =~ n/e. Substituting these results into the
+final line of eq. (5) gives us the result
+
+(6) lim x(s, 1) = 1, 0.368, s= 2.
+n+ e e
+To sum up, for large values of n, the optimum strategy passes approximately
+the fraction 1/e of the slips and chooses the first candidate thereafter, and
+then the probability of winning is approximately 1/e.
+
+Is it not remarkable in this game which at first blush offers a chance of
+about 1/n of winning that a simple strategy yields a probability of over 4,
+even for enormous values of n?
+
+76

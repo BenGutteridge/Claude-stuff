@@ -1,0 +1,42 @@
+Problem Solution
+
+page page
+
+29. Moldy gelatin 8 coy
+30. Evening the sales 3 45
+31. Birthday pairings 8 46
+32. Finding your birthmate 3 48
+33. Relating the birthday pairings and birthmate
+
+problems rs 9 49
+34, Birthday holidays a | 50
+35. Thecliff-hanger . . . . . . . . 9 51
+36. Gambler’s ruin. . 2 54
+37. Bold play vs. cautious play . woe eke 9 55
+38. Thethick coin . . . 10 58
+
+Digression: A note on the principle of symmetry
+
+when points are dropped on a line wee 59
+39. Theclumsy chemist . . . . ...... «='J0 60
+40. The firstace . . re (|) 61
+41. The locomotive problem ree |) 61
+42, The little end ofthe stick . 2. 2. 2. 2. . 2... 610 63
+43. Thebrokenbar . . . . . . ...... UH 63
+44. Winning anunfairgame . . . . . . ... U 66
+45. Average number of matches . . . . . . . .) IL 68
+46. Probabilities of matches . . . . . . . . . 69
+41. Choosing the largest dowry . . . . . . . . I2 73
+48. Choosing the largest random number . . . . . 12 17
+49. Doubling your accuracy . . . . . .... «I2 79
+50. Random quadratic equations. . . . . . . . 12 80
+51. Two-dimensional random walk . . . . . . . 13 81
+52. Three-dimensional random walk . . . . . . 13 84
+53. Buffon’s needle . . . -.. 4 86
+54. Buffon’s needle with horizontal and ‘vertical
+
+rulings. 2. 2. 2. 1. 1 ew ew ee es Od 87
+55. Long needles . . . . . . ....... 88
+56. Molina’s urns . . 7. ww ww eee ee Cd“ 88
+
+viii

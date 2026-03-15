@@ -1,0 +1,45 @@
+identical birthdays is approximately e~""—/2%, For the two probabilities
+to be nearly equal, expression (1) must hold. This direct attack through the
+approximation gives us one way to understand the relation between the
+problems. The earlier discussion makes clear that r(r — 1)/2 has the
+physical interpretation “number of opportunities” which gave another
+explanation for comparing n with r(r — 1)/2.
+
+34. Birthday Holidays
+
+Labor laws in Erewhon require factory owners to give every worker a holiday
+whenever one of them has a birthday and to hire without discrimination on
+grounds of birthdays. Except for these holidays they work a 365-day year.
+The owners want to maximize the expected total number of man-days worked
+per year in a factory. How many workers do factories have in Erewhon?
+
+Solution for Birthday Holidays
+
+With 1 worker in the factory, the owner gets 364 man-days, with 2 he
+usually gets 2(363) = 726, and so we anticipate more than 2 workers to
+maximize working days in a factory. On the other hand, if the factory
+population is enormous, every day of the year is practically certain to be
+someone’s birthday, and the factory never works. Consequently, there must
+be a finite maximum.
+
+If we can get the expected total number of days worked, we are a long
+step forward. Each day is either a working day or it isn’t. Let’s replace
+365 by N so that we solve the problem generally, and let » be the number
+of workers. Then the probability that the first day is a working day is
+(1 — 1/N)", because then every worker has to have a birthday on one of
+the other N — | days. The expected number of man-days contributed by
+the first working day is
+
+diario ay
+
+Every day contributes this same number, and so the expected number of
+man-days worked by # workers is nN(1 — 1/N)". To maximize this function
+of n, we must find # so that increasing or decreasing n reduces the total, or
+
+in symbols:
+y\rt1 1\"
+(n+ OC - }) < art - i)
+
+@~ pai - i < an( - i)
+
+and

@@ -1,0 +1,48 @@
+of the region divided by the area of the square. Since the coin is 3 inch in
+radius, its center must not land within 3 inch of any edge if the player is to
+win. This restriction generates a square of side 4 inch within which the
+center of the coin must lie for the coin to be in the square. Since the proba-
+bilities are proportional to areas, the probability of winning is (4)? = yy.
+Of course, since there is a chance that the coin falls off the table altogether,
+the total probability of winning is smaller still. Also the squares can
+be made smaller by merely thickening the lines. If the lines are ~ inch
+wide, the winning central area reduces the probability to (3)? = 38% or
+less than 3g.
+
+6. Chuck-a-Luck
+
+Chuck-a-Luck is a gambling game often played at carnivals and gambling
+houses. A player may bet on any one of the numbers 1, 2, 3, 4, 5, 6. Three dice
+are rolled. If the player's number appears on one, two, or three of the dice, he
+receives respectively one, two, or three times his original stake plus his own
+money back; otherwise he loses his stake. What is the player’s expected loss
+per unit stake? (Actually the player may distribute stakes on several numbers,
+but each such stake can be regarded as a separate bet.)
+
+Solution for Chuck-a-Luck
+
+Let us compute the losses incurred (a) when the numbers on the three dice
+are different, (b) when exactly two are alike, and (c) when all three are alike.
+An easy attack is to suppose that you place a unit stake on each of the six
+numbers, thus betting six units in all. Suppose the roll produces three
+different numbers, say 1, 2, 3. Then the house takes the three unit stakes on
+the losing numbers 4, 5, 6 and pays off the three winning numbers 1, 2, 3.
+The house won nothing, and you won nothing. That result would be the
+same for any roll of three different numbers.
+
+Next suppose the roll of the dice results in two of one number and one of
+a second, say 1, 1,2. Then the house can use the stakes on numbers 3 and 4
+to pay off the stake on number 1, and the stake on number 5 to pay off that
+on number 2. This leaves the stake on number 6 for the house. The house
+won one unit, you lost one unit, or per unit stake you lost 4.
+
+Suppose the three dice roll the same number, for example, 1, 1, 1. Then
+the house can pay the triple odds from the stakes placed on 2, 3, 4 leaving
+those on 5 and 6 as house winnings. The loss per unit stake then is 3. Note
+that when a roll produces a multiple payoff the players are losing the most
+on the average.
+
+To find the expected loss per unit stake in the whole game, we need to
+weight the three kinds of outcomes by their probabilities. If we regard the
+
+20

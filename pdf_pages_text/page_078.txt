@@ -1,0 +1,46 @@
+Summarizing the results of the listing gives us
+DIsTRIBUTION OF NUMBER OF MATCHES, 7 = 3
+Number of matches 0 1 2 3
+Probability 2 2 g 4
+
+Talso wrote out the 24 permutations form = 4. Examine the Summary Table
+for n = 1, 2, 3, and 4. Observe that the probability of m matches is 1/n!,
+because only one among the n! permutations gives n matches.
+
+SUMMARY TABLE
+
+Number of matches: 0 1 2 3 4
+n = 1, Probability 0 1
+n = 2, Probabilities 4 0 $
+n = 3, Probabilities 2 3 0 3
+n = 4, Probabilities | & ke & 0 x
+
+Note, too, that the mean for each distribution is 1, as advertised in the
+previous problem—this gives a partial check on the counting.
+
+We need to break into the problem somehow—get a relation between
+some probability in the table and some other probability. Let P(rlm) be the
+probability of exactly r matches in an arrangement of n things. We could get
+exactly r matches by having a specific r match and having the rest not match.
+For example, the probability that the first r match and the rest do not is
+
+i
+ne = (nF Ty POM
+
+But there are (") mutually exclusive choices of 7 positions in which to have
+exactly r matches. Therefore
+
+n i
+Pen) = (") x SD @ ar $y PO = 9
+
+= (") (2— *) pan — 7)
+
+r nt
+
+= a (a=! pay, —r),
+
+nin—r)yt an
+
+(1) P(r|n) + Pon -—r), r=0,1,...,42—-1.
+
+70

@@ -1,0 +1,51 @@
+(PWSA, p. 431) we have
+
+log 12! = 8.68034 _— log SI! = 6.19065
+log 39! = 4630959 log (12139!) = 54.98993
+Jog (12139!) = 54.98993 log (121391/51!) = 11.20072
+
+antilog: 1.588 X 10!
+
+In calculations of this kind, people sometimes get lost in the maze of exact
+figures. What matters here is that there is about one chance in 160 billion
+of a particular person’s being dealt a perfect hand on a single deal. How
+often should we hear of it? Let’s be generous and say that 10 million people
+play bridge in the United States of America and that each plays 10 hands a
+day every day of the year (equivalent to about two long sessions each week).
+That would give 364 billion hands a year, and so we expect about one
+perfect hand every 4 years, some of which would not be publicly reported.
+Even twice as many people playing twice as much would give only one such
+hand a year.
+
+How does one account for the much higher frequency with which perfect
+hands are reported? Several things contribute. New decks have cards
+grouped by suits, and inadequate shuffling could account for some perfect
+hands. (A widely reported hand where all four players received perfect
+hands was the first hand dealt from a new deck.)
+
+When we discuss very rare events, we have to worry about outrageous
+occurrences. No doubt quite a few reports owe their origin to pranks.
+Wouldn’t grandma be surprised if she had 13 hearts for Valentine’s Day?
+Let’s arrange it, but we'll tell her later it was all a joke. Grandma takes her
+bridge seriously. When it turns out that grandma is overwhelmed, has called
+her relatives, bridge friends, and the reporters, news of a joke would be most
+unwelcome, and the easy course for the prankster is silence. Perhaps a few
+reports are made up out of whole cloth. It seems unlikely that this sort of
+hand would arise from accomplished cheating because it draws too much
+attention to the recipient and his partner.
+
+N. T. Gridgeman discusses reports of perfect deals where all four players
+get 13 cards of one suit in “The mystery of the missing deal,” American
+Statistician, Vol. 18, No. 1, Feb. 1964, pp. 15-16, and there is further cor-
+respondence in “Letters to the Editor,” pp. 30-31, in the April, 1964 issue
+of that journal.
+
+A slightly different way to compute this probability is to use binomial co-
+efficients. They count the number of different ways to arrange a elements
+of one kind and 5 elements of another in a row. For example, 3 a’s and 2 b’s
+can be arranged in 10 ways, as the reader can verify on his fingers starting
+with aaabb and ending with bbaaa. The binomial coefficient is written
+
+G) , Meaning the number of ways to arrange 5 things, 2 of one kind, 3 of
+
+23

@@ -1,0 +1,46 @@
+We have three coordinates and the probability that all three vanish at
+trial 2n is
+
+P(particle at origin) = P(X = O)P(Y = 0)P(Z = 0) = [”) OMe
+
+Let’s try Stirling's approximation again. We have for three dimensions after
+2n moves
+
+P(particle at origin) = 1/(xn)3.
+
+We can show by integration methods that 5 1/n? is bounded. Replace the
+number 1/n# by the area of a réctangle whose base runs from n to n + 1,
+and whose height is 1/n#. See figure. Run a smooth curve f(n) = 1/(n — 1)2
+through the upper right-hand corners of the rectangles. The area under the
+curve exceeds the area of the rectangle:
+
+f dx 2 i}
+n@— DF @— DE, 08
+-_2 __2 _. 7
+@- DF Wn 76
+Now as N tends to infinity, the area 2 04
+tends to 2/(n — 1h, a finite number. &
+This shows that the mean converges to 0.2
+a finite number.
+We can evaluate that number by 0
+actually evaluating the early terms of 9 2 ve ‘ 7
+the series
+wo an\ (1\2" Plan for getting upper bound
+EQ) ESE
+n=
+
+and then approximating the rest of the sum by intesration methods. I get
+0.315. After, say, 10 or 20 terms, Stirling’s approximation should be very
+accurate, and the remainder that needs evaluation by integration is tiny
+by then. I used 18 terms. This 0.315 is the mean number of returns to the
+origin per particle. Consequently 1/Q = 1 + 0.315, and we get
+
+Q = 1/1315 = 0.761.
+
+Therefore the probability P that a particle returns to the origin is about
+0.239.
+
+For those of you who have seen the results for the random walk where the
+steps are to the centers of the faces of the surrounding cube rather than to the
+
+85

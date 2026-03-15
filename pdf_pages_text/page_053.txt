@@ -1,0 +1,49 @@
+Numerical examples:
+m Pim) 0.4/\/m
+
+4 0.1954 0.200
+9 0.1318 0.133
+16 0.0992 0.100
+
+30. Evening the Sales
+A bread salesman sells on the average 20 cakes on a round of his route. What
+
+is the chance that he sells an even number of cakes? (We assume the sales follow
+the Poisson distribution.)
+
+Solution for Evening the Sales
+
+Why assume a Poisson? Partly because the problem is nice that way.
+Partly because the distribution may be close to Poisson because the salesman
+has many customers, each with a small chance of buying a cake. You may
+be worried about variation from day to day during the week—good for
+you—I'm thinking only of summer Tuesdays.
+
+Most of us would guess about 4.
+
+The probability of his selling exactly r cakes is e~?°20"/r!, as we know
+from Problem 28. Working with the general mean m instead of 20 will
+clarify the structure of the problem. Then, the sum of the Poisson probabil-
+ities is De7"m'"/r!, or
+
+_mom _m mm mm
+(A) l=e"e"=e (4 m4 mem amy).
+
+We want to eliminate the terms corresponding to odd numbers of cakes.
+
+Recall that
+2 3 4
+
+(BR) eae" = en(i -at x - a+r - -):
+The sum of expressions (A) and (B) would give us twice the probability of
+an even number of loaves because the terms with odd powers of m would
+add to zero and the terms with even powers would have a coefficient of 2.
+Consequently, after dividing by 2, we get for the probability of an even
+number (1 + e~?")/2, For m = 20 the result is extremely close to 0.5
+because e~*° is negligible.
+
+On the other hand, if he sold on the average one special birthday cake
+per trip over the route, the probability that he sells an even number of special
+birthday cakes is about 0.568.
+
+45

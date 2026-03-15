@@ -1,0 +1,48 @@
+Drawing both balls without replacement gives about 5/8, drawing both
+with replacement gives about 21.5/36.
+
+22. The Ballot Box
+
+In an election, two candidates, Albert and Benjamin, have in a ballot box a
+and 6 votes respectively, a > 6, for example, 3 and 2 If ballots are randomly
+drawn and tallied, what is the chance that at least once after the first tally the
+candidates have the same number of tallies?
+
+Solution for The Ballot Box
+
+For a = 3 and b = 2, the equally likely sequences of drawings are
+
+AAABB *AABBA *ABBAA
+AABAB *ABABA *BABAA
+*ABAAB *BAABA *BBAAA
+*BAAAB
+
+where the starred sequences lead to ties, and thus the probability of a tie
+in this example is 7%.
+
+More generally, we want the proportion of the possible tallying sequences
+that produce at least one tie. Consider those sequences in which the first
+tie appears when exactly 2n ballots have been counted n < 6. For every
+sequence in which A (for Albert) is always ahead until the tie, there is a
+corresponding sequence in which B (for Benjamin) is always ahead until
+the tie. For example, ifn = 4, corresponding to the sequence
+
+AABABABB
+in which A leads until the tie, there is the complementary sequence
+BBABABAA
+
+in which B always leads. This second sequence is obtained from the first
+by replacing each A by a Band each B by an A.
+
+Given a tie sometime, there is a first one. The number of sequences with A
+ahead until the first tie is the same as the number with B ahead until the
+first tie. The trick is to compute the probability of getting a first tie with B
+ahead until then.
+
+Since A has more votes than B, A must ultimately be ahead. If the first
+ballot is a B, then there must be a tie sooner or later; and the only way to
+get a first tie with B leading at first is for B to receive the first tally. The
+
+37
+
+22

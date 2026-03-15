@@ -1,0 +1,50 @@
+Discussion for An Experiment in
+Personal Taste for Money
+
+No cic can say what amount is appropriate for you to pay for either game.
+Even though your expected value in the first game is $5, you may not be
+willing to pay anything near $5 to play it. The loss of $3 or $4 may mean
+too much to you. Let us suppose you decided to offer 75¢.
+
+What we can say is that you should be willing to pay at least as much to
+play the second game as the first. You can always choose your own color
+at random by the toss of a coin and thus assure that you have a fifty-fifty
+chance of being right and therefore an expectation of $5. Furthermore, if
+you have any information about your friend's preferences, you can take
+advantage of that to improve your chances.
+
+Most people feel that they would rather play the first game because the
+conditions of the second seem more vague. I am indebted to Howard Raiffa
+for this problem, and he tells me that the idea was suggested to him by
+Daniel Ellsberg.
+
+Il. Silent Cooperation
+
+Two strangers are separately asked to choose one of the positive whole numbers
+and advised that if they both choose the same number, they both get a prize.
+if you were one of these people, what number would you choose?
+
+Discussion for Silent Cooperation
+
+I have not met anyone yet who would choose more than a one-digit num-
+ber; and of these only 1, 3, and 7 have been chosen. Most of my informants
+choose 1, which seems on the face of it to be the natural choice. But 3 and 7
+are popular choices.
+
+12. Quo Vadis?
+
+Two strangers who have a private recognition signal agree to meet on a certain
+Thursday at 12 noon in New York City, a town familiar to neither, to discuss
+an important business deal, but later they discover that they have not chosen a
+meeting place, and neither can reach the other because both have embarked on
+trips. If they try nevertheless to meet, where should they go?
+
+Discussion for Quo Vadis?
+
+My daughter when asked this question said enthusiastically “Why, they
+should meet in the most famous place in New York!” “Fine,” I said,
+“where?” “How would I know that?” she said, “I’m only 9 years old.”
+
+27
+
+12

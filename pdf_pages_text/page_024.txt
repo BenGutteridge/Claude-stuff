@@ -1,0 +1,42 @@
+Taking square roots, we have, for r > 1,
+
+r 1 r-1
+7b" 7 rFo-1
+
+From the first inequality we get
+
+r> ato)
+or
+1
+> b = (V2 + Ib.
+r Vin (V2 + Db
+From the second we get
+(2+ Db >r-1
+
+or all told
+(V2+ Db+1>7> 024 Db.
+
+For 6 = 1, r must be greater than 2.414 and less than 3.414, and so the
+candidate is, = 3. Forr = 3,b = 1, we get
+
+P(2 red socks) = $3 - % = 4.
+
+And so the smallest number of socks is 4.
+Beyond this we investigate even values of b.
+
+b ris between eligible P(2 red socks)
+2 58, 48 5 a # :
+
+4 10.7, 9.7 10 a “3
+6 15.5, 14.5 15 en = ;
+
+And so 21 socks is the smallest number when 6 is even. If we were to go on
+and ask for further values of r and 6 so that the probability of two red socks
+is $, we would be wise to appreciate that this is a problem in the theory of
+numbers. It happens to lead to a famous result in Diophantine Analysis
+obtained from Pell’s equation.* Try r = 85, 6 = 35.
+
+“See for example, W. J. LeVeque, Elementary theory of numbers, Addison-Wesley,
+Reading, Mass., 1962, p. 111.
+
+16

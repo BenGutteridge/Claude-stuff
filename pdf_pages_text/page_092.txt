@@ -1,0 +1,47 @@
+because we must get equal numbers of east and west moves as well as equal
+numbers of north and south moves. (I ought really to put subscripts on X
+and Y, writing X2n, but it makes the page look horrible to me and frightening
+to some.) We plan to sum, approximately, these probabilities to get the
+expected number of returns. For large values of n we can apply Stirling’s
+approximation given in Problem 18 and get
+
+CG)" = Sta)” = Seeing
+
+2 2
+ws 1//an.
+
+For good-sized n then
+
+. sot 1
+P(particle at origin) ~ a
+
+We need to sum over the values of n. Recall from Problem 14 that
+~_,1/n = log,N is a number which is unbounded as N grows. What we
+have computed is the probability that the particle is at the origin at the end
+of steps numbered 2, 4, 6, 8,..., 2. Each of these probabilities is also the
+mean number of times the particle is at the origin at the end of exactly 2n
+trials. To get the mean total number of times the particle is at the origin,
+we sum because the mean of the sum is the sum of the means. Therefore the
+mean number of returns to the origin is unbounded, and therefore the
+probability of return to the origin is P = 1. And so each particle not only
+returns, but returns infinitely often. More carefully, I should say nearly
+every particle returns infinitely often, because there are paths such as the
+steady northeast course forever that allow some particles to drift off to
+infinity. But the fraction of such particles among all of them is zero.
+
+e 52. Three-Dimensional Random Walk
+
+As in the two-dimensional walk, a particle starts at an origin O in three-space.
+Think of the origin as centered in a cube 2 units on a side. One move in this
+walk sends the particle with equal likelihood to one of the eight corners of the
+cube. Thus, at every move the particle has a 50-50 chance of moving one unit
+up or down, one unit east or west, and one unit north or south. If the walk
+continues forever, find the fraction of particles that return to the origin.
+
+Solution for Three-Dimensional Random Walk
+
+Now that we know that in both one and two dimensions the particle returns
+to the origin with probability one, isn’t it reasonable that it will surely return
+for any finite number of dimensions? It was to me, but I was fooled.
+
+84

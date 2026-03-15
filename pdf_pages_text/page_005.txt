@@ -1,0 +1,44 @@
+Preface
+
+This book contains 56 problems although only 50 are promised. A
+couple of the problems prepare for later ones; since tastes differ, some
+others may not challenge you; finally, six are discussed rather than solved.
+If you feel your capacity for challenge has not been exhausted, try proving
+the final remark in the solution of Problem 48. One of these problems
+has enlivened great parts of the research lives of many excellent mathe-
+maticians. Will you be the one who completes it? Probably not, but it
+hasn’t been proved impossible.
+
+Much of what I have learned, as well as much of my intellectual en-
+joyment, has come through problem solving. Through the years, I’ve found
+it more and more difficult to tell when 1 was working and when playing,
+for it has so often turned out that what I have learned playing with problems
+has been useful in my serious work.
+
+In a problem, the great thing is the challenge. A problem can be chal-
+lenging for many reasons: because the subject matter is intriguing, because
+the answer defies unsophisticated intuition, because it illustrates an im-
+portant principle, because of its vast generality, because of its difficulty,
+because of a clever solution, or even because of the simplicity or beauty
+of the answer.
+
+In this book, many of the problems are easy, some are hard. A very
+few require calculus, but a person without this equipment may enjoy the
+problem and its answer just the same. J] have been more concerned about
+the challenge than about precisely limiting the mathematical level. In a few
+instances, where a special formula is needed that the reader may not have
+at his finger tips, or even in his repertoire, I have supplied it without ado.
+Stirling’s approximation for the factorials (see Problem 18) and Euler’s
+approximation for the partial sum of a harmonic series (see Problem 14)
+are two that stand out.
+
+Perhaps the reader will be as surprised as I was to find that the numbers
+x, which relates diameters of circles to their circumferences, and e, which
+is the base of the natural logarithms, arise so often in probability problems.
+
+In the Solutions section, the upper right corner of the odd-numbered
+pages carries the number of the last problem being discussed on that page.
+We hope that this may be of help in turning back and forth in the book. The
+pages are numbered at the bottom.
+
+v

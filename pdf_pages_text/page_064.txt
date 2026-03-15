@@ -1,0 +1,53 @@
+Solution for Bold Play vs. Cautious Play
+
+Bold play, as Lester E. Dubins and Leonard J. Savage call it in their
+How to gamble if you must*, that is, betting $20 at once, gives hima
+probability of 48 ~ 0.474 of achieving his goal.
+
+Cautious play, a dollar at a time, leads us to the gambler’s ruin problem
+with
+
+m = 20, n= 20,
+P= 4h 9g = 3.
+
+Substituting into the formula for M’s chance to win obtained in Problem 36
+gives us
+
+Gh 7 7a * Ol
+
+20
+p- 1- @®) 8.23 — 1
+1
+Cautious play has reduced his chances of reaching the goal to less than one-
+fourth of that for bold play.
+
+The intuitive explanation is that bold play is also fast play, and fast play
+teduces the exposure of the money to the house’s percentage. We have
+several times seen that intuitions based on averages do not always lead to
+correct probabilities. Dubins and Savage warn that no known proof of the
+merits of bold play, in general, is based upon this intuitive argument.
+However, Dubins points out that for our special case of doubling one’s
+money at Red-and-Black, the following exposition by Savage is so based.
+In preparing this discussion for us, Savage has deliberately glossed over a
+couple of mathematical fine points dealing with the attainability of bounds.
+
+The Golden Paradise
+
+At the Golden Paradise they sell any fair gamble that a gambler has the
+funds to stake on. A gambler who enters the Golden Paradise with x dollars
+bent on making an income of y additional dollars, if possible, can achieve
+his goal with probability x/(x + y) by staking his entire fortune x on a
+single chance of winning y with probability x/(x + y), which is plainly
+fair. As is well known, no strategy can give him a higher probability of
+achieving his goal, and the probability is this high if and only if he makes
+sure either to lose x or win y eventually.
+
+The Lesser Paradise
+
+The Lesser Paradise resembles the Golden Paradise with the imoortant
+difference that before leaving the hall the gambler must pay an income tax
+
+*First published, 1965 Reprinted by Dover Publications, Inc in 1976 under the title
+Inequalities for stochastic processes
+
+56

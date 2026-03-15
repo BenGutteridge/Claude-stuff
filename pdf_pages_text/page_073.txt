@@ -1,0 +1,40 @@
+43
+a, 1
+
+x 1
+
+Fig. 4. Triangular region where left- Fig. 5. Region where X is greatest is
+most segment is smallest is heavily out- heavily outlined.
+lined.
+
+dotted line. Then we compute the mean for X for each triangle separately
+and weight the two means by the areas of the triangles to get the final answer.
+The mean of X for the right-hand triangle whose base is the dotted line is
+4+ 4(4). That for the left-hand triangle whose base is the dotted line is
+4 — 4(2). The weights are proportional to the altitudes 4 and 2, respectively,
+because the triangles have a common base. Finally, the mean of X is
+
+G+ D+ 4G - vy) _ 1,
+4+ 8
+
+Since the mean of the smallest is 4 or #4; and that for the largest }4, the
+mean for the middle segment is 1 — 14 — = 3%. You may want to
+check this by applying the method just used when, for example, 1 — Y >
+X>Y-X.
+
+So finally, the means of the smallest, middle-sized, and longest segments
+of the broken bar are proportional to 2, 5, and 11, respectively.
+
+When we break a bar in 2 pieces, the average lengths of the smaller and
+larger pieces are proportional to
+
+4,3, which can be written 4(4), #4 + 4).
+
+For 3 pieces we have, in order, the proportions
+4, fe Hh
+
+304) 4 + D4 +44 YD.
+
+or
+
+65

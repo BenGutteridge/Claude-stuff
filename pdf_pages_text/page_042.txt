@@ -1,0 +1,51 @@
+pp. 27-30, ‘Samuel Pepys, Isaac Newton, and Probability,” discussion by
+Emil D. Schell in “Questions and Answers,” edited by Ernest Rubin; and
+further comment in the issue of Feb., 1961, Vol. 15, No. 1, p. 29. As far as I
+know this is Newton’s only venture into probability.
+
+Since 1 is the average or mean number of sixes when 6 dice are thrown,
+2 the average number for 12 dice, and 3 the average number for 18, one might
+think that the probabilities of the three events must be equal. And many
+would think it equal to 4. That thought would be another instance of
+confusion between averages and probabilities. When the number of dice
+thrown is very large, then the probability that the number of sixes equals
+or exceeds the expected number is slightly larger than 4. Thus for large
+numbers of dice, the supposition is nearly true, but not for small numbers.
+For large numbers of dice, the distribution of the number of sixes is approxi-
+mately symmetrical about the mean, and the term at the mean is small, but
+for small numbers of dice, the distribution is asymmetrical and the probabil-
+ity of rolling exactly the mean number is substantial.
+
+Let us begin by computing the probability of getting exactly | six when 6
+dice are rolled. The chance of getting 1 six and 5 other outcomes in a par-
+ticular order is ($)(8)°. We need to multiply by the number of orders for 1
+six and 5 non-sixes. In An Even Split at Coin Tossing, Problem 18, we
+
+learned to count the number of orders and we get (‘). Therefore the
+
+(EG)
+
+Similarly, the probability of exactly x sixes when 6 dice are thrown is
+
+Qa” x = 0,1, 2,3, 4,5, 6
+
+The probability of x sixes for n dice is
+
+(NGG xn n
+
+This formula gives the terms of what is called a binomial distribution.
+The probability of 1 or more sixes with 6 dice is the complement of the
+
+probability of 0 sixes:
+! ( (2) ( )
+0/\6/ \6, —
+
+When 6n dice are rolled, the probability of n or more sixes is
+
+EEQO™--LQ00™
+
+ran z=0
+
+probability of exactly 1 six is
+
+34

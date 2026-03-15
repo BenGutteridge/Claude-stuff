@@ -1,0 +1,53 @@
+three dice as distinguishable—say red, green, and blue—there are 6 X 6 X 6
+= 216 ways for them to fall.
+
+In how many ways do we get three different numbers? If we take them in
+order, 6 possibilities for the red, then for each of these, 5 for the green since
+it must not match the red, and for each red-green pair, 4 ways for the blue
+since it must not match either of the others, we get6 X 5 X 4 = 120 ways.
+
+For a moment skip the case where exactly two dice are alike and go on to
+three alike. There are just 6 ways because there are 6 ways for the red to
+fall and only 1 way for each of the others since they must match the red.
+
+This means that there are 216 — 126 = 90 ways for them to fall two alike
+and one different. Let us check that directly. There are three main patterns
+that give two alike: red-green alike, red-blue alike, or green-blue alike. Count
+the number of ways for one of these, say red-green alike, and then multiply
+by three. The red can be thrown 6 ways, then the green 1 way to match,
+and the blue 5 ways to fail to match, or 30 ways. All told then we have
+3 X 30 = 90 ways, checking the result we got by subtraction.
+
+We get the expected loss by weighting each loss by its probability and
+summing as follows:
+
+none 2 3
+alike alike alike
+
+HO XO+ Be XE+ ahs X 2 = AEH 0.079"
+
+Thus you lose about 8% per play. Considering that a play might take half a
+minute and that government bonds pay you less than 4% interest for a year,
+the attrition can be regarded as fierce.
+
+This calculation is for regular dice. Sometimes a spinning wheel with a
+pointer is used with sets of three numbers painted in segments around the
+edge of the wheel. The sets do not correspond perfectly to the frequencies
+given by the dice. In such wheels | have observed that the multiple payoffs
+are more frequent than for the dice, and therefore the expected loss to the
+bettor greater.
+
+7. Curing the Compulsive Gambler
+
+Mr. Brown always bets a dollar on the number 13 at roulette against the
+advice of Kind Friend To help cure Mr Brown of playing roulette, Kind Friend
+always bets Brown $20 at even money that Brown will be behind at the end of
+36 plays. How is the cure working?
+
+(Most American roulette wheels have 38 equally likely numbers. If the
+player’s number comes up, he is paid 35 times his stake and gets his original
+stake back ; otherwise he loses his stake )
+
+*The sign ~ means “approximately equals ”
+
+21

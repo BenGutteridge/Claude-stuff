@@ -1,0 +1,39 @@
+-Random Walk in Two and Three Dimensions
+
+51. Two-Dimensional
+Random Walk
+
+Starting from an origin O, a particle has a 50-50 chance of moving 1 step
+north or | step south, and also a 50-50 chance of moving 1 step east or 1
+step west. After the step is taken, the move is repeated from the new position
+and so on indefinitely. What is the chance that the particle returns to the
+origin?
+
+. e . «3
+ry . e 2
+. ° e 1
+. SK ° oy
+. e-l
+. . e —2
+e e . e -3
+-3 -2-1 0 1 2 3
+
+x
+
+Part of lattice of points traveled by particles in the two-dimensional
+random walk problem. At each move the particle goes one step north-
+east, northwest, southeast, or southwest from its current position, the
+directions being equally likely.
+
+52. Three-Dimensional
+Random Walk
+
+As in the two-dimensional walk, a particle starts at an origin O in three-
+space. Think of the origin as centered in a cube 2 units on a side. One
+move in this walk sends the particle with equal likelihood to one of the
+eight corners of the cube. Thus, at every move the particle has a 50-50
+chance of moving one unit up or down, one unit east or west, and one unit
+north or south. If the walk continues forever, find the fraction of particles
+that return to the origin.
+
+13

@@ -1,0 +1,30 @@
+First round Second round Finals
+
+4 Winner
+
+sO
+
+Tennis tournament ladder of 8.
+
+Suppose that the best player always defeats the next best and that the
+latter always defeats all the rest. The loser of the finals gets the runner-up
+cup. What is the chance that the second-best player wins the runner-up cup?
+
+17. Twin Knights
+
+(a) Suppose King Arthur holds a jousting tournament where the jousts
+are in pairs as in a tennis tournament. See Problem 16 for tournament ladder.
+The 8 knights in the tournament are evenly matched, and they include the
+twin knights Balin and Balan.* What is the chance that the twins meet in a
+match during the tournament?
+
+(b) Replace 8 by 2” in the above problem. Now what is the chance that
+they meet?
+
+18. An Even Split at Coin Tossing
+
+When 100 coins are tossed, what is the probability that exactly 50 are
+heads?
+
+*According to Arthurian legend, they were so evenly matched that on another occasion
+they slew each other.

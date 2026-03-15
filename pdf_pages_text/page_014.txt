@@ -1,0 +1,40 @@
+19. Isaac Newton Helps Samuel Pepys
+
+Pepys wrote Newton to ask which of three events is more likely: that a
+person get (a) at least | six when 6 dice are rolled, (b) at least 2 sixes when
+12 dice are rolled, or (c) at least 3 sixes when 18 dice are rolled. What is the
+answer?
+
+20. The Three-Cornered Duel
+
+A, B, and C are to fight a three-cornered pistol duel. All know that A’s
+chance of hitting his target is 0.3, C’s is 0.5, and B never misses. They are to
+fire at their choice of target in succession in the order A, B, C, cyclically
+(but a hit man loses further turns and is no longer shot at) until only one
+man is left unhit. What should A’s strategy be?
+
+21. Should You Sample with or
+without Replacement?
+
+Two urns contain red and black balls, all alike except for color. Urn A
+has 2 reds and | black, and Urn B has 101 reds and 100 blacks. An urn is
+chosen at random, and you win a prize if you correctly name the urn on the
+basis of the evidence of two balls drawn from it. After the first ball is drawn
+and its color reported, you can decide whether or not the ball shall be
+replaced before the second drawing. How do you order the second drawing,
+and how do you decide on the urn?
+
+22. The Ballot Box
+
+In an election, two candidates, Albert and Benjamin, have in a ballot box
+a and 6 votes respectively, a > 6, for example, 3 and 2. If ballots are ran-
+domly drawn and tallied, what is the chance that at least once after the first
+tally the candidates have the same number of tallies?
+
+23. Ties in Matching Pennies
+
+Players A and B match pennies N times. They keep a tally of their gains
+and losses. After the first toss, what is the chance that at no time during the
+game will they be even?
+
+6

@@ -1,0 +1,52 @@
+one step). The probability of a path from x = 2tox = 1 is just Py, because
+the structure here is identical with that of the original set-up for the particle
+except that the origin has been translated one step to the right. The probability
+of a path from x = 1 tox = Ois also P,, because this is exactly the original
+problem. The probability P. therefore is P?, because the events A = (par-
+ticle takes path from x = 2 to x = 1) and B = (particle takes path from
+x = 1 tox = 0) are independent, and P(A) = P(B) = P.
+We can rewrite eq. (1) as
+
+(2) Py =1— p+ pPi.
+
+Equation (2) is quadratic in P, with solutions
+
+= ale,
+Q) P,=1, Pr ?
+In such problems one or both solutions may be appropriate, depending on
+the circumstances.
+
+We need to choose the solution that goes with each value of p. When
+p = 4, the solutions agree, and P,; = 1. When p = 0, clearly P, = 1.
+And when p = 1, P; = 0, because the particle always moves to the right.
+When p < 4, the second solution of (3) is impossible because then
+(1 — p)/p > 1, and we must have P; < 1. Therefore, for 0 < p < 3,
+we have P; = 1.
+
+To prove that the second solution, P, = (1 — p)/p, holds for p > 4
+requires us to show that P, is a continuous function of p (roughly, that Py
+does not jump when p changes slightly). We assume this continuity but do
+not prove it.
+
+0.8
+
+0.6
+Py
+04
+
+02 Probabilities of absorption,
+
+P,, for The Cliff-Hanger.
+
+% 0.2 #04 #06 O08 10
+
+P
+
+The curve (see figure) starts at P; = 1 when p = 4, must decrease to
+P, = Oat p = 1, and must always have value either 1 or (1 — p)/p. For
+it to avoid jumps, it must adopt (1 — p)/p for p > 4. The proof of the
+continuity itself is beyond the scope of this book, but assuming the con-
+
+53
+
+35

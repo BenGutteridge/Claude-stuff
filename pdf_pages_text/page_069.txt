@@ -1,0 +1,48 @@
+Solution for The Clumsy Chemist
+
+Assuming these rods broke at random, the principle of symmetry says
+that each fragment—blue-dotted, middle, and red-dotted segment—would
+have the same distribution and the same mean. Since the means have to add
+to 9 inches, the blue-dotted segments average about 3 inches.
+
+40. The First Ace
+
+Shuffle an ordinary deck of 52 playing cards containing four aces. Then
+turn up cards from the top until the first ace appears. On the average, how
+
+“te many cards are required to produce the first ace?
+
+Solution for The First Ace
+
+Assume that the principle of symmetry holds for discrete as well as con-
+tinuous events. The four aces divide the pack into 5 segments of size from
+0 to 48 cards. If two aces are side by side, we say the segment between them
+is of length 0. If the first card is an ace, the segment before it is of length
+zero, and similarly for the segment following an ace that is a last card. The
+principle of symmetry says the 5 segments should average 48 = 9.6 cards.
+The next card is the ace itself, so it is the 10.6th card on the average.
+
+4l. The Locomotive Problem
+
+(a) A railroad numbers its locomotives in order, 1, 2,..., N. One day you
+see a locomotive and its number is 60. Guess how many locomotives the com-
+pany has.
+
+(b) You have looked at 5 locomotives and the largest number observed is 60.
+Again guess how many locomotives the company has.
+
+Discussion for The Locomotive Problem
+
+While the questions as stated provide no “right” answers, still there are
+some reasonable things to do. For example, the symmetry principle discussed
+earlier suggests that when one point is dropped, on the average the two
+segments will be of equal size, and so you might estimate in part (a) that the
+number is 119, because the segment to the left of 60 has 59, 2(59) = 118,
+and 118 + 1 = 119.
+
+Similarly in part (b), you might estimate that the 5 observed numbers
+separate the complete series into 6 pieces. Since 60 — 5 = 55, the average
+
+61
+
+41

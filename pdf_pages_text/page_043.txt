@@ -1,0 +1,49 @@
+Unfortunately, Newton had to work the probabilities out by hand, but we
+can use the Tables of the cumulative binomial distribution, Harvard Univer-
+sity Press, 1955. Fortunately, this table gives the cumulative binomial for
+various values of p (the probability of success on a single trial), and one
+of the tabled values is p = 3. Our short table shows the probabilities,
+rounded to three decimals, of obtaining the mean number or more sixes
+when 6n dice are tossed.
+
+6n n P(n or more sixes)
+6 1 0.665
+12 2 0.619
+18 3 0.597
+24 4 0.584
+30 5 0.576
+96 16 0.542
+600 100 0.517
+900 150 0.514
+
+Clearly Pepys will do better with the 6-dice wager than with 12 or 18.
+When he found that out, he decided to welch on his original bet.
+
+The binomial distribution is treated extensively in PWSA, Chapter 7,
+see especially pp. 241-257.
+
+20. The Three-Cornered Duel
+
+A, B, and C are to fight a three-cornered pistol duel. All know that A’s chance
+of hitting his target is 0.3, C’s is 0.5, and B never misses. They are to fire at their
+choice of target in succession in the order A, B, C, cyclically (but a hit man loses
+further turns and is no longer shot at) until only one man is left unhit. What
+should 4's strategy be?
+
+Solution for The Three-Cornered Duel
+
+A naturally is not feeling cheery about this enterprise. Having the first
+shot he sees that, if he hits C, B will then surely hit him, and so he is not
+going to shoot at C. If he shoots at B and misses him, then B clearly
+shoots the more dangerous C first, and A gets one shot at B with probability
+0.3 of succeeding. If he misses this time, the less said the better. On the
+other hand, suppose A hits B. Then C and A shoot alternately until one
+hits. A’s chance of winning is
+
+(563) + 65)7C-63) + 65996703) + o>.
+
+Each term corresponds to a sequence of misses by both C and A ending
+
+35
+
+20

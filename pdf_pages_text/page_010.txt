@@ -1,0 +1,43 @@
+5. Coin in Square
+
+In a common carnival game a player tosses a penny from a distance of
+about 5 feet onto the surface of a table ruled in l-inch squares. If the penny
+(¥ inch in diameter) falls entirely inside a square, the player receives 5 cents
+but does not get his penny back; otherwise he loses his penny. If the penny
+lands on the table, what is his chance to win?
+
+6. Chuck-a-Luck
+
+Chuck-a-Luck is a gambling game often played at carnivals and gambling
+houses. A player may bet on any one of the numbers 1, 2, 3, 4, 5,6. Three
+dice are rolled. If the player’s number appears on one, two, or three of the
+dice, he receives respectively one, two, or three times his original stake plus
+his own money back; otherwise he loses his stake. What is the player's
+expected loss per unit stake? (Actually the player may distribute stakes on
+several numbers, but each such stake can be regarded as a separate bet.)
+
+7. Curing the Compulsive Gambler
+
+Mr. Brown always bets a dollar on the number 13 at roulette against the
+advice of Kind Friend. To help cure Mr. Brown of playing roulette, Kind
+Friend always bets Brown $20 at even money that Brown will be behind at
+the end of 36 plays. How is the cure working?
+
+(Most American roulette wheels have 38 equally likely numbers. If the
+player’s number comes up, he is paid 35 times his stake and gets his original
+stake back; otherwise he loses his stake.)
+
+8. Perfect Bridge Hand
+
+We often read of someone who has been dealt 13 spades at bridge. With
+a well-shuffied pack of cards, what is the chance that you are dealt a perfect
+hand (13 of one suit)? (Bridge is played with an ordinary pack of 52 cards,
+13 in each of 4 suits, and each of 4 players is dealt 13.)
+
+9. Craps
+
+The game of craps, played with two dice, is one of America’s fastest and
+most popular gambling games. Calculating the odds associated with it is an
+instructive exercise.
+
+2

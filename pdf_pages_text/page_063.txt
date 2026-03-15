@@ -1,0 +1,54 @@
+Start
+Ime
++—_+—_++ +—_+—++ + —t
+Cs i rd cc ce)
+
+Schematic representation of Gambler's Ruin.
+
+has at any time. He starts at x = m. When x = 0, he is bankrupt; when
+x = m+ no, Player N is bankrupt.
+
+With this representation, since p > 4, we can appeal to a result from
+The Cliff-Hanger, Problem 35. We know that, had Player M played against
+a bank with unlimited resources, he would have become bankrupt with
+probability (g/p)”. In the course of a trip to bankruptcy, either he attains an
+amount of money m + n (n is now finite), or he is never that well off. Let
+the probability that he loses to Player N be Q (that is equivalent to the
+infinite bank winning without Player M ever reaching m + n). Then
+
+qd) @/py” = 2+ A — Q@/py"*,
+
+because @Q is the fraction of the sequences that are absorbed before reaching
+m+n, and of the fraction | — Q that do reach m+ a, the portion
+(q/p)** is also absorbed at 0 if the game is allowed to proceed indefinitely.
+Then P = 1 — Qis the probability that Player Mf wins. Making substitu-
+tions into eq. (1) and solving for P gives
+
+— 1 = G/p)”_.
+1 — @/p)"*"
+
+For our players p = 3, g = 4, m = 1, n = 2, and P = 4. So in this
+instance it is better to be twice as good a player rather than twice as wealthy.
+
+Ifq = p = 4, then P in eq. (2) takes the indeterminate form 0/0. When
+L’Hospital’s rule is applied, we find
+
+@) Pa pP=q=}.
+
+(2)
+
+Thus, had the players been evenly matched, Player M’s chance would be 4
+and his expectation would be 4(2) + #(—1) = 0. Thus the game is fair,
+that is, has 0 expectation of gain for each player.
+
+37. Bold Play vs. Cautious Play
+
+At Las Vegas, a man with $20 needs $40, but he is too embarrassed to wire
+his wife for more money. He decides to invest in roulette (which he doesn’t
+enjoy playing) and is considering two strategies: bet the $20 on “evens” all at
+once and quit if he wins or loses, or bet on “evens” one dollar at a time until
+he has won or lost $20. Compare the merits of the strategies.
+
+35
+
+37

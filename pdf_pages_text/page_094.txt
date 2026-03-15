@@ -1,0 +1,50 @@
+corners, you may know that the fraction returning is about 0.35.* Apparently
+then 8 equally likely moves reduces the chance of returning more than 6.
+
+The same techniques for a 4-dimensional random walk where 4 coins are
+tossed to find the vector to be added to the present coordinates show that
+the probability of return is reduced to 0.105.
+
+53. Buffon’s Needle
+
+A table of infinite expanse has inscribed on it a set of parallel lines spaced
+2a units apart. A needle of length 2/ (smaller than 2a) is twirled and tossed on
+the table. What is the probability that when it comes to rest it crosses a line?
+
+Solution for Buffon’s Needle
+
+This is a great favorite among geometric probability problems. The figure
+shows how the needle might land so that it just touches one of the parallels.
+We only need to look at one half-segment, because the symmetries handle
+the rest.
+
+The vertical position of the needle does not matter because moving it up
+or down leaves the state of crossing or not crossing a vertical line unchanged.
+What matters is the needle’s angle with the horizontal and the distance of
+the center of the needle from its nearest parallel. The center P is equally
+likely to fall anywhere between the parallels (assumption of uniform dis-
+tribution); and for a fixed value of the angle 6, the chance that the line crosses
+one of the parallels is 2x/2a, because the line crosses a parallel if the center
+falls within x units of either parallel—see the dashed needles in the figure.
+Because of the twirling, the angle 6
+might as well be thought of as uni-
+formly distributed from 0 to +/2
+radians (or in degrees from 0° to
+90°), because crossings that happen
+for angle @ also happen for angle
+x — 6 (or in degrees 180° — 6). All
+we need then is the mean value of
+x/a, or, since x = I cos @, the mean
+value of (//a)cos 6. This average can
+be found by integrating
+
+Va m2
+
+aso cos 6d6 = 21/xa.
+
+. . Solid needles touch one parallel
+The x/2 in the denominator on the line; the dashed needles cross one.
+
+*W. Feller, Probability theory and its applications, \st ed., Wiley, 1950, p. 297.
+
+86

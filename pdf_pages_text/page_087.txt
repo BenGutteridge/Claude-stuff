@@ -1,0 +1,52 @@
+To go at it more approximately, we might note that as r increases, | — x
+gets small, and a major contribution to the right-hand side of eq. (1) comes
+from the lead term. So
+4 r .
+
+r+i1
+
+Alternatively, we could divide eq. (1) through by x’. Then let z =
+(1 — x)/x to get
+
+Q) re(Neta(et-+i(e
+
+Finally use eq. (2) for solutions.
+Since approximately z = 1/r, let us set z = a(r)/r, where a(r) is a
+function that does not change much with r. For example,
+
+xx rx (h— x), 9 or
+
+a(l) = 1 a(4) = 0.8509
+a(2) = 0.8990 a5) = 0.8415
+a(3) = 0.8668
+When we set z = a(r)/r in eq. (2) and let r grow, we have in the limit
+2 3
+(3) leatsgtygto
+
+Here a is the limiting value of a(r) as r grows large. We find a ~ 0.8043.
+Though we could get an excellent approximation for a(r) now, let us settle
+for the limiting value and compute
+_or r .
+* = FF a~ r¥ 0808
+to get the results shown in the 3rd column of the table.
+
+Since the present game provides more information than the one in the
+immediately preceding problem, the chance of winning it should be larger.
+If the number of slips is 2, the player chooses the first if it is greater than 4,
+otherwise he goes on. His chance of winning is #. Increasing the number of
+slips from 1 to 2 has reduced his chance of winning considerably. Some
+geometry which I do not give shows for 2 = 3 that the probability of a win
+is about 0.684. For very large, the probability of winning reduces to about
+0.580.
+
+49. Doubling Your Accuracy
+
+An unbiased instrument for measuring distances makes random errors whose
+distribution has standard deviation ¢. You are allowed two measurements all
+told to estimate the lengths of two cylindrical rods, one clearly longer than the
+other. Can you do better than to take one measurement on each rod? (An
+unbiased instrument is one that on the average gives the true measure )
+
+79
+
+49

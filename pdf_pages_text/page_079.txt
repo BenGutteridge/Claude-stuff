@@ -1,0 +1,42 @@
+For r = 1 we know P(n|n) = 1/n!, and so we can extend our notation by
+assigning P(0|0) = 1, if we wish, without doing violence to the other
+notation.
+
+Let us check the relation (1) for n = 4,7 = 2. For n = 4,r = 2, it
+says
+
+PQ|4) = 4, P(0)2).
+The Summary Table gives
+P(2|4) = gy, = P(O|2) = 4,
+
+and 3; = 4, which checks expression (1) for this example.
+
+Since we deal with probability distributions, the sum of the probabilities
+over all the possible numbers of matches for a given value of 7 is 1, or, in
+symbols,
+
+PO|n) + Pn) + +++ + P(n — In) + PQ@|n) =
+We could rewrite this equation, using relation (1), as
+1 1
+(2) ZO) + PO — 1) + ren -2)
+tee t qo = 7 POU) +4
+
+Since we know P(n|n) = 1/n!, we could successively solve the equations
+for P(O|n) for higher and higher values of m. For example, for n = 1 we get
+
+POL) + f=
+or
+Pil) = 0.
+For n = 2
+PO!) + 7 PO!) + 4 =
+or
+P(0|2) = 3.
+Forn = 3
+P(O)3) + 7 PCO) + 4H POIL) + 7 =
+or
+P(O|3) = 4.
+
+The foregoing examples show that in principle we can get P(O|n) for any
+n, but they do not yet suggest a general formula for P(O|n). Sometimes taking
+
+71

@@ -1,0 +1,31 @@
+53. Buffon’s Needle
+
+A table of infinite expanse has inscribed on it a set of parallel lines spaced
+2a units apart. A needle of length 2/ (smaller than 2a) is twirled and tossed
+on the table. What is the probability that when it comes to rest it crosses a
+line?
+
+54. Buffon’s Needle with Horizontal
+and Vertical Rulings
+
+Suppose we toss a needle of length 2/ (less than 1) on a grid with both
+horizontal and vertical rulings spaced one unit apart. What is the mean
+number of lines the needle crosses? (I have dropped the 2a for the spacing
+because we might as well think of the length of the needle as measured in
+units of spacing.)
+
+55. Long Needles
+
+In the previous problem let the needle be of arbitrary length, then what is
+the mean number of crosses?
+
+56. Molina’s Urns
+
+Two urns contain the same total numbers of balls, some blacks and some
+whites in each. From each urn are drawn n (>3) balls with replacement.
+Find the number of drawings and the composition of the two urns so that
+the probability that all white balls are drawn from the first urn is equal to
+the probability that the drawing from the second is either all whites or all
+blacks.
+
+14

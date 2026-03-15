@@ -1,0 +1,55 @@
+A key theorem in solid geometry simplifies this problem. When parallel
+planes cut a sphere, the orange-peel-like band produced between them is
+called a zone. The surface area of a zone is proportional to the distance
+between the planes, and so our coin should be 4 as thick as the sphere. How
+should the thickness compare with the diameter of tne coin?
+
+Let R be the radius of the sphere and r that of
+the coin.
+
+The Pythagorean theorem gives
+
+RaPt } R’,
+or
+
+aR = r,
+
+R r Edge
+
+77s > Cross section showing re-
+
+_ lation between radius R of
+
+IT R= v2 p= 0354r. sphere and radius r of coin.
+je 4 .
+
+And so the coin should be about 35% as thick as the diameter of the coin.
+
+Digression: A Note on the Principle of Symmetry when Points
+Are Dropped on a Line
+
+Suppose that several points are dropped at random on the unit interval
+from 0 to 1. For example, suppose w, x, y are these points as shown in the
+figure. These three points divide the
+interval into four segments with lengths +—+ + +—t
+x, y—x,w—y, and |—w. When o* , wl
+three points are dropped at random Three points dropped on the
+repeatedly, each drop of three produces _unit interval.
+four segments, and each segment (left-
+most, second, third, and rightmost) has a distribution across these drops. It is
+easy to find the cumulative distribution of the length of the leftmost interval.
+Consider some number t. What is the chance that all three points fall to the
+right of it? Since the three points are dropped independently and each has a
+chance of i — 1£ of falling to the right of ¢, the answer is (1 — #)°. Thus
+
+P (leftmost point is to right of )) = (1 — *.
+
+Example. What is the median position of the leftmost point? The median
+is the position that is exceeded half the time. We want (1 — 1° = 3.
+The appropriate root is given by
+
+l1—t= 7%, andso t= 0.206.
+
+59
+
+38

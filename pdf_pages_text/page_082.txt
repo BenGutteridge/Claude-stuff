@@ -1,0 +1,52 @@
+Solution for Choosing the Largest Dowry
+
+The great question is whether or not his chances are much larger than thy.
+Many people suggest the strategy of passing the first half of the slips and
+then choosing the first one that is better than all previous draws if such a
+one should present itself. That is quite sensible, though not best. Few have
+any idea of the size of the probability of winning.
+
+Let us begin by looking at some small problems. Since we know nothing
+about the numbers on the slips, we might as well replace them by their
+ranks. If we had 3 slips, their ranks would be 1, 2, 3, and let us say that rank
+3 is the largest. Had there been but |! or 2 slips, there is no problem for he
+wins against one slip, and he has a 50-50 chance of winning against 2 slips.
+With 3 slips the 6 possible orders of drawing slips are:
+
+123 23 1*
+132* 312
+213* 321
+
+One strategy passes the first slip and then chooses the first slip that later
+
+exceeds it, if any do. This strategy wins in the 3 starred orders, or half the
+
+time—an improvement over a random guess, like taking the first one.
+Suppose there are four slips. The 24 orders are
+
+1234 2134 3124*¢ 4123
+1243f 2143*f 3142*¢ 4132
+1324f 2314f 3214*f 4213
+1342f 2341f 3241*f 4231
+1423* 2413* 3412* 4312
+1432" 2431* 3421* 4321
+
+We certainly should pass the first one. We could take the first higher that
+appears after it, if any do. Call this plan Strategy 1. The starred items on the
+list show when this strategy wins. Its probability of winning is $4, a good
+deal larger than the } a guess would give.
+
+In Strategy 2, pass the first 2 items and take the first higher one after that.
+The 10 orders in which this strategy succeeds have a dagger beside them.
+Strategy 1 wins more often.
+
+It we continue to study all the permutations by listing them, the future
+looks quite dreary, because for even 8 slips there are 40,320 orders. Further-
+more, there might be good strategies that we are missing, though it seems
+unlikely. Perhaps mathematics can come to our aid.
+
+I must emphasize that the wise man knows nothing about the distribution
+of the dowries. To make sure of it, let the king draw the slips and report to
+the wise man only the rank of a slip among those drawn thus far. Only a
+
+74

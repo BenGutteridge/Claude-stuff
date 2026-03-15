@@ -1,0 +1,42 @@
+38. The Thick Coin
+
+How thick should a coin be to have a 4 chance of landing on edge?
+
+The next few problems depend on the Principle of Symmetry. See pages
+59-60.
+1,
+WN \\\ (i Wa
+SS aS
+
+39. The Clumsy Chemist
+
+In a laboratory, each of a handful of thin 9-inch glass rods had one tip
+marked with a blue dot and the other with a red. When the laboratory
+assistant tripped and dropped them onto the concrete floor, many broke into
+three pieces. For these, what was the average length of the fragment with
+the blue dot?
+
+40. The First Ace
+
+Shuffle an ordinary deck of 52 playing cards containing four aces.
+Then turn up cards from the top until the first ace appears. On the average,
+how many cards are required to produce the first ace?
+
+41. The Locomotive Problem
+
+(a) A railroad numbers its locomotives in order, 1, 2,..., N. One day you
+see a locomotive and its number is 60. Guess how many locomotives the
+company has.
+
+(b) You have looked at 5 locomotives and the largest number observed
+is 60. Again guess how many locomotives the company has.
+
+42. The Little End of the Stick
+
+(a) If a stick is broken in two at random, what is the average length of the
+smaller piece?
+
+(b) (For calculus students.) What is the average ratio of the smaller
+length to the larger?
+
+10

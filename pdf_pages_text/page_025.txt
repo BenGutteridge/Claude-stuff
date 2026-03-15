@@ -1,0 +1,49 @@
+2. Successive Wins
+
+To encourage Elmer’s promising tennis career, his father offers him a prize
+if he wins (at least) two tennis sets in a row in a three-set series to be played
+with his father and the club champion alternately: father-champion-father or
+champion-father-champion, according to Elmer’s choice. The champion is a
+better player than Elmer's father. Which series should Eimer choose?
+
+Solution for Successive Wins
+
+Since the champion plays better than the father, it seems reasonable that
+fewer sets should be played with the champion. On the other hand, the
+middle set is the key one, because Elmer cannot have two wins in a row
+without winning the middle one. Let C stand for champion, F for father,
+and W and L for a win and a loss by Elmer. Let f be the probability of
+Elmer’s winning any set from his father, ¢ the corresponding probability
+of winning from the champion. The table shows the only possible prize-win-
+ning sequences together with their probabilities, given independence between
+sets, for the two choices.
+
+Father first Champion first
+
+Set with: F CF _ Probability C F C_ Probability
+WWW feof WWW oe
+
+WWL fel —f) WWL ¢ofl-o
+
+L ww (—fof L ww (1-—ofe
+
+Totals fe(2 — f) fe2 — ¢)
+
+Since Elmer is more likely to best his father than to best the champion, f
+is larger than c, and 2 — f is smaller than 2 — c, and so Elmer should
+choose CFC. For example, for f = 0.8, c = 0.4, the chance of winning
+the prize with FCF is 0.384, that for CFC is 0.512. Thus the importance of
+winning the middle game outweighs the disadvantage of playing the champion
+twice.
+
+Many of us have a tendency to suppose that the higher the expected number
+of successes, the higher the probability of winning a prize, and often this
+supposition is useful. But occasionally a problem has special conditions
+that destroy this reasoning by analogy. In our problem the expected number
+of wins under CFC is 2c + f, which is less than the expected number of
+wins for FCF, 2f-+ c. In our example with f = 0.8 and c = 0.4, these
+means are 1.6 and 2.0 in that order. This opposition of answers gives the
+problem its flavor. The idea of independent events is explained in PWSA,
+pp. 81-84.
+
+7
